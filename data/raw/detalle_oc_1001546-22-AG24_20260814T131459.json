@@ -1,0 +1,94 @@
+{
+  "Cantidad": 1,
+  "FechaCreacion": "2026-08-14T17:14:57.1881063Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "Codigo": "1001546-22-AG24",
+      "Nombre": "SERVICIO DE DISEÑO Y DIAGRAMACION BOLETIN 2024",
+      "CodigoEstado": 6,
+      "Estado": "Aceptada",
+      "CodigoLicitacion": "",
+      "Descripcion": "Servicio de diseño, diagramación de Boletín de Sentencias 2024, del Primer Tribunal Ambiental",
+      "CodigoTipo": "13",
+      "Tipo": "AG",
+      "TipoMoneda": "CLP",
+      "CodigoEstadoProveedor": 4,
+      "EstadoProveedor": "Aceptada",
+      "Fechas": {
+        "FechaCreacion": "2024-03-04T11:23:59.537",
+        "FechaEnvio": "2024-03-04T11:33:06.697",
+        "FechaAceptacion": "2024-03-04T11:45:36.813",
+        "FechaCancelacion": null,
+        "FechaUltimaModificacion": "2024-03-04T11:28:00"
+      },
+      "TieneItems": "1",
+      "PromedioCalificacion": 0.0,
+      "CantidadEvaluacion": 0,
+      "Descuentos": 0.0,
+      "Cargos": 0.0,
+      "TotalNeto": 1285125.0,
+      "PorcentajeIva": 13.75,
+      "Impuestos": 204875.0,
+      "Total": 1490000.0,
+      "Financiamiento": "13886174",
+      "Pais": "Other",
+      "TipoDespacho": "12",
+      "FormaPago": "2",
+      "Comprador": {
+        "CodigoOrganismo": "1592385",
+        "NombreOrganismo": "Primer Tribunal Ambiental con asiento en Antofagasta",
+        "RutUnidad": "61.999.230-k",
+        "CodigoUnidad": "1001546",
+        "NombreUnidad": "Primer Tribunal Ambiental",
+        "Actividad": "actividades del poder judicial",
+        "DireccionUnidad": "",
+        "ComunaUnidad": "Antofagasta",
+        "RegionUnidad": "Región de Antofagasta ",
+        "Pais": "Other",
+        "NombreContacto": "Daniela Flores",
+        "CargoContacto": "Jefa de Presupuesto",
+        "FonoContacto": "",
+        "MailContacto": ""
+      },
+      "Proveedor": {
+        "Codigo": "1621822",
+        "Nombre": "MÁXIMO AGUSTÍN TRUJILLO CORREA",
+        "Actividad": "Publicidad, marketing, video, desarrollo web, diseño editorial",
+        "CodigoSucursal": "1027856",
+        "NombreSucursal": "El Buque Comunicación",
+        "RutSucursal": "9.455.322-9",
+        "Direccion": "3 NORTE 270 DPTO 32 B VERGARA N° No hay Dato",
+        "Comuna": "Viña del Mar",
+        "Region": "Región de Valparaíso ",
+        "Pais": "Other",
+        "NombreContacto": "maximo agustin trujillo correa",
+        "CargoContacto": "director",
+        "FonoContacto": "",
+        "MailContacto": ""
+      },
+      "Items": {
+        "Cantidad": 1,
+        "Listado": [
+          {
+            "Correlativo": 1,
+            "CodigoCategoria": 82141500,
+            "Categoria": "Servicios editoriales, de diseño, publicidad, gráficos y artistas / Diseño gráfico / Diseño",
+            "CodigoProducto": 82141501,
+            "Producto": "Servicios de diagramación y diseño gráfico",
+            "EspecificacionComprador": "Diseño actualizado, diagramación del Boletín de Sentencias 2024",
+            "EspecificacionProveedor": "Diseño actualizado, diagramación del Boletín de Sentencias 2024",
+            "Cantidad": 1.0,
+            "Unidad": null,
+            "Moneda": "CLP",
+            "PrecioNeto": 1285125.0,
+            "TotalCargos": 0.0,
+            "TotalDescuentos": 0.0,
+            "TotalImpuestos": 0.0,
+            "Total": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}
