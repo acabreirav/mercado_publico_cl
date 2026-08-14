@@ -46,20 +46,58 @@ Salida: un JSON crudo en `data/raw/ordenesdecompra_<fecha>_<timestamp>.json` y u
 resumen del shape (claves de nivel superior, tamaño del `Listado`, claves de un
 elemento y una muestra).
 
+## Uso (Fase 1 — comparador de precios)
+
+Flujo de tres pasos. En Windows usa `py` en vez de `python`.
+
+```bash
+# 1) Baja el detalle de muchas OC de un día (dos pasos: listado -> detalle por código).
+#    Es idempotente (re-correr salta lo ya bajado) y pausa entre llamadas.
+python bajar_lote.py --fecha 2024-03-04 --limit 300
+
+# 2) Aplana los JSON crudos a una tabla de ítems (una fila por línea de compra).
+python parsear_items.py
+
+# 3) Comparador: agrupa por producto (UNSPSC) y rankea "mismo producto, precio
+#    distinto entre organismos".
+python comparar_precios.py
+```
+
+Salidas:
+- `data/raw/detalles/<codigo>.json` — detalle crudo de cada OC.
+- `data/interim/items.csv` — tabla de ítems.
+- `data/processed/comparador_precios.csv` — ranking de sobreprecio potencial, con
+  `codigos_oc` por fila para el drill-down.
+
+> **Rate limit:** el ticket permite 10.000 requests/día. Un día completo son ~8.500
+> OC → cabe, pero conviene bajarlo por lotes (`--limit`) y en horario nocturno para
+> descargas grandes. El descargador respeta un tope (`--max-requests`, default 9000).
+
 ## Estructura
 
 ```
-docs/                                  contexto y documentación del proyecto
+docs/
+  mercado-publico-referencia.md        referencia única del proyecto (leer primero)
+  discrepancias-fuentes.md             contradicciones entre fuentes, para revisar
+  fuentes/                             PDFs oficiales y originales (auditoría)
 src/mercadopublico/
   config.py                            carga de .env y rutas (ticket desde entorno)
-  download_ordenes_dia.py              Fase 0: baja 1 día de OC y lo guarda crudo
-data/raw/                              JSON crudo de la API (no versionado)
+  api_client.py                        cliente HTTP con reintentos/backoff
+  download_ordenes_dia.py              Fase 0: baja 1 día de OC (listado) crudo
+  download_detalle_oc.py               Fase 0: baja el detalle de UNA OC por código
+  download_lote_detalles.py            Fase 1: baja el detalle de muchas OC (lote)
+  parse_items.py                       Fase 1: JSON crudo -> tabla de ítems (CSV)
+  comparador.py                        Fase 1: ranking de precio por producto
+bajar_ordenes.py / bajar_detalle.py / bajar_lote.py / parsear_items.py / comparar_precios.py
+                                       atajos para correr sin PYTHONPATH
+data/raw|interim|processed/            datos (no versionados)
 .env.example                           variables requeridas (sin valores)
 requirements.txt
 ```
 
-## Notas de cobertura (ver §6 del contexto)
+## Notas de cobertura (ver §11 de la referencia)
 
 La data de Mercado Público OCDS **no cubre todo el gasto del Estado**: las empresas
-públicas están excluidas y **Compra Ágil no se publica en la API OCDS**. Todo total
-es "del universo Mercado Público", no "todo el gasto público".
+públicas están excluidas. **Compra Ágil** no está en las descargas OCDS, pero **sí**
+es accesible por la API (OC tipo `AG` y la API v2 `api2.mercadopublico.cl`). Todo
+total es "del universo Mercado Público", no "todo el gasto público".
