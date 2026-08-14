@@ -120,7 +120,10 @@ def main(argv: list[str] | None = None) -> int:
         "--limit", type=int, default=None, help="Máx. de detalles a bajar esta corrida."
     )
     parser.add_argument(
-        "--pausa", type=float, default=0.2, help="Segundos entre llamadas (default 0.2)."
+        "--pausa",
+        type=float,
+        default=0.5,
+        help="Segundos entre llamadas (default 0.5). Súbela si ves muchos HTTP 429.",
     )
     parser.add_argument(
         "--max-requests",
