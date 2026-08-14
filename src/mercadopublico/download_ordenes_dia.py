@@ -20,18 +20,11 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
-import sys
-import time
 from pathlib import Path
 from typing import Any
 
-import requests
-
-from .config import API_BASE, RAW_DIR, get_ticket
-
-USER_AGENT = "mercado-publico-cl-ingesta/0.0 (fase0; inspeccion de shape)"
-TIMEOUT_S = 60
-MAX_RETRIES = 4
+from .api_client import fetch_json
+from .config import RAW_DIR, get_ticket
 
 
 def parse_fecha(value: str | None) -> str:
@@ -60,45 +53,13 @@ def parse_fecha(value: str | None) -> str:
 def fetch_ordenes(
     ticket: str, *, fecha: str | None = None, estado: str | None = None
 ) -> tuple[dict[str, Any], str]:
-    """Pide las órdenes de compra a la API. Devuelve (json, url_sin_ticket).
-
-    Reintenta con backoff exponencial ante errores de red / 5xx / 429.
-    """
+    """Pide las órdenes de compra del día a la API. Devuelve (json, url_sin_ticket)."""
     params: dict[str, str] = {}
     if fecha is not None:
         params["fecha"] = fecha
     if estado is not None:
         params["estado"] = estado
-
-    url = f"{API_BASE}/ordenesdecompra.json"
-    # URL para logs/metadata SIN el ticket (no filtrar la credencial).
-    url_safe = url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
-
-    request_params = {**params, "ticket": ticket}
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
-
-    last_err: Exception | None = None
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.get(
-                url, params=request_params, headers=headers, timeout=TIMEOUT_S
-            )
-            if resp.status_code in (429, 500, 502, 503, 504):
-                raise requests.HTTPError(f"HTTP {resp.status_code}", response=resp)
-            resp.raise_for_status()
-            return resp.json(), url_safe
-        except (requests.RequestException, ValueError) as err:
-            last_err = err
-            if attempt == MAX_RETRIES:
-                break
-            wait = 2**attempt  # 2, 4, 8, 16
-            print(
-                f"  intento {attempt} falló ({err}); reintentando en {wait}s...",
-                file=sys.stderr,
-            )
-            time.sleep(wait)
-
-    raise RuntimeError(f"No se pudo obtener la data tras {MAX_RETRIES} intentos: {last_err}")
+    return fetch_json("ordenesdecompra.json", ticket, params)
 
 
 def save_raw(payload: dict[str, Any], *, fecha: str | None, estado: str | None) -> Path:
