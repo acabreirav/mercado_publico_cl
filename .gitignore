@@ -1,0 +1,42 @@
+# --- Secretos / entorno ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Datos (no versionar descargas ni raw crudo) ---
+data/raw/
+data/interim/
+data/processed/
+data/cache/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.csv
+!docs/**/*.csv
+
+# --- Herramientas / IDE ---
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# --- Logs ---
+*.log
+logs/

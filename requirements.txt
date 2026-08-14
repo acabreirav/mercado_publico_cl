@@ -1,0 +1,3 @@
+requests>=2.31
+# Opcional: si está instalado, el script lo usa; si no, hay un cargador propio de .env
+python-dotenv>=1.0
