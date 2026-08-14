@@ -9,7 +9,7 @@ Uso:
     python -m mercadopublico.download_ordenes_dia --fecha 02022014
     python -m mercadopublico.download_ordenes_dia --estado todos  # día actual, por estado
 
-Endpoint (ver docs/contexto-compras-publicas-chile.md §3.1):
+Endpoint (ver docs/mercado-publico-referencia.md §3.1):
     GET /servicios/v1/publico/ordenesdecompra.json?fecha=<ddmmaaaa>&ticket=<TICKET>
 
 El ticket se lee del entorno (.env). Nunca se imprime ni se guarda en disco.

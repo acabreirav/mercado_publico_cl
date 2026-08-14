@@ -4,8 +4,10 @@ Pipeline de ingesta + informe/web interactiva sobre las compras del Estado chile
 con foco en **evidencia navegable con drill-down** (comparador de precios,
 concentración de proveedores, fragmentación / tipo de proceso).
 
-> Contexto completo del proyecto (objetivo, fuentes, trampas conocidas, plan por fases):
-> **[`docs/contexto-compras-publicas-chile.md`](docs/contexto-compras-publicas-chile.md)** — léelo primero.
+> **Referencia única del proyecto** (objetivo, fuentes, ambas APIs, diccionarios de datos
+> completos, tablas de códigos validadas, trampas conocidas y plan por fases):
+> **[`docs/mercado-publico-referencia.md`](docs/mercado-publico-referencia.md)** — léelo primero.
+> Las fuentes originales (PDFs oficiales) se conservan en [`docs/fuentes/`](docs/fuentes/) para auditoría.
 
 ## Estado actual: Fase 0 (setup)
 

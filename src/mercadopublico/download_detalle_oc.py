@@ -7,7 +7,7 @@ pide por `codigo`. Este script la baja CRUDA y resume su shape para inspección.
 Uso:
     python -m mercadopublico.download_detalle_oc --codigo 1001546-22-AG24
 
-Endpoint (ver docs/contexto-compras-publicas-chile.md §3.1):
+Endpoint (ver docs/mercado-publico-referencia.md §3.1):
     GET /servicios/v1/publico/ordenesdecompra.json?codigo=<CODIGO>&ticket=<TICKET>
 """
 
