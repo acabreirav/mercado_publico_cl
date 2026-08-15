@@ -88,6 +88,27 @@
 - **Qué usamos:** el conjunto de valores es el mismo; el orden no importa. Ver §9.7.
 - **Estado:** ✅ Sin impacto (solo cosmético).
 
+## D11 — `Unidad` del ítem viene SIEMPRE vacía (API de OC)
+- **PDF-OC:** no lista un campo "Unidad" de ítem como obligatorio, pero la respuesta real trae la
+  clave `Unidad`.
+- **REAL:** en un día completo (04-03-2024, 1.067 ítems), **el 100% tiene `Unidad` vacía/null**.
+- **Impacto:** no se puede normalizar la **unidad de medida** desde este campo → un mismo
+  `CodigoProducto` puede mezclar "unidad" vs "caja" vs "kg", inflando los ratios del comparador.
+  Por eso el comparador marca `revisar=1` cuando el ratio es implausible.
+- **Qué usamos:** tratar la unidad como **desconocida**; apoyarse en `EspecificacionComprador`
+  (texto) y en el drill-down. Evaluar si la unidad viene en la API de Licitaciones (`UnidadMedida`,
+  campo 92) o en Compra Ágil (`unidad_medida`), que sí la documentan.
+- **Estado:** ⬜ Pendiente. **Verificar:** ¿`UnidadMedida` viene poblada en licitaciones/Compra Ágil?
+
+## D12 — `CodigoProducto = 0` en ~12% de los ítems de OC
+- **REAL:** en el día 04-03-2024, **125/1.067 ítems (12%)** traen `CodigoProducto` vacío o `0`
+  (sin código UNSPSC). No corresponden a un producto identificable.
+- **Impacto:** si se agrupan por código, todos los "0" caen en un mismo grupo falso → falsos
+  sobreprecios gigantes (ej. un "producto" con ratio 89.312x que mezclaba jamón, servicios, etc.).
+- **Qué usamos:** el comparador **excluye** `CodigoProducto` vacío/`0`. Ver `comparador.py`.
+- **Estado:** ✅ Resuelto en código. **Verificar:** ¿qué tipos de OC concentran el código 0?
+  (posiblemente servicios/trato directo sin catálogo).
+
 ---
 
 ### Resumen de verificaciones pendientes (checklist)
@@ -98,3 +119,5 @@
 - [ ] D5 — endpoint singular vs plural de detalle de OC
 - [ ] D7 — % de ítems con `Total = 0` en un día completo
 - [ ] D9 — strings exactos de `estado=` para OC (posibles typos)
+- [ ] D11 — ¿`UnidadMedida` viene poblada en Licitaciones / Compra Ágil?
+- [ ] D12 — ¿qué tipos de OC concentran `CodigoProducto = 0`?
