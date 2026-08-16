@@ -166,6 +166,20 @@ la primera vez.
 **Estrategia:** cargar histórico desde descargas masivas/OCDS → mantener al día con la API por
 incrementales. No reconstruir el histórico llamando la API día por día.
 
+**Flujo implementado (vía OCDS masiva):** mismo patrón de dos pasos que Fase 0 —
+descargar crudo → inspeccionar shape → parsear:
+```
+# 1) Conseguir la URL del archivo en el portal (navegador) y descargar:
+python bajar_ocds.py --url "<URL del archivo del período>"
+# 2) Inspeccionar el shape REAL de lo descargado (aprender el formato):
+python -m mercadopublico.inspeccionar_ocds --archivo data/raw/ocds/<archivo>
+# 3) Parsear OCDS -> misma tabla de ítems que la API:
+python -m mercadopublico.parse_ocds --entrada data/raw/ocds/<archivo_o_carpeta>
+```
+**Ventaja clave:** el estándar OCDS trae `item.unit` (unidad de medida) y `item.quantity` → puede
+**resolver el problema base** que la API de OC no informaba (D11). Confirmar con un archivo real.
+Las URLs exactas y el formato (JSON OCDS vs CSV) se confirman al inspeccionar el primer archivo.
+
 ---
 
 ## 4. Manejo del ticket, autenticación y límites de uso

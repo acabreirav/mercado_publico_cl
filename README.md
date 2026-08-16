@@ -73,6 +73,20 @@ Salidas:
 > OC → cabe, pero conviene bajarlo por lotes (`--limit`) y en horario nocturno para
 > descargas grandes. El descargador respeta un tope (`--max-requests`, default 9000).
 
+## Uso (vía masiva OCDS — para histórico)
+
+La API es lenta para el histórico (límite de ráfaga). Para volumen real, bajar los archivos
+masivos OCDS. Flujo de tres pasos (consigue la URL del archivo en el portal
+<https://datos-abiertos.chilecompra.cl/descargas/procesos-ocds>):
+
+```bash
+python bajar_ocds.py --url "<URL del archivo>"                       # 1) descargar
+python -m mercadopublico.inspeccionar_ocds --archivo data/raw/ocds/<archivo>   # 2) ver shape
+python -m mercadopublico.parse_ocds --entrada data/raw/ocds/<archivo_o_carpeta>  # 3) -> items_ocds.csv
+```
+El parser OCDS produce la misma tabla de ítems (y **rescata la unidad de medida**, que la API de OC
+no informa), así que `comparador_identicos` / `estimar_ahorro` funcionan igual sobre esa data.
+
 ## Estructura
 
 ```
