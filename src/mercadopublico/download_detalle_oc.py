@@ -23,9 +23,14 @@ from .api_client import fetch_json
 from .config import RAW_DIR, get_ticket
 
 
-def fetch_detalle(ticket: str, codigo: str) -> tuple[dict[str, Any], str]:
-    """Pide la ficha de una OC por su código. Devuelve (json, url_sin_ticket)."""
-    return fetch_json("ordenesdecompra.json", ticket, {"codigo": codigo})
+def fetch_detalle(
+    ticket: str, codigo: str, stats: dict[str, int] | None = None
+) -> tuple[dict[str, Any], str]:
+    """Pide la ficha de una OC por su código. Devuelve (json, url_sin_ticket).
+
+    `stats` (opcional) se pasa a fetch_json para contar 429/intentos (ritmo adaptativo).
+    """
+    return fetch_json("ordenesdecompra.json", ticket, {"codigo": codigo}, stats=stats)
 
 
 def save_raw(payload: dict[str, Any], codigo: str) -> Path:

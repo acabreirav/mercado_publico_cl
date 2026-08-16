@@ -191,9 +191,19 @@ El ticket es una credencial de solo lectura sobre datos públicos, pero **se tra
   por IP. Para descargas masivas se recomienda horario nocturno (**22:00–07:00**).
 - **API v2 Compra Ágil:** cuota diaria por ticket (según tipo de ticket; `-1` = ilimitada). El
   contador se reinicia por **día calendario**. Al agotarse devuelve **HTTP 429**.
-- **Consecuencia de diseño:** un día completo de OC son ~8.500 detalles (una llamada c/u) →
-  cabe holgado en 10.000/día, pero conviene pausar entre llamadas, controlar el tope y manejar
-  reintentos/backoff. Barrer histórico por la API es inviable → usar descargas masivas/OCDS.
+- **⚠️ Lo aprendido en la práctica (ver discrepancia D16):** el límite que realmente muerde **no**
+  es el tope diario, sino un **límite de ráfaga** (por ventana corta). Al pedir detalles seguidos,
+  la API responde `429` muy seguido con espera efectiva de ~6-7 s por request (1.500 detalles ≈
+  2h50m). El tope de 10.000/día casi no se alcanza en un día de muestreo.
+- **Estrategia de ingesta eficiente (implementada):**
+  1. **Ritmo adaptativo AIMD** (`download_lote_detalles`): la pausa sube ante `429` y baja si va
+     limpio → converge al ritmo más rápido que la API tolera sin malgastar esperas.
+  2. **Honrar `Retry-After`** cuando viene (`api_client`).
+  3. **Contador de cuota diaria persistente** (`quota.py`): respeta el tope de 10.000 aunque se
+     corra en varias sesiones; el descargador corta y avisa "sigue mañana" (es idempotente).
+  4. **La concurrencia NO ayuda** (el límite es del servidor, no de latencia del cliente).
+  5. Para **volumen histórico real**, NO usar la API detalle-a-detalle → usar **descargas masivas
+     OCDS** (§3.3). Ese es el camino correcto para poblar la base la primera vez.
 
 ---
 

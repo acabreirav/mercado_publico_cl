@@ -132,6 +132,28 @@
 - **Estado:** ⬜ Pendiente. **Verificar:** qué significa exactamente el parámetro `fecha` en la
   API de OC (¿fecha de envío? ¿de última modificación?).
 
+## D15 — Precio unitario bajo se correlaciona con cantidades grandes (descuento por volumen)
+- **REAL:** en el drill-down de "Artículos de papelería", los precios unitarios más bajos vienen
+  con cantidades enormes ($26/unidad por 1.000 unidades; $120 por 7.500) y los altos con
+  cantidades chicas. Parte de la dispersión de precio es **descuento por volumen**, no sobreprecio.
+- **Impacto:** al medir "sobreprecio" hay que considerar la **cantidad**. Comparar precios a
+  volúmenes parecidos, o modelar precio vs. cantidad (curva de descuento) antes de acusar.
+- **Qué usamos:** por ahora se muestra la cantidad en el drill-down y se enmarca como "señal para
+  investigar". Pendiente: normalizar/segmentar por rango de cantidad en el comparador.
+- **Estado:** ⬜ Pendiente (mejora de Fase 1/2). Suma al caveat de unidad (D11).
+
+## D16 — El límite que MUERDE es la ráfaga (429), no el tope diario de 10.000
+- **REAL:** al bajar detalles seguidos, la API devuelve `HTTP 429` con altísima frecuencia y una
+  espera efectiva de ~6-7 s por request (1.500 detalles tardaron ~2h50m). El tope de 10.000/día
+  casi nunca se alcanza en un día de muestreo; el cuello de botella es un **límite de ráfaga**
+  (por ventana corta) no documentado en números.
+- **Qué usamos:** ritmo **adaptativo AIMD** en `download_lote_detalles` (sube la pausa ante 429,
+  baja si va limpio) + honrar `Retry-After` + contador de cuota diaria persistente (`quota.py`).
+  La concurrencia NO ayuda (el límite es del servidor) → para volumen real, usar **descargas
+  masivas OCDS** (ver §3.3 del maestro), no la API detalle-a-detalle.
+- **Estado:** ⬜ Mitigado en código. **Verificar:** medir el ritmo sostenible real que encuentra
+  el AIMD en una corrida nocturna; confirmar si hay un header/documento con el límite exacto.
+
 ---
 
 ### Resumen de verificaciones pendientes (checklist)
@@ -144,3 +166,5 @@
 - [ ] D9 — strings exactos de `estado=` para OC (posibles typos)
 - [ ] D11 — ¿`UnidadMedida` viene poblada en Licitaciones / Compra Ágil?
 - [ ] D12 — ¿qué tipos de OC concentran `CodigoProducto = 0`?
+- [ ] D15 — normalizar/segmentar precio por cantidad (descuento por volumen)
+- [ ] D16 — medir el ritmo sostenible del AIMD; buscar el límite de ráfaga exacto

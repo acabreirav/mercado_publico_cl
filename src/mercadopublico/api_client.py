@@ -52,12 +52,18 @@ def _espera(attempt: int, status: int | None, resp: requests.Response | None) ->
 
 
 def fetch_json(
-    endpoint: str, ticket: str, params: dict[str, str] | None = None
+    endpoint: str,
+    ticket: str,
+    params: dict[str, str] | None = None,
+    stats: dict[str, int] | None = None,
 ) -> tuple[Any, str]:
     """GET a `{API_BASE}/{endpoint}` devolviendo (json, url_sin_ticket).
 
     Reintenta ante errores de red, 5xx y 429 (este último con espera más larga y
     respetando Retry-After). La URL segura (para logs) nunca incluye el ticket.
+
+    Si se pasa `stats` (dict), acumula: `n429` (nº de respuestas 429 vistas) e
+    `intentos` (nº total de intentos). El descargador lo usa para adaptar su ritmo.
     """
     params = dict(params or {})
     url = f"{API_BASE}/{endpoint}"
@@ -68,6 +74,8 @@ def fetch_json(
 
     last_err: Exception | None = None
     for attempt in range(1, MAX_RETRIES + 1):
+        if stats is not None:
+            stats["intentos"] = stats.get("intentos", 0) + 1
         status: int | None = None
         resp: requests.Response | None = None
         try:
@@ -75,6 +83,8 @@ def fetch_json(
                 url, params=request_params, headers=headers, timeout=TIMEOUT_S
             )
             status = resp.status_code
+            if status == 429 and stats is not None:
+                stats["n429"] = stats.get("n429", 0) + 1
             if status in RETRIABLE_STATUS:
                 raise requests.HTTPError(f"HTTP {status}", response=resp)
             resp.raise_for_status()

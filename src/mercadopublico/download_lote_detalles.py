@@ -33,8 +33,11 @@ from .api_client import fetch_json
 from .config import RAW_DIR, get_ticket
 from .download_detalle_oc import fetch_detalle
 from .download_ordenes_dia import parse_fecha
+from .quota import CuotaDiaria
 
 DETALLES_DIR = RAW_DIR / "detalles"
+MIN_DELAY = 0.15  # piso del ritmo adaptativo (s)
+MAX_DELAY = 8.0   # techo del ritmo adaptativo (s)
 
 
 def _codigo_a_archivo(codigo: str) -> Path:
@@ -81,16 +84,29 @@ def descargar_lote(
         pendientes = pendientes[:limit]
         print(f"Esta corrida bajará hasta {len(pendientes)} (por --limit).")
 
+    cuota = CuotaDiaria()
+    print(f"Cuota diaria: {cuota.usadas}/{cuota.limite} usadas hoy, {cuota.restantes} restantes.")
+
+    # Ritmo ADAPTATIVO (AIMD): la pausa parte en --pausa y se auto-ajusta. Si una
+    # descarga topó con 429, la pausa sube (multiplicativo); si salió limpia, baja
+    # (suave). Así converge al ritmo más rápido que la API tolera sin malgastar
+    # esperas ni provocar 429 en cadena.
+    delay = max(MIN_DELAY, pausa)
     requests_hechos = 0
     bajadas = 0
     errores = 0
+    n429_total = 0
     for i, codigo in enumerate(pendientes, start=1):
         if requests_hechos >= max_requests:
-            print(f"Tope de requests alcanzado (--max-requests={max_requests}). Corta.")
+            print(f"Tope de la corrida alcanzado (--max-requests={max_requests}). Corta.")
             break
+        if not cuota.puede_gastar(1):
+            print("Cuota diaria agotada. Corta; sigue mañana (es idempotente).")
+            break
+
+        stats: dict[str, int] = {}
         try:
-            detalle, _ = fetch_detalle(ticket, codigo)
-            requests_hechos += 1
+            detalle, _ = fetch_detalle(ticket, codigo, stats=stats)
             _codigo_a_archivo(codigo).write_text(
                 json.dumps(detalle, ensure_ascii=False, indent=2), encoding="utf-8"
             )
@@ -98,17 +114,31 @@ def descargar_lote(
         except Exception as err:  # noqa: BLE001 - registrar y seguir con el lote
             errores += 1
             print(f"  [{i}/{len(pendientes)}] error en {codigo}: {err}")
-            continue
+        finally:
+            gastadas = stats.get("intentos", 1)
+            requests_hechos += gastadas
+            cuota.gastar(gastadas)
+
+        # AIMD: ajustar el ritmo según si hubo 429 en esta descarga.
+        if stats.get("n429", 0):
+            n429_total += stats["n429"]
+            delay = min(MAX_DELAY, delay * 1.6 + 0.4)
+        else:
+            delay = max(MIN_DELAY, delay * 0.92)
 
         if i % 25 == 0 or i == len(pendientes):
-            print(f"  [{i}/{len(pendientes)}] {codigo} OK (bajadas={bajadas}, errores={errores})")
-        if pausa > 0 and i < len(pendientes):
-            time.sleep(pausa)
+            print(
+                f"  [{i}/{len(pendientes)}] {codigo} OK "
+                f"(bajadas={bajadas}, errores={errores}, pausa≈{delay:.1f}s, 429s={n429_total})"
+            )
+        if i < len(pendientes):
+            time.sleep(delay)
 
     print(
         f"\nListo. Bajadas esta corrida: {bajadas} | errores: {errores} | "
-        f"requests usados: {requests_hechos}"
+        f"requests usados: {requests_hechos} | 429 vistos: {n429_total}"
     )
+    print(f"Cuota diaria: {cuota.usadas}/{cuota.limite} usadas, {cuota.restantes} restantes.")
     print(f"Detalles crudos en: {DETALLES_DIR}")
     print("Siguiente paso: python -m mercadopublico.parse_items")
 
