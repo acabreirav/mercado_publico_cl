@@ -1,0 +1,2473 @@
+codigo_producto,producto,n_organismos,n_ordenes,n_lineas,gasto_total
+76111501,Servicios de limpieza de edificios,39,51,58,3066223604
+85122201,Exámenes médicos,34,96,185,470464584
+92101501,Servicios de vigilancia,31,49,67,1160047474
+50101538,Verduras frescas,24,52,522,176422465
+42293603,Sondas quirúrgicas,23,43,85,32631087
+43211507,Computadores de escritorio,22,29,41,883715387
+41116004,Reactivos de analizadores químicos,21,55,302,322415933
+42311505,Vendas o vendajes para uso general,21,45,61,39685678
+50101634,Fruta fresca,21,33,295,126592352
+50202301,Agua,20,21,22,30948869
+73152101,Servicio de mantenimiento de equipo de fabricación,19,57,83,119345652
+42312201,Sutura,19,42,149,212639849
+12141904,Oxígeno O,19,35,68,128118376
+50131701,Leche o productos de mantequilla,19,26,46,37336558
+50181901,Pan fresco,18,27,73,98936930
+14111703,Toallas de papel,18,22,28,45171337
+80111715,Profesionales,17,42,50,182827020
+24111503,Bolsas de plástico,17,19,51,18091081
+42221512,Cánulas o accesorios para catéteres intravenosos o arteriales,15,36,69,101611690
+91111901,Jardines infantiles o salas cunas,14,30,45,79859305
+42142402,Cánulas o tubos de succión médicos o accesorios,14,30,49,8468520
+42221503,Catéteres venosos centrales,14,25,36,73327005
+30201903,Unidades dentales,14,21,175,31071767
+41104107,Tubos o contenedores de almacenamiento de sangre en vacío,14,19,55,124032065
+12161902,Detergentes surfactantes,14,18,20,12106662
+42132205,Guantes quirúrgicos,14,16,38,74608440
+14111704,Papel higiénico,14,16,17,10085072
+44121701,Lápiz pasta,14,16,43,1788472
+41115830,Analizadores de glucosa,14,15,19,336920878
+78111808,Arriendo de vehículos,13,34,82,418153346
+42221501,Catéteres de línea arterial,13,22,40,65489748
+50101539,Verduras congeladas,13,21,60,10585998
+82121507,Impresión de papelería o formularios comerciales,13,19,107,10886012
+44122011,Carpetas para archivos,13,16,44,2967432
+50181905,Galletas dulces o pastelitos,13,16,28,1838096
+14111531,Libros o cuadernos de registro,13,15,39,5406602
+44103103,Tóner,13,14,34,28339875
+44121618,Tijeras,13,14,20,1264360
+42142609,Jeringas médicas con aguja,13,14,17,12150400
+42291609,Pinzas quirúrgicas,13,13,19,113289450
+51191905,Suplementos vitamínicos,12,23,48,495334069
+90101603,Servicios de catering,12,16,18,15308349
+72131702,Construcción de obras civiles,12,16,26,2819940298
+50111510,Carne de ave o carne fresca,12,16,43,114084317
+42311504,Vendas o vendajes para el cuidado de quemaduras,12,14,31,26822117
+43212110,Impresoras multifunción o multifuncionales,12,14,32,19122328
+50161509,Productos de edulcorantes o azúcares naturales,12,14,17,2736158
+72101506,Servicios de mantenimiento de ascensores,12,13,17,158665121
+50112001,Carnes frescas procesadas y preparadas,12,13,37,17414477
+51102707,Gluconato de clorhexidina,12,13,18,20860550
+52151504,Tazas o vasos desechables domésticos,12,13,20,9429536
+51191601,Dextrosa,12,12,24,17307394
+80111606,Personal médico temporal,11,47,53,1247028955
+42171903,Cajas de medicamentos de servicios médicos de urge,11,33,92,92278228
+41116130,"Reactivos, soluciones o tinturas microbiológicos o bacteriológicos",11,25,177,158871877
+41116105,Reactivos o soluciones químicos,11,24,91,86050192
+42311532,Apósitos secos,11,24,33,30915534
+42203403,Juegos o catéteres introductores vasculares intervencionales o diagnósticos,11,21,55,75074362
+42311506,Vendas o apósitos compresores,11,18,23,78653540
+42142504,Agujas de biopsia,11,16,24,16225741
+85121803,Laboratorios biológicos,11,16,73,90418746
+44121708,Marcadores,11,15,45,1101429
+42271607,Tubos o accesorios de la función pulmonar,11,15,46,6344200
+42281808,Papeles u hojas de esterilización,11,13,32,16695414
+14111509,Artículos de papelería,11,13,116,10268878
+26111702,Pilas alcalinas,11,12,29,4549101
+14111507,Papel para fotocopiadora o impresora,11,12,18,14699019
+47131805,Limpiadores de uso general,11,12,28,5839283
+50131801,Queso natural,11,12,18,3852598
+53131608,Jabones,11,11,13,12257737
+73101701,Servicios de producción de medicamentos o medicina,10,35,53,35378938
+85121901,Recetarios magistrales,10,25,71,25757249
+78180103,Servicios de cambio de fluidos de aceite o de la t,10,23,27,356512585
+42292904,Sutura quirúrgica o agarradores de alambre o productos relacionados,10,22,118,107117424
+42131612,Batas de aislamiento o cobertura para el personal sanitario,10,22,31,52077741
+43231512,Software de gestión de licencias,10,14,29,124988771
+42271903,Tubos endotraquiales,10,10,17,1764880
+41115807,Analizadores químicos,9,26,92,169920082
+80111601,Personal administrativo temporal,9,24,24,31952444
+78111802,"Servicios de autobuses regulares, recorridos fijos o servicios programados",9,22,53,389098800
+42142523,Agujas hipodérmicas,9,19,41,12532909
+42221504,Catéteres intravenosos periféricos para uso genera,9,15,40,52016191
+30201902,Unidades de laboratorio,9,15,58,25269267
+72102305,"Servicios de reparación, mantenimiento o reparació",9,13,14,15574646
+31201512,Cinta Transparente,9,12,15,900944
+51102710,Antisépticos basados en alcohol o acetona,9,12,19,9103363
+42271708,Mascarillas de oxígeno médicas o piezas,9,12,26,8332500
+50131606,Huevos frescos,9,11,11,4130381
+43211503,"Notebook, laptop o computador portátil excepto Tab",9,11,13,393813586
+42293505,Sondas de drenaje para la aspiración quirúrgica,9,11,12,20622400
+42295513,Productos quirúrgicos de barrera de tisú o de malla,9,11,15,17055620
+42311511,Vendas de gasa,9,11,20,17299674
+51142121,Diclofenaco,9,10,10,1729190
+93131608,Servicios de suministro de alimentos,8,17,19,751862868
+42271718,Accesorios para productos de administración de oxi,8,13,23,92075872
+91111502,Servicios de lavandería,8,13,14,496460805
+42181708,Electrodos de parche de electrocardiografía (ECG),8,13,13,9114500
+80111604,Personal técnico temporal,8,12,13,69118739
+78111804,Servicios de taxi,8,11,11,95936456
+51191603,Soluciones de nutrición o de nutrición parenteral ,8,11,13,96897018
+44121604,Timbres y sellos,8,10,15,682873
+46191601,Extintores,8,10,22,2214551
+51171605,Lactulosa,8,10,11,20122974
+51191602,Electrolitos de cloruro de sodio,8,10,14,77749918
+42291620,Trocares quirúrgicos para uso general o accesorios,8,9,23,36666100
+44121612,Cuchillos cartoneros,8,9,17,325454
+12141901,Cloro Cl,8,9,10,3326954
+39121402,Enchufes eléctricos,8,8,23,1251192
+47131803,Desinfectantes domésticos,8,8,13,2860042
+53131609,Protector solar,8,8,9,3234450
+41104112,Contenedores de recogida de orina,8,8,16,5559500
+44122001,Archivadores de fichas,8,8,15,1299762
+44122104,Clips para papel,8,8,23,678666
+42221803,"Cintas, vendaje, correas o puños para posicionar e",8,8,16,20423895
+80111709,Personal médico,7,70,80,929511489
+43211508,Computadores personales,7,23,25,73934669
+42272209,Circuito de respiración o ventilador,7,17,18,26334408
+42142502,Agujas para anestesia,7,16,30,24757430
+85121902,Farmacias,7,16,26,8496010
+42142902,Lentes de gafas,7,15,110,26054808
+42231806,Alimento nutritivo médico o espesadores de líquido,7,14,28,48042320
+47121701,Bolsas de basura,7,10,22,6912516
+51181517,Clorhidrato de metformina,7,10,18,98011336
+50192401,"Mermeladas, gelatinas, conservas de fruta",7,10,30,15427308
+50202304,Jugos y néctar envasados,7,9,18,6061910
+42312313,Soluciones para la limpieza de heridas,7,9,11,6260665
+50151513,Aceites de plantas y verduras comestibles,7,9,10,8553456
+42161701,Hemafiltros,7,9,18,22496912
+42291607,Gasas o curetas quirúrgicas,7,8,12,8739536
+42152508,"Jeringas dentales, agujas o jeringas con agujas",7,8,9,4069706
+42191807,Camas de cuidado del paciente o accesorios de uso general,7,8,10,30370399
+51181506,Insulina,7,8,9,67864200
+47131810,Productos para lavar platos,7,8,8,1624130
+42142702,Catéteres urinarios uretrales,7,8,14,6217870
+72102103,Servicios de exterminación o fumigación,7,8,10,8502380
+42231801,Fórmulas suplementarias de adulto para uso general,7,8,32,10943915
+50201706,Café,7,8,9,2561514
+50192303,"Postres, helados o yogurt congelado",7,8,15,1596934
+14111805,Talones o talonarios,7,8,36,6663728
+52151503,Cubertería desechable doméstica,7,8,23,14281145
+50101717,Semillas o frutos secos pelados,7,8,10,365444
+42142530,Agujas de tratamiento diagnóstico,7,8,9,9940700
+78121601,Servicios de flete,7,8,9,3834616
+50202310,Agua mineral,7,7,10,26088860
+44122103,Corchetes,7,7,23,600584
+51141704,Risperidona,7,7,8,2901939
+92121504,Guardias de seguridad,7,7,7,271247134
+42142507,Agujas mariposa,7,7,8,3418900
+42272015,Kits de succión,7,7,15,10815788
+44121506,Sobres estándar,7,7,21,477914
+51161812,Combinación clorfeniramina-acetaminofeno,7,7,9,8127367
+51101580,Cefadroxilo,7,7,7,1110885
+51101511,Amoxicilina,7,7,7,4507045
+42242003,Dispositivos de sujeción protésica o accesorios,6,89,365,364540620
+85121609,Servicios quirúrgicos,6,54,86,696235157
+80111701,Servicios de contratación de personal,6,34,34,541059572
+24112404,Caja,6,19,27,30283290
+42311526,Vendajes de apósitos,6,16,22,17769390
+42292908,Dispositivos de sutura quirúrgica,6,16,43,143199291
+42203402,Catéteres o juegos vasculares intervencional o diagnósticos,6,12,17,19062720
+42203501,Accesorios o desfibriladores implantables o genera,6,12,20,135611800
+50221102,Harina de trigo,6,12,16,66007873
+41116002,Reactivos de analizadores de banco de sangre,6,12,46,36064065
+85101503,Servicios de consulta médica,6,11,13,37678812
+78111502,"Viajes en aviones comerciales, pasajes aéreos",6,10,20,12630146
+42291706,Fresas quirúrgicas o sus accesorios,6,10,18,12466230
+50171901,Conservas,6,10,16,4718472
+42222008,Kits o accesorios de bombas de infusión,6,9,15,79952620
+50192901,Pasta o tallarines naturales frescos,6,9,14,2228524
+42311510,Vendaje de espuma,6,9,11,18644473
+86111604,Capacitación a empleados,6,8,14,21735779
+51121818,Atorvastatina,6,8,8,15951240
+50171832,Aliño de ensaladas,6,8,8,222892
+51102714,Solución de cloruro sódico para irrigación,6,8,9,29895500
+85101604,Servicios paramédicos,6,8,15,61834759
+42291610,Planas quirúrgicas,6,8,9,50567800
+80141607,Producción de eventos,6,8,14,66304113
+42271802,Nebulizadores o accesorios,6,7,20,8030285
+42281804,Controles de esterilización,6,7,16,25374974
+72102201,Instalación o servicio de sistemas de energía eléc,6,7,10,89573023
+60121535,Goma de borrar,6,7,7,134129
+44121705,Portaminas,6,7,13,184090
+50221001,Granos de Legumbres,6,7,14,21122420
+51121733,Valsartan,6,7,9,4930896
+78180104,Reparación de tren delantero o trasero,6,7,8,153517878
+42221603,Tubería de extensión arterial o intravenosa,6,7,8,6595100
+42294513,Kits de vitrectomía oftalmológica,6,7,15,13583590
+14111530,Notas de papel autoadhesivo,6,7,9,330238
+42231802,Fórmulas suplementarias pediátricas,6,7,26,73619300
+42142615,Accesorios para jeringas,6,7,7,8945080
+42272214,"Válvulas, adaptadores o conectores de circuito",6,7,9,8223775
+42161601,Kits o sets de administración de hemodiálisis o accesorios,6,7,13,30845666
+51141531,Ácido valproico,6,7,7,3378380
+42142608,Jeringas médicas sin agujas,6,6,8,5352000
+48101711,Dispensadores de agua embotellada,6,6,7,13963870
+46181504,Guantes protectores,6,6,12,1090637
+51171806,Metoclopramida,6,6,7,599424
+14111610,Cartulina,6,6,14,917886
+90101604,Concesionarios de casino de comida,6,6,6,579969704
+51211615,Azul de metileno,6,6,6,3699500
+51171631,Preparado laxante de polietilenglicol,6,6,6,28878730
+51171630,Aceite mineral,6,6,13,9328300
+42161507,Soluciones de diálisis peritoneal,5,21,45,15993633
+78180101,Reparación y pintura carrocerías,5,15,19,153417684
+42294935,"Agujas de punción, revestimientos, obturadores o cánulas para endoscopia, o bandejas de procedimiento, kits o productos relacionados",5,11,13,5702216
+42151620,Limas o raspadores dentales,5,10,92,12021322
+25101703,Ambulancias,5,9,9,99593800
+53102306,Pañales para adultos,5,9,16,145948656
+50192601,"Papas, arroz, pastas u otros acompañamientos preparados frescos",5,9,13,1701460
+50193104,Bases de sopa,5,9,16,466910
+50192902,Pasta o tallarines naturales estables sin refriger,5,9,22,14145418
+81111812,Mantenimiento y soporte de hardware,5,9,9,288204908
+51141722,Fumarato de quetiapina,5,8,8,1465658
+52151502,Platos desechables domésticos,5,8,12,13014004
+42311515,Vendajes hidrocoloides,5,8,8,8706216
+42272011,Catéteres de succión o sus accesorios,5,7,11,41180210
+42281704,Detergentes o limpiadores de instrumentos,5,7,11,8845136
+91111603,Servicios de cocina o preparación de comidas,5,7,7,331119821
+43211501,Servidores,5,7,7,240197510
+42142601,Jeringas médicas de aspiración o irrigación,5,7,15,18686000
+42312113,Bolsas de Ostomía,5,7,8,6166738
+92101902,Servicios de ambulancia,5,7,10,170643433
+42203404,Alambres de guía o trampas o accesorios para toma de imágenes vasculares,5,7,8,5765650
+42281914,Contenedores desechables de esterilización,5,7,9,23863856
+42272224,Kits de circuito de ventilación,5,7,37,60064100
+42142711,Sets de sonda uretral,5,7,16,2957950
+42311604,Hemostáticos de colágeno o colágeno microfibrilar,5,7,7,7087316
+41121701,Tubos de ensayo multipropósito o generales,5,7,15,1830590
+50221101,Granos de Cereales,5,7,13,8572984
+42161803,Unidades de hemofiltración venovenosa continua o productos relacionados,5,6,11,23372397
+42181904,Unidades de transporte o de señales vitales móviles de multiparámetro o accesorios,5,6,6,7694408
+30201706,Baños portátiles,5,6,7,23834580
+72102802,"Restauración de edificios, casas, señales o monume",5,6,6,56553118
+14111537,Papel de etiquetas,5,6,7,4262990
+42192210,Sillas de ruedas,5,6,6,29983460
+81112101,Proveedores de servicio de Internet (ISP),5,6,6,126194854
+14111525,Papel multiuso,5,6,28,7032803
+31201515,Cintas de papel,5,6,7,1283537
+47131811,Productos de lavandería,5,6,9,8082960
+76121901,Eliminación de residuos médicos,5,6,38,43004930
+50192301,Postres preparados,5,6,10,972923
+50121537,Pescado congelado,5,6,6,3763740
+42291614,Tijeras quirúrgicas,5,6,8,7826640
+50221201,Cereales precocidos y listos para comer,5,6,8,824010
+50171551,Sal de cocina o de mesa,5,6,8,1851980
+11121802,Algodón,5,6,6,1217300
+41116011,Reactivos de analizadores microbiológicos,5,6,26,35356725
+42142405,Estuches para sets de instrumental médico o sus accesorios,5,6,6,12361240
+51142009,Metamizol sódico,5,6,6,3597300
+42272006,Introductores,5,6,8,11905000
+51191604,Solución de Ringer lactado,5,6,7,6634550
+51142235,Clorhidrato de tramadol,5,6,6,1278533
+42142704,Sacos o medidores de drenaje urinario,5,5,5,2887042
+44111506,Taco calendario,5,5,5,1295315
+52131501,Cortinas,5,5,5,939883
+40101701,Aires acondicionados,5,5,6,5623716
+44121615,Corcheteras,5,5,6,2412898
+51121710,Losartan potásico,5,5,5,8035310
+51141618,Clorhidrato de fluoxetina,5,5,5,3466070
+51181722,Fluticasona,5,5,5,4674145
+42141501,Algodoneras o fibra,5,5,5,9613000
+12191501,Solventes aromáticos,5,5,5,1488316
+42291802,"Abrazaderas, pinzas o fórceps quirúrgicos, o accesorios",5,5,5,7103420
+85121808,Laboratorios de rayos X,5,5,5,8568810
+51102702,Agua destilada para irrigación,5,5,7,13292160
+42142801,Dispositivos o tubos de compresión vascular secuencial,5,5,5,10024000
+56101504,Sillas,5,5,6,12760242
+44111604,Envolturas de monedas o fajas para billetes,5,5,5,166250
+60105704,Barras de pegamento libres de ácido,5,5,5,145556
+47131502,Paños de limpieza,5,5,6,759630
+47131615,Escobillones,5,5,5,972347
+51101503,Cloranfenicol,5,5,5,283615
+42151601,Accesorios o piezas de repuesto para instrumentos dentales,5,5,10,555528
+50101716,Semillas o frutos secos con cáscara,5,5,7,673923
+50202305,Jugo en polvo,5,5,5,784386
+42291601,Escalpelos quirúrgicos de láser o cuchillos o mangos de cuchillos,5,5,6,4028900
+24112601,Jarros,5,5,19,1392930
+42281802,Etiquetas de esterilización,5,5,5,3298546
+42132203,Guantes médicos de examen o para usos no quirúrgicos,5,5,14,35109700
+42271709,Cánula médico nasal,5,5,7,1226900
+42181715,Soluciones o cremas para electrodos,5,5,5,2514000
+42261505,Cuchillas y cuchillos para autopsia,5,5,12,1610600
+51102713,Povidona yodada,5,5,5,6093564
+42251617,Cojines de asiento terapéuticos o accesorios,5,5,6,1613895
+41116005,Reactivos de analizadores de coagulación,5,5,24,51824587
+42294944,Kits de accesorios para endoscopía,5,5,5,25898300
+42132102,Cubre camillas,5,5,5,176531616
+51141518,Levetiracetam,5,5,6,6982220
+44111905,Pizarras para plumón y accesorios,5,5,21,5157866
+76121501,"Recolección, destrucción, transformación o elimina",5,5,10,23417118
+40151510,Bombas de agua,5,5,6,8087800
+42161503,Juegos de cateterización o administración de diálisis peritoneal,4,28,28,2773940
+80111613,Mano de obra temporal,4,17,20,160584958
+85121612,Servicios ortopédicos,4,10,33,68468700
+42294209,Sistemas de instrumentos de fijación de trauma ortopédico,4,9,9,15909175
+42241704,Inmovilizador de rodilla o envoltura artroscópicas,4,9,31,6254728
+42281508,Esterilizadores o autoclaves de vapor,4,8,10,10820284
+42161501,Sets de transferencia de diálisis peritoneal ambul,4,8,28,9756544
+42294941,Sets de drenaje biliar por endoscopia,4,8,13,5157810
+78102202,Franqueos,4,7,7,21668074
+42142614,Aparatos de inyección hipodérmica o accesorios,4,7,7,18128800
+42231604,Botones de acceso gástrico,4,7,10,4885530
+42272004,Estiletes de intubación,4,7,7,1409300
+42312202,Equipos o bandejas o paquetes o juegos de sutura,4,7,7,5085013
+42271611,Monitores de ventilación pulmonar,4,7,16,16460104
+42292603,Sondas o directores quirúrgicos,4,7,37,14580900
+41104308,Sistemas de cultivo ambiental anaeróbico o suminis,4,6,19,11870234
+72101607,Instalación o reparación de paredes,4,6,9,8005670
+25172504,Neumáticos para camionetas o automóviles,4,6,7,3475916
+51142904,Lidocaína,4,6,6,2314075
+42312010,Grapadoras para cierre de piel,4,6,17,45823410
+50101545,Verduras deshidratadas,4,6,7,524084
+50171550,Especias o extractos,4,6,8,235983
+42311708,Cintas adhesivas médicas y quirúrgicas para el uso,4,6,9,26645726
+42261609,Brazaletes o etiquetas de identificación de autops,4,6,6,6332300
+31161503,Clavo-tornillo,4,5,19,799230
+42161629,Filtros transductores de la unidad de hemodiálisis,4,5,5,6134724
+42241707,Soportes para caminar,4,5,5,3225636
+44102001,Lámina para plastificar,4,5,8,664908
+51241120,Lágrimas artificiales,4,5,5,3212340
+51211501,Allopurinol,4,5,5,705050
+51101567,Ampicilina,4,5,5,1877000
+84131603,Seguros contra accidentes,4,5,10,12089017
+86131502,Pintura,4,5,8,1063262
+40161504,Filtros de aceite,4,5,5,529515
+41116134,"Reactivos, soluciones o tinturas de biología molecular",4,5,42,53062832
+42231701,Tubos nasogástricos,4,5,10,1346540
+42271715,Conectores o tubos de oxígeno médico,4,5,12,13544108
+44121707,Lápices de colores,4,5,23,733247
+41106217,Placas de cultivo especializadas para bacterias,4,5,25,23083125
+42272219,Filtros o intercambiadores de humedad o calor del ,4,5,5,3920271
+42131501,Pecheras para pacientes,4,5,5,7663700
+50171831,Salsas para cocinar,4,5,20,3030684
+44103201,Reloj de control,4,5,5,7873313
+44101501,Fotocopiadoras,4,5,8,9198120
+43211711,Escáner,4,5,7,15964939
+42281807,Cintas indicadores de esterilización,4,5,10,26155134
+53131635,Hisopo,4,5,7,1029500
+42271901,Cánula faríngea para vía aérea,4,5,9,432850
+92121703,Alarmas,4,5,5,4812333
+42295420,"Catéteres, kits de cateterización o bolsas de drenaje para cirugía o endoscopia",4,5,8,11670000
+44111808,Regla T,4,5,14,70838
+47131816,Desodorantes,4,5,5,210778
+30201803,Unidades para contenedores,4,5,7,17832844
+10151605,Semillas de avena,4,5,6,234470
+31211904,Brochas,4,4,4,164100
+80111703,Servicios de evaluación de currículum vitae,4,4,7,806124
+42311531,Coberturas para apósitos,4,4,4,8290810
+42191810,Colchones o accesorios de cuidado del paciente,4,4,4,20621990
+42272404,Unidad de drenaje de la cavidad pleural o accesorios,4,4,4,2890500
+42131606,Mascarillas de aislamiento o quirófano para el personal sanitario,4,4,4,1534000
+91111602,Servicios de mantenimiento de patios y piscinas,4,4,9,233572342
+42271915,Accesorios de traqueotomía,4,4,37,8030820
+78102203,Servicios de entrega o recolección de correo,4,4,4,2797649
+47131705,Accesorios para urinarios o aseos,4,4,17,6753556
+72102302,"Instalación, reparación o mantenimiento de sistemas de calefacción",4,4,5,19716034
+44101707,Corcheteras,4,4,4,240940
+50193001,Comida para bebés,4,4,12,16947024
+46171604,Sistemas de alarma,4,4,5,3221319
+39121303,Cajas eléctricas,4,4,6,88954
+76101501,Servicios de saneamiento de aseos,4,4,6,54544900
+78111803,Servicios de autobuses contratados,4,4,4,7953000
+44121704,Lápiz pasta,4,4,6,110442
+44101801,Calculadoras o accesorios,4,4,4,1328405
+53111601,Zapatos de hombre,4,4,6,1749013
+51142148,Hialuronato sódico,4,4,4,1730280
+51161615,Cetirizina,4,4,4,928979
+82121701,Servicios de copias en blanco y negro,4,4,4,72502501
+30221001,Carpas,4,4,4,50362160
+44111509,Portalápiz,4,4,4,511986
+56101508,Colchones o sets de cama,4,4,4,1658940
+42281521,Sets de esterilización,4,4,6,55189250
+51111716,Rituximab,4,4,6,75264044
+51142001,Acetaminofen,4,4,4,5644800
+51142941,Propofol,4,4,6,23775600
+44121706,Lápices de madera,4,4,5,1636737
+44121802,Líquido corrector,4,4,4,199902
+44121613,Saca corchetes,4,4,5,34567
+47131503,Paños de gamuza o guantes lavables,4,4,5,274450
+27112004,Palas,4,4,5,296775
+47131605,Cepillos de limpieza,4,4,4,422514
+47131603,Esponjas,4,4,5,79370
+47121605,Limpiadores de suelo,4,4,4,176225
+24111502,Bolsas de papel,4,4,9,1224800
+42131601,Delantales o pecheras para el personal sanitario,4,4,5,6765000
+50121539,Pescado fresco,4,4,10,4422628
+53131628,Shampoo,4,4,5,258040
+42152802,Limas periodontales,4,4,13,1613450
+42311902,Bolsas de drenaje o depósitos para el drenaje médi,4,4,7,26083630
+13101723,Termoplástico,4,4,7,2281980
+73152102,Servicio de reparación de equipo de fabricación,4,4,5,1441902
+72102304,Mantenimiento o reparación de sistemas de fontaner,4,4,5,28828200
+42281709,Cepillos de limpieza de esterilización,4,4,9,13431500
+42221609,Juegos de administración de tubos arteriales o intravenosos,4,4,5,9733475
+42221614,Tubería intravenosa con equipo de administración del catéter,4,4,8,5399500
+42181709,Papel de registro de electrocardiografía (ECG),4,4,5,1040820
+52161505,"Televisores convencionales, de plasma y LCD",4,4,4,6871199
+40161505,Filtros de aire,4,4,4,467891
+50131609,Mayonesa,4,4,4,246420
+80161602,Servicios de inventariado o recepción de materiale,4,4,6,2703840
+31261501,Cubiertas y cajas de plástico,4,4,11,919972
+42181905,Cables de control de transductor médico,4,4,4,4160630
+53131606,Desodorantes,4,4,5,260156
+93151507,Procedimientos o servicios administrativos,4,4,5,52501312
+41111808,Equipo de examen por rayos X,4,4,7,5016984
+72102301,"Supervisión de instalación, ajuste o mantenimiento",4,4,4,2272800
+47131704,Jabón de uso público o expendedoras de loción,4,4,4,2550908
+55121616,Banderitas autoadhesivas,4,4,4,98837
+60121124,Papel kraft,4,4,5,413400
+43231505,Software de gestión de recursos humanos,4,4,4,187408
+70141605,Servicios integrados de gestión de plagas,4,4,4,2918060
+44103105,Cartuchos de tinta,4,4,11,726070
+51101815,Nistatina,4,4,5,726786
+51141703,Olanzapina,4,4,4,5146548
+51101603,Metronidazol,4,4,4,956500
+51131604,Warfarina sódica,4,4,4,6436560
+51171911,Sucralfato,4,4,4,10870170
+51131506,Eritropoyetina,4,4,4,111601000
+51161515,Montelukast sódico,4,4,4,2076600
+42161504,Adaptadores o abrazadoras o conectores de catéter ,3,26,32,13657740
+42242001,Dispositivos prostéticos de la extremidad inferior,3,22,33,25590825
+42203405,Globos de Angioplastia,3,20,24,10580700
+80111504,"Formación, capacitación y entrenamiento de personal",3,17,24,105495157
+42294216,Sets de instrumentos quirúrgicos de angiografía,3,14,20,47761333
+41116008,Reactivos de analizadores hematológicos,3,13,17,18058700
+42312301,Absorbedores para limpiar la herida,3,10,11,14502300
+42183028,Accesorios oftalmológicos para retinoscopia,3,9,23,50843590
+41116203,Accesorios de monitores o medidores,3,8,15,45988666
+27112801,Brocas,3,7,11,2777279
+85101601,Servicios de enfermería,3,6,10,99960000
+42231804,Fórmulas suplementarias para enfermedades pediátri,3,6,11,20534836
+24101601,Ascensores,3,6,6,11024791
+42293401,Guías quirúrgicas,3,6,6,3821000
+85101502,Servicios clínicos especializados privados,3,6,8,3775114958
+42242002,Dispositivos prostéticos de la extremidad superior,3,5,7,4123630
+15121501,Aceite de motor,3,5,8,2210514
+42231803,Fórmulas suplementarias para enfermedades específi,3,5,25,220769210
+41116121,"Reactivos, soluciones o tinturas hematológicos",3,5,21,10564157
+11141608,Residuos o desperdicios peligrosos,3,5,7,34530642
+50101540,Verduras estables sin refrigerar,3,5,16,27833792
+42295507,Implantes ortopédicos o alambres quirúrgicos,3,5,12,66374918
+41115307,Láser,3,5,10,6079384
+42312312,Bandejas de cuidado o limpieza cutáneos,3,5,5,6180000
+51142106,Ibuprofeno,3,5,5,2223300
+83111511,Servicio de comunicación IP,3,4,4,321556503
+42141606,Palanganas médicas para fines múltiples,3,4,4,19500000
+42281523,Filtro de mangas de esterilización,3,4,26,4202972
+42295104,Equipo electro quirúrgico o electro cauterio o accesorios o productos relacionados,3,4,8,4681602
+78131602,Almacenaje de documentos en carpetas,3,4,4,68904156
+15101505,Diesel,3,4,6,29128084
+47121702,Envases para residuos o forros rígidos,3,4,4,370540
+12352310,Siliconas,3,4,8,320076
+42281603,Desinfectantes de los instrumentos médicos,3,4,5,3824561
+42211705,Audífonos para personas con discapacidad física,3,4,4,37978381
+14111609,Papel para forrar,3,4,18,2727890
+41111804,Equipo de examen ultrasónico,3,4,4,13745597
+50131702,Productos de mantequilla o leche en conserva,3,4,4,270500
+42151805,Discos de acabado o pulido,3,4,4,93000
+42151504,Barniz dental,3,4,4,2194205
+52152007,Pocillos,3,4,4,4183000
+42152206,Moldes dentales de laboratorio,3,4,23,5097956
+44121505,Sobres especiales,3,4,8,209150
+42293303,Espéculos quirúrgicos,3,4,6,6013440
+42312009,Grapadoras para uso interno,3,4,6,8040310
+42203406,Dispositivos para la retirada de catéteres o sets vasculares de diagnóstico o intervención,3,4,5,14524800
+41103011,Refrigeradores o congeladores de uso general,3,4,5,5820564
+41111604,Reglas,3,4,4,92066
+44121619,Sacapuntas,3,4,4,34979
+42142802,Sostenes o aparatos vasculares o de compresión,3,4,11,3428870
+51191902,Suplementos de aminoácidos,3,4,5,9975000
+42251706,"Andadores, bicicletas o aparatos de ejercicio de marcha o accesorios",3,4,7,2803630
+42171804,Equipos de cricotirotomía o tubos traqueal de servicios médicos de urgencia,3,4,6,4443350
+42231807,Tetinas o chupetes de biberón o mamadera,3,4,6,4871340
+42294504,Instrumentos para la membrana intraocular para cir,3,4,28,5397250
+42221604,"Protectores, tapas, cierres, conectores o adaptado",3,4,4,8615000
+41122601,Portaobjetos,3,4,4,268960
+72102104,Control estructural de plagas,3,4,5,7378655
+51241204,Ácido bórico,3,4,4,2340912
+82121505,Impresión promocional o publicitaria,3,4,4,223000
+51161637,Clorhidrato de hidroxizina,3,4,4,2061070
+51172101,Clorhidrato de mebeverina,3,4,4,549320
+42294717,Dispositivos de ayuda ventricular,3,4,4,3564240
+85121610,Servicios oftalmológicos,3,4,4,77170600
+80111707,Personal técnico,3,4,6,26726750
+50201711,Té instantáneo,3,4,4,291816
+51142145,Adalimumab,3,4,4,24305183
+50202311,Bebidas,3,3,11,917600
+14121504,Papel para embalaje,3,3,3,2184560
+42272504,Sets o kits de anestesia,3,3,4,1784650
+42141705,"Almohadillas, cojines o almohadas para posicionar el enfermo",3,3,3,7648000
+42152111,Endurecedores de material de impresión dental,3,3,3,5367594
+42191502,Bandejas o fundas médicas,3,3,3,1099500
+55121802,Pulseras o tarjetas de identificación o productos similares,3,3,3,147000
+82101504,Publicidad en periódicos,3,3,3,1715820
+39121011,Fuentes de alimentación continua,3,3,3,14945169
+81141604,Servicios de transporte,3,3,4,23119000
+84131503,Seguro de automóviles o camiones,3,3,20,57936106
+49211806,Tienda de deporte,3,3,3,58162476
+46171503,Juegos de cerraduras,3,3,4,398840
+78102201,Servicios de entrega postal nacional,3,3,3,7500000
+44121605,Dispensador de cinta,3,3,6,128626
+81111805,Mantenimiento y soporte de sistemas propietarios,3,3,5,13399505
+73161517,"Servicios de fabricación de equipo de aire acondicionado, ventilación o refrigeración",3,3,4,3554185
+82101603,Publicidad en Internet,3,3,3,9818325
+44121509,Valijas o bolsas para correspondencia,3,3,3,4971134
+78121501,Transporte en contenedores,3,3,7,3646288
+30103313,Molduras no metálicas,3,3,8,599661
+31201502,Cinta autoadhesiva aislante eléctrica,3,3,3,63951
+43202005,Dispositivos de almacenamiento de memoria flash,3,3,7,484511
+51191510,Furosemida,3,3,3,260580
+51121709,Carvedilol,3,3,3,1408410
+51101557,Doxiciclina,3,3,3,876864
+51181813,Estradiol,3,3,3,4106595
+51121725,Fumarato de bisoprolol,3,3,3,784050
+91111703,Vestuario,3,3,17,2019020
+47131618,Mopas húmedas,3,3,3,567020
+47131501,Frazadas o mopas para limpieza del suelo,3,3,6,609970
+41102915,Estaciones de toma de muestras y disección histológicas,3,3,6,5778650
+42272220,Accesorios del ventilador,3,3,3,10940547
+42241705,"Zapatillas y botas yeso, órtesis de pierna o accesorios",3,3,11,4944490
+42171610,Inmovilizadores de torso de servicios médicos de urgencia,3,3,5,2398220
+42241512,Material de sujeción de yesos y férulas,3,3,5,606500
+42143301,Sets o kits de administración de quimioterapia,3,3,3,106930664
+42192404,Carros médicos o accesorios,3,3,3,994168
+42221506,Catéteres umbilicales,3,3,4,1214790
+42231901,Sacaleches o sus accesorios,3,3,3,565500
+42142518,Productos de aspiración para biopsia o accesorios,3,3,3,1730500
+42182314,Papel de registro de EEG,3,3,4,244775
+52161514,Audífonos,3,3,3,1322911
+31201517,Cinta para empaquetar,3,3,4,365445
+44103504,Espirales de encuadernación,3,3,7,118155
+14111506,Papel para impresora del ordenador,3,3,5,2612255
+47121802,Removedores,3,3,5,304534
+56101532,Mobiliario,3,3,7,1560534
+70111703,Servicios de sembradío o mantenimiento de jardines,3,3,3,81240000
+42271701,Cilindros de gas médicos o dispositivos relacionad,3,3,3,56759617
+50161814,Dulces con azúcar o sustitutos,3,3,9,236219
+53101502,Pantalones y short para hombre,3,3,6,620307
+42271910,Sets endotraqueales o de traqueotomía,3,3,4,3662000
+42142611,Jeringas tuberculinas,3,3,4,713000
+12191601,Solventes de alcohol,3,3,4,1458408
+50221202,Cereales en barra,3,3,3,251240
+26111601,Generadores diesel,3,3,3,2022809
+42141802,Electrodos de electroterapia o accesorios,3,3,4,2352500
+42152709,Elásticos ortodónticos,3,3,6,1504890
+51171909,Omeprazol,3,3,3,2115640
+43211706,Teclados,3,3,3,364200
+41122702,Cintas de etiquetado,3,3,3,13532864
+43201803,Discos duros,3,3,5,1068159
+82121903,Encuadernación con cola fría o pegamento,3,3,20,467499
+42271707,"Sensores o reguladores de caudal, o componentes",3,3,3,4136500
+42294922,Ligadores endoscópicos,3,3,3,5866000
+46171610,Cámaras de seguridad,3,3,3,11522659
+42142503,Agujas arteriales,3,3,4,313300
+53102508,Brazalete,3,3,4,1619400
+42311503,Rodillos de vendas,3,3,5,1576350
+51241208,Cremas o ungüentos hidrofílicos,3,3,3,1028800
+42151910,Dispositivos de limpieza dental o accesorios,3,3,21,935129
+42221612,"Distribuidores, llaves de cierre o puertos de inye",3,3,5,1126400
+41122004,Jeringas de toma de muestras,3,3,4,31084500
+50181903,Galletas simples saladas,3,3,4,1110145
+44111502,Organizadores para cajones de escritorio,3,3,18,600131
+81111809,Instalación de sistemas,3,3,3,361
+27111502,Cuchillos de afeitar,3,3,3,662200
+44101716,Perforadoras,3,3,7,284170
+45101903,Perforadoras de papel,3,3,3,311857
+42211803,Bastones para vestir para personas con discapacida,3,3,5,1592120
+42231505,"Adaptadores, conectores o extensiones de los equipos de alimentación enteral",3,3,6,1887000
+42171704,Pañales de bebe o lanillas de servicios médicos de,3,3,3,1893200
+42131609,Cubre zapatos para el personal sanitario,3,3,5,1103000
+42295134,Sets suministros quirúrgicos generales o accesorios,3,3,4,8505800
+50171833,Paté u otras pastas para untar,3,3,3,154320
+50161511,Chocolate o sucedáneo de chocolate,3,3,3,783000
+50193102,Preparado para postres,3,3,7,305722
+50171902,Salsa,3,3,5,774278
+42241509,Componentes de órtesis termoplásticos,3,3,6,5360000
+42271907,Productos o accesorios de aspirador respiratorio,3,3,3,892500
+42312109,Placas para bolsas de Ostomía,3,3,3,1933380
+12352203,Anticuerpos,3,3,3,2134875
+42222102,Carriles o estantes para sistemas de infusión intr,3,3,5,87412000
+41105104,Bombas de jeringa,3,3,3,11312668
+42143102,Dispositivos uterinos o accesorios,3,3,3,2205620
+41104102,Lancetas,3,3,3,2044000
+42281602,Soluciones de glutaraldehído,3,3,7,6155718
+56112102,Sillas para trabajar,3,3,3,1320240
+82101501,Letreros publicitarios,3,3,4,1002400
+51201504,Tacrolimo,3,3,3,2208300
+41121509,Pipetas Pasteur o de transferencia,3,3,3,385500
+14121503,Cartulina,3,3,9,781820
+42311518,Almohadillas o parches médicos para los ojos,3,3,5,1192400
+50181709,Suministros para el horno,3,3,4,409257
+50201709,Café instantáneo,3,3,3,141545
+52121508,Mantas o frazadas,3,3,3,2284200
+25172112,Sistemas de control de la estabilidad del vehículo,3,3,3,949069
+73101702,"Servicios de producción de vacunas, sueros o antib",3,3,13,5691430
+42291613,"Escalpelos, bisturíes, cuchillas o trépanos quirúr",3,3,7,5558880
+43212105,Impresoras de láser,3,3,3,41501055
+14111604,Tarjetas comerciales,3,3,3,30052643
+51171910,Pancreatina,3,3,3,10735300
+51101805,Cotrimazol,3,3,3,394950
+51141601,Hidrocloruro de amitriptilina,3,3,3,1427000
+51151616,Atropina,3,3,3,1743700
+85111602,Servicios de prevención o control de cáncer o leucemia,3,3,3,59540400
+51172107,Butilbromuro de hioscina,3,3,3,475002
+51102301,Aciclovir,3,3,3,339295
+51121602,Dinitrato de Isosorbida,3,3,5,1111286
+51101584,Gentamicina,3,3,3,443840
+51151812,Clorhidrato de propanolol,3,3,3,238860
+51181704,Dexametasona,3,3,3,853300
+51141517,Gabapentina,3,3,3,6753000
+51111610,Metotrexato,3,3,4,18667851
+12141806,Sodio Na,3,3,4,8616000
+12162207,Melatonina,3,3,3,420900
+51171816,Ondansetrón,3,3,3,1107900
+51171702,Hidrocloruro de loperamida,3,3,3,1084988
+51201802,Filgrastim,3,3,3,15410000
+52161520,Micrófonos,3,3,3,963523
+42294212,Juegos de instrumentos quirúrgicos urológicos,2,22,28,12769800
+85151601,Programas de nutrición,2,8,8,4125090
+14111533,Cuadernillos o formularios para exámenes,2,8,307,21078245
+42192604,Sistemas de administración de fármacos o accesorio,2,8,21,17896551
+85101501,Servicios hospitalarios de emergencia o quirúrgico,2,7,8,146355985
+42295140,Armarios o baúles para instrumental quirúrgico,2,6,19,4034620
+51121743,Besilato de amlodipina,2,5,5,14431980
+50171903,Aceitunas,2,5,5,65850
+50171549,Hierbas secas,2,5,5,48180
+42142516,Agujas con aberturas,2,5,8,2654100
+50131608,Claras y yemas de huevo,2,5,5,2781000
+12142106,Mezclas de gases inertes,2,5,5,9268122
+90121502,Agencias de viajes,2,5,5,489260
+42295433,Catéteres quirúrgicos urológicos o accesorios,2,4,17,4261369
+42161509,Unidades de diálisis peritoneal,2,4,18,120457742
+42131504,Batas para pacientes,2,4,4,3939280
+42142532,Agujas o kits de pericardiocentesis o accesorios,2,4,6,3653800
+42152701,Articuladores dentales o accesorios,2,4,14,1620019
+85121802,Laboratorios bacteriológicos,2,4,6,382750
+30201904,Unidades quirúrgicas,2,4,7,3767754
+42294525,Sets de instrumentos médicos oftalmológicos,2,4,8,4464158
+27113201,Conjuntos generales de herramientas,2,4,27,2896604
+31231302,Tubería de cobre,2,4,36,4004173
+51171504,Antiácidos de bicarbonato de sodio,2,4,6,9784000
+10141608,Arneses o accesorios,2,3,3,1501200
+25174001,Ventilador,2,3,3,5316870
+42182312,Electrodos de electromiografía o sets,2,3,5,2611432
+42293507,Depósitos de aspiración quirúrgicos,2,3,3,1613248
+42221616,Sets de extensión para catéteres intravenosos o arteriales,2,3,3,1493000
+23153007,Artículo de instalación,2,3,9,13406672
+22101513,Excavadoras de cuchara de arrastre,2,3,3,93441176
+25101507,Camiones ligeros o vehículos de deporte de utilida,2,3,4,16877500
+53101802,Abrigos y chaquetas para hombre,2,3,5,924118
+51172109,Trimebutina,2,3,3,995620
+51191507,Espironolactona,2,3,3,197780
+20102301,Transportes de personal,2,3,5,67750720
+41101802,Generadores de rayos X,2,3,4,2806409
+42295305,Torniquetes quirúrgicos o ocluderes vasculares o l,2,3,7,488400
+42272012,Tubos o tuberías de succión,2,3,5,567800
+60121201,Pintura de témpera líquida tradicional,2,3,3,133520
+42151627,Espejos o mangos de espejos dentales,2,3,3,170600
+42152461,Compuestos de recubrimiento para modelos dentales,2,3,3,184580
+50193202,Ensaladas congeladas,2,3,5,637515
+42201506,Inyectores de agentes de contraste de tomografía i,2,3,4,14990000
+42152608,Cartuchos de ligamento de ortodoncia,2,3,16,1623000
+42152457,Kits de cementado dental,2,3,8,705603
+50192701,Platos combinados frescos,2,3,3,124480
+50121804,Plantas acuáticas estables sin refrigerar,2,3,3,147040
+50193105,Mezclas para rebozar o apanar,2,3,3,128400
+50171707,Vinagres,2,3,3,89264
+42152201,Hojas dentales,2,3,13,2892760
+42203502,Accesorios o electrodos o indicaciones de marcapas,2,3,4,23432200
+41121803,Vasos de precipitados de laboratorio,2,3,14,3027400
+41111905,Sondas de medida,2,3,3,1657800
+42311520,Cintas médicas no adhesivas,2,3,3,1445500
+41116205,Kits de exámenes rápidos,2,3,3,2855470
+60101722,Libretas de notas,2,3,3,346080
+25111503,Buques de carga o de contenedores,2,3,5,1760798
+23153025,Pinza mecánica,2,3,4,1893870
+78180102,Reparación de Transmisión,2,3,3,1304758
+42132105,Sábanas de hospital,2,3,4,4405750
+42294002,Espátulas quirúrgicos,2,3,3,52700
+42311527,Vendajes de película transparente,2,3,9,11210640
+73131801,Servicios de elaboración de leche,2,3,4,34602208
+85101706,Servicios sanitarios tradicionales,2,3,3,12884430
+40161702,Depuradores de agua,2,3,3,3060000
+41104403,Incubadores de cultivo de tejidos,2,3,5,1293080
+42295412,Cemento quirúrgico de hueso o sistemas de mezclado,2,3,4,7767000
+42181517,Unidades de electroencefalografía (EEG) o accesorios,2,3,3,636405
+42141607,Orinales de enfermo para uso general,2,3,3,31576854
+81141807,Servicio de gasfitería y alcantarillado,2,3,6,5606000
+42203708,Fijadores de revelado de película radiográfica médica,2,3,3,166450
+31241501,Lentes,2,3,4,359564
+42295453,"Drenajes quirúrgicos, sets o accesorios",2,3,7,4474000
+42181804,Accesorios para sondas o sensores de oxímetros de ,2,3,7,3147000
+42293403,Sujeta implantes quirúrgicos,2,3,3,96044650
+42172007,Equipos de resucitación o oxígeno de servicios méd,2,3,6,2429845
+50192403,Miel,2,3,3,257600
+42294523,Suministros para la cirugía plástica oftalmológica,2,3,12,1309476
+73171507,Servicios de fabricación de aparatos electrodomésticos,2,3,3,5154117
+44122008,Divisores con uñetas,2,3,6,126450
+12162201,Ácido ascórbico,2,3,3,329460
+51191802,Cloruro potásico,2,3,3,3900000
+70111712,Servicios de fumigación de parques o jardines,2,3,3,720000
+85121805,Laboratorios de análisis de orina,2,3,9,11231458
+30103605,Tablas de madera,2,2,3,84960
+31211906,Rodillos de pintar,2,2,2,111300
+31211704,Selladores,2,2,2,55052
+30102212,Plancha de cinc,2,2,2,116942
+13101905,Melamina (MF),2,2,5,554650
+86141501,Asesorías educativas,2,2,5,685674212
+78131804,Servicios de almacenaje de documentos,2,2,2,22661119
+43212002,Soportes para monitor,2,2,2,1237000
+42312306,Productos médicos mecánicos de desbridamiento,2,2,2,2430080
+51102706,Antisépticos de ácido acético,2,2,2,117000
+41116140,"Kits de ensayo parasitológicos o micológicos, o suministros",2,2,2,3085000
+41101805,Medidores de flujo,2,2,3,8259900
+31162307,Placas de montaje,2,2,4,1736600
+41104105,Bolsas de recogida o transporte de especímenes,2,2,2,1808900
+42151625,Instrumentos de higiene dental,2,2,2,531107
+41104014,Aplicadores de muestras,2,2,3,4429500
+42311519,Correas médicas no adhesivas,2,2,2,3299100
+60123001,Figuras de goma Eva,2,2,4,440620
+41116124,"Reactivos, soluciones o tinturas histológicos",2,2,3,1197382
+42142712,Sets de extracción de cálculos o accesorios,2,2,2,2520000
+42142715,Kits de catéter urinario o accesorios,2,2,2,3240000
+42295123,"Máquinas quirúrgicas de succión, extractores de vacío, aspiradoras quirúrgicas ultrasónicas o reguladoras o accesorios",2,2,2,723000
+11111611,Grava,2,2,2,77835000
+44103116,Kits para impresoras,2,2,2,130001
+43212108,Impresoras de cinta térmica,2,2,3,147622
+93151607,Servicios de auditoria gubernamentales,2,2,2,2000000
+46171619,Sistemas de control de acceso o de seguridad,2,2,2,975408
+81111811,Soporte técnico y servicios de mesa de ayuda,2,2,5,1932
+83111501,Servicio telefónico local,2,2,2,29328190
+85121608,Servicios psicológicos,2,2,3,17847782
+41104007,Toma muestras de agua,2,2,2,10647076
+43222501,Equipo de seguridad de red de firewall,2,2,3,13000
+56101515,Camas,2,2,2,6840000
+11162118,Tejido de hilado de papel,2,2,2,240990
+39111702,Lámparas portátiles,2,2,2,120810
+40141702,Grifos,2,2,7,3754030
+50202308,Cócteles libre de alcohol,2,2,2,1079000
+39101701,Tubos fluorescentes,2,2,2,275396
+43233501,Software de correo electrónico,2,2,3,7669597
+39111505,Iluminación empotrada,2,2,4,1045723
+53112101,Cubre calzado o botas de goma de caballero,2,2,2,238800
+39121311,Accesorios eléctricos,2,2,5,183430
+31162003,Clavos de acabado,2,2,5,27562
+30101617,Barras de madera,2,2,3,199808
+24101710,Inmovilizadoras de embalaje,2,2,6,256555
+44121904,Rellenos de tinta,2,2,3,19378
+44121801,Cinta correctora,2,2,4,65574
+43211802,Almohadillas de ratón o mousepad,2,2,2,124411
+51241115,Timolol,2,2,2,38537
+51172106,Clorhidrato de oxibutinina,2,2,2,159396
+51181713,Prednisona,2,2,2,61400
+51212401,Citrato de sildenafil,2,2,2,131100
+43212102,Impresoras de matriz de puntos,2,2,2,5010605
+41103507,Recintos cerrados con filtro de aire recogedor de partículas de alta eficacia (HEPA),2,2,2,430000
+51151721,Clorhidrato de midodrina,2,2,4,2063096
+51201805,Inmunoglobulinas D (Rho),2,2,2,15738820
+13102017,Polietileno de alta densidad (HDPE),2,2,12,33214900
+30111601,Cemento,2,2,2,551845
+31162404,Grapas de ferretería,2,2,6,769494
+32101622,Memoria flash,2,2,2,120590
+73151905,Servicios de impresión industrial Digital,2,2,2,6222353
+42152205,Unidades de curación de laboratorio dental,2,2,2,330000
+42151675,Kits de restauración dental,2,2,2,106800
+47131801,Limpiadores de suelos,2,2,4,201180
+47131821,Compuestos desengrasantes,2,2,3,224260
+30161710,Suelos laminados,2,2,2,9177074
+42294219,Sets de instrumentos quirúrgicos ortopédicos,2,2,5,6305492
+53131602,Bálsamos y otros,2,2,2,102960
+47131806,Barniz o ceras de muebles,2,2,4,216900
+40101903,Humidificadores,2,2,2,1699000
+40101604,Ventiladores,2,2,2,585080
+42141502,Palitos con casquillo de fibra,2,2,2,14638900
+42171607,"Collarines para sacar o collarines cervicales, de servicios médicos de urgencia",2,2,8,506240
+42181713,Sistemas de monitorización Holter o de electrocard,2,2,2,29259580
+41122407,Bisturíes de laboratorio,2,2,2,261000
+27111508,Sierras,2,2,3,1905500
+42312502,Fajas de sujeción abdominal,2,2,10,3464900
+42294402,Sistemas de visualización coronaria,2,2,2,827000
+42181516,Unidades de electromiografía (EMG) o accesorios,2,2,2,2568000
+42294304,Instrumentos marcadores de biopsia invasiva mínima de pecho,2,2,2,1186400
+51101594,Cefepima,2,2,2,397800
+51142232,Clorhidrato de remifentanilo,2,2,2,2636000
+56101703,Escritorios,2,2,2,529970
+90111501,Hoteles,2,2,2,990000
+60121132,Papel calco,2,2,2,44200
+44121611,Perforadoras,2,2,2,91340
+46171618,Timbres de puerta,2,2,2,53312
+60121148,Papel lustre,2,2,2,115590
+60124102,Productos de artesanía multicultural,2,2,2,131135
+60141102,Juegos de mesa,2,2,5,1550032
+60124317,Masa de modelado,2,2,2,51550
+31201503,Cintas adhesivas de protección,2,2,2,26855
+43212109,Impresora de etiquetas de bolsa,2,2,2,445665
+47131609,Magos para escobas o traperos,2,2,2,114800
+47121812,Raspadores de limpieza,2,2,2,230240
+47131830,Productos de limpieza de muebles,2,2,2,62725
+47121807,Émbolo buzo de desagüe o inodoro,2,2,2,36733
+14111806,Formularios o cuestionarios comerciales,2,2,5,1062500
+53102102,Overol y sobretodo para hombre,2,2,4,194899
+39101601,ampolletas halógenas,2,2,2,178160
+41116109,Reactivos o soluciones de coagulación,2,2,2,2311615
+51101701,Albendazol,2,2,2,1367280
+42151640,Pinzas dentales,2,2,2,199510
+42151638,Tijeras dentales,2,2,2,1007470
+53131624,Toallitas húmedas,2,2,2,1470750
+41111501,Balanzas electrónicas de carga superior,2,2,2,351200
+31201601,Adhesivos químicos,2,2,15,2139140
+30171511,Puerta de vaivén,2,2,2,3150885
+83101510,Agua fría,2,2,3,788864
+42271801,Vaporizadores o humedecedores respiratorios,2,2,2,1390000
+52121505,Almohadas,2,2,6,1499736
+72102402,Servicios de pintura de interiores,2,2,2,806000
+42203603,Sistemas informatizados de archivado de imágenes (,2,2,2,6031751
+42151815,Conos para tornos y pulidores odontológicos,2,2,6,216000
+42151651,Separadores dentales,2,2,6,154880
+42152425,Resinas de base para dentaduras,2,2,4,268038
+42151681,Sets de anestesia odontológica o accesorios,2,2,4,1167200
+42311537,Tijeras para vendajes o sus accesorios,2,2,2,848042
+14111601,"Papel, bolsas o cajas de regalo",2,2,2,190200
+42131705,Pantalones quirúrgicos,2,2,2,3223800
+41112213,Termómetros de mano,2,2,2,2457980
+41104201,Reactivos para depuración del agua,2,2,5,11616408
+30171510,Puertas automáticas,2,2,8,11116165
+14111705,Servilletas de papel,2,2,2,994296
+31181601,Sellos de plástico,2,2,2,1119000
+48101915,Bandejas de servicio,2,2,3,9319000
+11121801,Cáñamo,2,2,2,212100
+39111609,"Linternas de queroseno, propano o butano",2,2,2,92208
+12171703,Tintas,2,2,9,713019
+44122016,Sujeta documentos,2,2,2,226840
+55121505,Fundas de distintivos o accesorios,2,2,4,50990
+50171548,Hierbas frescas,2,2,2,25692
+12181602,Aceites naturales,2,2,2,729600
+42142108,Almohadillas o compresas de calentar o de refrescar,2,2,2,1678600
+11121702,Astillas de madera,2,2,2,13892000
+42151631,Sondas dentales,2,2,2,460800
+41103509,Frascos lavadores para laboratorios,2,2,2,126600
+42152424,Cementos dentales a base de agua,2,2,3,1353784
+52161518,Receptores GPS,2,2,2,1618144
+26121609,Cable de redes,2,2,6,356595
+47101604,Productos químicos alimentadores de caldera,2,2,6,2397675
+52141502,Hornos microondas domésticos,2,2,2,183970
+51181516,Glibenclamida o gliburida,2,2,2,1544027
+51142018,Inyección de alcohol desnaturalizado,2,2,2,250938
+42311903,Drenaje médico de incisión,2,2,2,1092420
+42201703,Ultrasonido mamográfico o unidades eco,2,2,2,10970640
+41116127,"Reactivos, soluciones o tinturas inmunológicos o serológicos",2,2,2,313068
+42142513,Agujas de procedimiento radiológico,2,2,3,402500
+30222602,Campo de deportes,2,2,2,155082918
+42271602,"Espirómetros, accesorios o suministros",2,2,2,45720000
+81111508,Implantación de aplicaciones,2,2,3,172801405
+42272501,Aparatos de anestesia con gas,2,2,4,6468306
+40142122,Tubo de vidrio,2,2,10,4020800
+41121513,Pipetas de goteo,2,2,3,455000
+50181906,Pan en conserva,2,2,2,198510
+41112403,Indicadores de presión,2,2,2,686500
+42171911,Oxígeno portátil o cajas de resucitación de servic,2,2,3,13194077
+42312401,Alginato de calcio para el empaque de heridas,2,2,2,599200
+42152418,Productos dentales de yeso,2,2,2,384980
+42152103,Adhesivos de cubetas de impresión dental,2,2,2,453900
+25174004,Refrigerante de motor,2,2,2,440293
+48101902,Platos y cubiertos de servicio,2,2,2,76990
+52151640,Colador de pastas,2,2,2,64580
+50192603,"Papas, arroz, pastas u otros acompañamientos preparados estables sin refrigerar",2,2,2,118400
+27112802,Hojas de sierra,2,2,3,150650
+24121806,Latas de aluminio,2,2,2,95152
+42152410,Materiales de impresión alginatos dentales,2,2,2,355500
+46171612,Monitores de vídeo,2,2,2,358970
+46181512,Ropa para salas esterilizadas,2,2,2,3096700
+41115810,Accesorios o suministros de analizadores de coagul,2,2,7,5148634
+56101812,mudadores o accesorios,2,2,2,1380900
+42211508,Dispositivos de movilidad multifuncional o accesor,2,2,2,3585000
+30141503,Aislamiento de espuma,2,2,2,121440
+85121810,Test de detección de drogas o alcohol,2,2,2,2690000
+50151605,Grasas comestibles de animal,2,2,2,11302500
+44121804,Borradores,2,2,2,12708
+44121634,Rollos dispensadores de pegamento,2,2,9,117550
+44102907,Fundas para proteger del polvo al equipamiento,2,2,5,220095
+41104104,Torniquetes,2,2,2,282100
+42231703,Tubos de descompresión gástrica,2,2,3,1050000
+12142104,Gas dióxido de carbono CO2,2,2,3,3767364
+44122106,Chinches y tachuelas,2,2,2,8424
+31161816,Espaciadores y separadores,2,2,2,506200
+41104017,Porta muestras,2,2,2,568000
+42152423,Selladores de orificios o fisuras dentales,2,2,2,6251560
+42222306,Sistemas de recogida de residuos de administración,2,2,2,3354200
+42294943,Unidades de válvula endoscópica,2,2,3,1695100
+41121702,Tubos microcentrífugos,2,2,2,672000
+52141501,Refrigeradores domésticos,2,2,2,402000
+43211708,Trackballs y mouse de computador,2,2,2,177025
+30161801,Armarios,2,2,4,1657557
+42151680,Topes de endodoncia o accesorios,2,2,2,702000
+25171718,Kits de reparación de frenos,2,2,2,799160
+42294211,Instrumentos quirúrgicos de especialidad o bandejas de procedimiento,2,2,4,1537080
+41116103,"Controles de calidad, calibradores o normativas de",2,2,29,2607737
+41104109,Bolsas de recogida de unidades sanguíneas,2,2,7,759306
+42142119,Instrumental para hipotermia,2,2,2,1667700
+42312003,Tiras de cierre para heridas o piel,2,2,3,965500
+42192602,Dosificadores de medicamentos y pastillas o accesorios,2,2,2,11725840
+42295117,Manta quirúrgica o armarios para calentar soluciones o accesorios,2,2,6,3179000
+42202704,Máquinas radioscópicas superficiales para radioterapia o teleterapia,2,2,7,55388070
+42142716,Pesario,2,2,13,2810000
+56101702,Gabinetes de archivos o accesorios,2,2,2,299990
+43232304,Software del sistema de administración de bases de,2,2,2,3650054
+44121620,Dedo de goma,2,2,2,17520
+14111514,Bloques para mensajes,2,2,7,227674
+43201537,Servidores de impresora,2,2,4,3725852
+42295001,Unidades de mantenimiento o accesorios de endoscop,2,2,7,10000000
+80111614,Servicios temporales de ingeniería,2,2,2,164406038
+51121715,Enalapril,2,2,2,184150
+80111502,Planificación de compensaciones o beneficios,2,2,2,28115672
+25202004,Sistemas de grupo electrógeno de pista (APU),2,2,2,5022666
+42295129,Dosificadores de medicamentos para quirófano o pro,2,2,2,19838455
+42292202,Compresores quirúrgicos,2,2,4,11870850
+41114509,Tensiómetros,2,2,2,45889000
+50101636,Fruta estable sin refrigerar,2,2,7,930452
+42222005,Piezas o accesorios de bomba intravenosa,2,2,8,3762781
+42131707,"Trajes, cascos o mascarillas de aislamiento quirúrgico o accesorios",2,2,2,1485000
+44122105,Clips para carpetas o abrazaderas,2,2,8,120340
+44121702,Juegos de bolígrafos y lápices,2,2,14,401775
+42293120,Retractores espinales o neurológicos,2,2,3,5934336
+50193103,Preparado de salsa de jugo,2,2,2,254785
+50201710,Té de hierbas,2,2,2,36852
+50121538,Pescado estable sin refrigerar,2,2,4,426780
+42204002,Cortinas o máscaras o delantales médicos de resgua,2,2,5,2710500
+41104120,Tubos de tasa de sedimentación,2,2,3,1111590
+42231609,Kits de tubos de alimentación por gastrostomía,2,2,2,1299500
+55121606,Etiquetas autoadhesivas,2,2,3,491061
+47131604,Escobas,2,2,10,338620
+53131501,Enjuague bucal,2,2,2,15570000
+43231508,Programas de gestión de inventario,2,2,2,1580280
+42191907,Armarios o baúles de almacenamiento de instrumenta,2,2,4,1724801
+42295303,Catéteres o conectadores o accesorios quirúrgicos de perfusión,2,2,2,6439850
+11111606,Pizarra,2,2,2,68500
+42295451,Kits de preparación quirúrgica,2,2,3,2301100
+42141808,Electrodos diatérmicos,2,2,3,7950000
+42295506,Implantes o ajustes maxilofacial oral,2,2,10,1918489
+25172113,Sistemas de control de la tracción del vehículo,2,2,2,1484935
+42294722,Sets de drenaje ventricular,2,2,2,5249700
+42221602,"Protectores, tapas, sitios de inyección o puertos de administración arterial o intravenosa",2,2,2,3118260
+80111711,Desarrolladores de software,2,2,2,3386000
+42272016,Espirales para laringe o sus accesorios,2,2,3,504000
+56101522,Sillón,2,2,2,478880
+11141604,Papel usado,2,2,3,38320622
+42191809,Compresas de presión alternativa o bombas,2,2,2,4206800
+60121702,Tinta para timbres,2,2,3,37159
+51161633,Desloratadina,2,2,2,7658800
+53131622,Condones,2,2,2,26720118
+49121505,Coolers,2,2,2,1381600
+50182001,"Tartas, empanadas o pastas frescas",2,2,2,139950
+46171501,Candados,2,2,2,35659
+51121759,Olmesartán medoxomilo,2,2,2,25276080
+60121301,Guillotinas,2,2,3,64920
+60121602,Espejos o paneles acrílicos transparentes,2,2,2,1346650
+51161820,Eucaliptol o aceite de eucalipto,2,2,2,473800
+30221003,Cafetería,2,2,9,3925475
+46181804,Gafas protectoras,2,2,2,210000
+51142206,Sulfato de morfina,2,2,2,10742000
+43211902,Monitores o pantallas de visualización en cristal líquido (LCD),2,2,2,975086
+41115803,Analizadores de banco de sangre,2,2,7,731340
+43212104,Impresoras de chorro de tinta,2,2,2,1299235
+42311603,Celulosa oxidizada,2,2,2,10295724
+46181535,Medias o calcetines de protección,2,2,4,9728820
+39121436,Electrodos,2,2,2,2025000
+42231606,Kits de descompresión del colon,2,2,2,3475290
+42203407,Sets de suministro de contrastes para angiografía,2,2,2,2245990
+42131702,Batas quirúrgicas,2,2,2,9440000
+42201809,Inyectores de agentes de contraste para los sistem,2,2,9,37841500
+42294903,Agujas de biopsia o de aspiración endoscópica,2,2,2,1252632
+30222101,Oficina de correos,2,2,2,5400000
+85121504,Servicios médicos de emergencia,2,2,2,3530000
+41104801,Unidades de frascos o retortas,2,2,2,204740
+80161504,Servicios administrativos,2,2,2,5180552
+31161502,Tornillos de anclaje,2,2,10,5077800
+41116003,Reactivos de analizadores de gases sanguíneos,2,2,6,4791390
+42201801,Película para radiografías cardiológicas,2,2,2,223956
+50202303,Jugos y néctar concentrados,2,2,4,36147
+10151803,Semillas o almácigos de canela,2,2,3,8742
+10151802,Semillas o almácigos de vainilla,2,2,2,14673
+81112003,Centro de servicios de datos,2,2,2,3485060
+50201713,Bolsitas de te,2,2,2,81500
+44122019,Cajas de archivo o accesorios,2,2,2,866040
+47121804,Cubos o baldes para limpieza,2,2,2,84000
+42311601,Esponjas de gelatina absorbible,2,2,2,810000
+90111604,Salones,2,2,2,1362723
+42151624,Piezas de mano dentales o accesorios,2,2,2,105630
+85122005,Servicios de ortodoncia,2,2,14,1993000
+52151701,Utensilios para servir domésticos,2,2,13,171486760
+48101714,Dispensadores de agua caliente o termos,2,2,2,680900
+48101901,Vajillas de servicio,2,2,12,9727664
+42181503,Lubricantes personales o gelatinas del examen,2,2,2,811425
+42295406,"Bastoncillos, esponjas o apósitos de gasa quirúrgicos para laparotomía o especialidades detectables por rayos X",2,2,4,1476000
+42132202,Dediles,2,2,6,8005500
+78101802,Servicios de transporte regional o nacional en cam,2,2,3,49000000
+51182014,Dutasterida,2,2,2,678360
+51142935,Clorhidrato de levobupivacaína,2,2,2,2105040
+12142105,Aire industrial,2,2,2,2882225
+51121817,Colestiramina,2,2,2,3908000
+51101807,Fluconazol,2,2,2,1436000
+51141605,Hidrocloruro de paroxetina,2,2,2,3541080
+51142123,Ketorolaco trometamol,2,2,2,273900
+51142108,Ketoprofeno,2,2,2,230800
+51101702,Mebendazol,2,2,2,23502
+51161508,Sulfato de salbutamol,2,2,2,1164000
+51141921,Clorhidrato de midazolam,2,2,2,172720
+51181817,Promestrieno,2,2,2,3750000
+51111815,Triptorelina,2,2,2,48820000
+51111801,Anastrozol,2,2,2,1687062
+51181742,Propionato de clobetasol,2,2,2,141360
+51121511,Clorhidrato de amiodarona,2,2,2,345400
+42211602,Cepillos o esponjas o estregadera de baño para personas con discapacidad física,2,2,2,1648750
+51131909,Albúmina humana,2,2,2,14055364
+51151824,Mesilato de doxazosina,2,2,2,1712240
+51152005,Toxina botulínica,2,2,2,6494674
+51141633,Oxalato de escitalopram,2,2,2,2123800
+51212309,Ioxaglato de meglumina,2,2,2,21684600
+51101582,Tobramicina,2,2,2,1521660
+51201512,Clorhidrato de micofenolato de mofetilo,2,2,2,39924000
+51141513,Carbamazepina,2,2,3,3011980
+51141502,Clonazepam,2,2,3,14398260
+51191805,Suplemento de potasio,2,2,2,5444100
+51141810,Zopiclona,2,2,2,1038000
+51142942,Sevoflurano,2,2,2,1882800
+51191704,Soluciones multielectrolíticas,2,2,2,4730000
+51141916,Lorazepam,2,2,2,250000
+51142618,Clorhidrato de metilfenidato,2,2,2,1852320
+51111902,Docetaxel,2,2,2,40950000
+51181706,Hidrocortisona,2,2,2,407300
+51101551,Ceftriaxona,2,2,2,1656900
+51101507,Penicilina,2,2,2,120000
+11101522,Carbón activado,2,2,2,1011000
+51131502,Gluconato ferroso,2,2,2,11700000
+51241116,Travoprost,2,2,2,10409084
+51151741,Efedrina,2,2,2,159600
+47121501,Carros para limpieza,2,2,2,3119560
+42272213,Mascarillas o correas de presión positiva continua en la vía aérea (CPAP),2,2,2,299000
+41116102,Reactivos o soluciones de banco de sangre,2,2,15,11728367
+44121630,Kit de grapadora,2,2,7,7035430
+51141526,Primidona,2,2,2,1074000
+25101503,Automóviles,2,2,2,607006
+31201610,Colas,2,2,3,93740
+82151705,Cantantes,2,2,2,122055042
+55101519,Publicaciones periódicas,2,2,2,1429244
+60123601,Pegamento de purpurina,2,2,2,99500
+50171552,Mezcla de condimentos,2,2,4,525808
+78131603,Bodegaje de muebles o mobiliario,2,2,2,17446132
+47131608,Cepillos para aseos,2,2,2,2004108
+83101501,Abastecimiento de agua,2,2,2,5102522
+53103001,Camisetas de caballero,2,2,10,1291020
+31211502,Pinturas de base acuosa,2,2,2,135715
+85101507,Centros asistenciales de urgencia,1,34,36,41226595
+30222404,Unidad de cuidados intensivos,1,21,40,72181926
+42294201,Juegos de instrumentos quirúrgicos torácicos y car,1,14,32,64970000
+41103414,Accesorios para el equipo de acondicionamiento de entornos,1,10,14,8344074
+42203504,Equipo de laboratorios de cateterización cardiaca,1,7,9,32441500
+42161608,Soluciones ‘dialsate’ de hemodiálisis,1,7,12,6483984
+42294203,Juegos de instrumentos quirúrgicos generales,1,6,25,4939060
+22101619,Máquinas niveladoras,1,5,6,7896664
+41102704,Equipo de difracción de rayos X,1,5,5,17916021
+42211504,Ayudas para estar de pie,1,5,9,13815000
+50111511,Carne de ave o carne congelada,1,4,14,18268000
+42142903,Marcos de lentes,1,4,4,449100
+85122109,Rehabilitación para gente con discapacidades cróni,1,4,4,362644207
+80101507,Asesorías Informáticas,1,4,8,1610000
+25101702,Vehículos de policía,1,4,4,1676270
+42151639,Espátulas dentales,1,3,5,512358
+42183025,Lentes de vitrectomía,1,3,41,300220227
+42152512,Pinzas odontológicas,1,3,7,1558714
+81111505,Servicios de programación de sistemas operativos,1,3,3,3783817
+10101701,Salmones,1,3,3,1612440
+51212302,Aceite etiodado,1,3,3,960000
+42143502,Dispositivos de irrigación nasal o accesorios,1,3,3,907060
+42271702,Concentradores de oxígeno,1,3,3,5571000
+41116010,Reactivos de analizadores inmunológicos,1,3,148,270494727
+42295136,Instrumentos de control quirúrgicos,1,3,4,3374000
+40161701,Centrífugos de laboratorio,1,3,4,2326448
+52141523,Hervidores y teteras,1,3,3,273104
+52152010,Termos domésticos,1,3,3,251844
+42272008,Guías o calibres de intubación,1,3,3,4750000
+80131502,Arriendo de instalaciones comerciales o industrial,1,3,3,1207500
+84121604,Transacción de divisas al contado,1,3,5,143006
+81141804,Inspección de equipamientos,1,3,6,2640234
+76121902,"Recolección, eliminación de residuos ácidos",1,3,5,43465470
+60141302,Sets de construcción,1,3,11,9560000
+42295403,"Dispositivos de fijación internos o externos, férulas de fijación intermaxilar o accesorios",1,3,5,4080000
+30222205,Aljibes,1,3,3,58941177
+78101703,Servicios de transporte nacional por barcazas,1,2,10,7097864
+81112202,Up grade de software,1,2,3,734
+81111801,"Seguridad para computadores, redes e Internet",1,2,2,107407
+82111901,Comunicados de prensa,1,2,2,7552000
+42191701,Servicio eléctrico o de gas médico,1,2,2,15381625
+51121753,Irbesartán,1,2,2,134959
+22101502,Niveladoras,1,2,2,8796000
+78101801,Servicios de transporte local en camión,1,2,2,1476000
+42294719,Depósitos cardiovasculares,1,2,3,7661800
+56101905,Paneles modulares,1,2,2,1136000
+42295457,Lentes o capuchas para cascos quirúrgicos,1,2,10,1604700
+73131906,Servicios de elaboración de productos de panadería,1,2,24,3568950
+42294206,Juegos de instrumentos de cirugía oftálmica,1,2,6,4448624
+50193002,Bebidas Infantiles,1,2,2,106560
+42151507,Tonos odontológicos,1,2,20,2314928
+42182012,Dilatadores o especulo del examen nasal,1,2,2,353140
+41122404,Pinzas de laboratorio,1,2,2,179670
+42142515,Agujas de tubo de vacío,1,2,7,2760900
+42142528,Agujas o sets para punción del esternón,1,2,5,1649000
+42142612,Sets de jeringas de irrigación,1,2,5,1431330
+42142525,Agujas de irrigación,1,2,3,110500
+41105317,Reactivos para la elaboración de gel de agarosa,1,2,2,133680
+41116113,"Reactivos, soluciones o tinturas citológicos",1,2,2,215694
+80111608,Desarrolladores temporales de software,1,2,2,2616396
+39121302,Placas o tapas de cerramientos,1,2,2,491600
+43233205,Software de protección antivirus y de seguridad de,1,2,2,48101
+56101520,Clóset o armarios,1,2,2,879279
+77121602,Servicios de eliminación de suelos contaminados,1,2,2,1659240
+23153010,Artículo de eliminación,1,2,2,489132
+85101504,Servicios de hospitales psiquiátricos,1,2,2,1479568
+42131701,Cobertores para cirugía,1,2,5,14962200
+42142709,Sets de nefrostomía o accesorios,1,2,2,1239600
+42272223,"Aparatos de respiración, accesorios y suministros",1,2,2,2043000
+42192207,Camillas de paciente o accesorios de camilla,1,2,5,66375600
+10151502,Semillas o almácigos de zanahoria,1,2,2,109650
+42271719,Insuflador de oxígeno o sus accesorios,1,2,2,385300
+42221707,Sets o kits de infusión de analgésicos,1,2,4,9601500
+42191711,Depósitos de aire comprimido para cirugía o acceso,1,2,2,1354666
+40151502,Bombas de vacío,1,2,8,1833500
+42181909,Papel de registro de monitores fetales,1,2,2,12047550
+73171602,Servicios de fabricación de equipos médicos o dentales,1,2,2,1139234
+41101705,Trituradores o pulverizadores de laboratorio,1,2,2,1466693
+42295135,Dispositivos de selección ortopédica o accesorios,1,2,8,2193732
+31162313,Kits de montaje,1,2,5,1539726
+41104913,Filtros de separación biológica,1,2,2,1560000
+80111716,Especialistas en tecnología de información (TIC),1,2,2,16064996
+72102106,Control de roedores,1,2,2,500000
+41113306,Analizadores de cloro,1,2,2,899700
+78101601,"Servicios de transporte por furgones, vagones",1,2,2,4600000
+42295126,Equipo quirúrgico de fragmatome retinal vítreo o accesorios para cirugía oftálmica,1,2,3,16013262
+42312002,Clips o Grapas de cierre de piel,1,2,3,2814000
+85131706,Investigación patológica,1,2,2,861500
+41121603,Puntas de pipeta de baja retención,1,2,2,240000
+82121506,Impresión de publicaciones,1,2,2,42000
+82121503,Impresión digital,1,2,2,68000
+43212103,Impresoras por sublimación de tinta,1,2,2,3250000
+51161809,Citrato de oxolamina,1,2,2,95850
+51171501,Carbonato de calcio,1,2,2,1800000
+51142508,Diclorhidrato de pramipexol,1,2,2,255370
+51111705,Mitotan,1,2,2,26069000
+42261502,Fórceps de disección de autopsia para uso general,1,2,22,10516900
+41115816,Accesorios o suministros de analizadores hematológ,1,2,13,12094500
+50101543,Arvejas secas,1,2,2,21000
+50161813,Dulces de chocolate o sustitutos,1,2,2,211200
+78101902,Transporte marítimo-ferroviario,1,2,2,9002156
+25171905,Válvulas de neumáticos,1,2,6,3688000
+42172017,"Kits para equipos médicos de campo o laboratorio, ",1,2,11,1459740
+53101604,Camisas o blusas de mujer,1,2,6,1701000
+30102304,Perfiles de acero,1,2,3,1247929
+42172101,Desfibriladores externos automatizados (AED) o paletas rígidas,1,2,8,2787204
+41104108,Tubos o contenedores de almacenamiento de sangre sin vacío,1,2,2,147800
+84131601,Seguros de vida,1,2,2,156
+82141501,Servicios de diagramación y diseño gráfico,1,1,2,2570250
+26121524,Alambre aislado o forrado,1,1,1,115000
+39111810,Interruptor de lámpara,1,1,1,15000
+39121715,Tubos corrugados para cableado posterior,1,1,1,18000
+31211604,Diluyentes para pinturas,1,1,1,49000
+39101608,Focos cialiticos,1,1,3,237100
+31201518,Cinta conductor de electricidad,1,1,1,34750
+31211501,Pinturas al esmalte,1,1,2,309000
+31211505,Pinturas aceitosas,1,1,1,28500
+50202206,Alcohol o licores,1,1,3,505704
+81102201,Ingeniería de tránsito,1,1,1,9744000
+43191509,Teléfonos analógicos,1,1,1,18285300
+76101503,Servicios de desinfección o desodorización,1,1,1,1549800
+42142707,Tubos de irrigación urinaria,1,1,1,319000
+42161615,Sistemas de reprocesar el diálizer de hemodiálisis,1,1,2,4140000
+42294919,Introductores o alambres de guía o alambres deslizadores endoscópicos,1,1,2,660000
+42192502,Bolsas para equipo médico,1,1,1,893970
+40141616,Piezas de válvula o accesorios,1,1,1,795000
+42295424,"Equipos quirúrgicos de afeitar, navajas o chiquillos de preparación",1,1,1,7800000
+42311525,Vendas de presión,1,1,4,7930000
+41115820,Accesorios o suministros de analizadores inmunológ,1,1,5,5438025
+42142708,Adaptadores para instrumentos urológicos,1,1,1,204000
+42311501,Clips para vendas o vendajes,1,1,1,1113000
+42241602,Cortadores o sierras para yeso,1,1,1,1570400
+41115804,Accesorios o suministros de analizadores de banco de sangre,1,1,1,1121238
+42152105,Cubetas de impresión dental,1,1,1,22690
+42151613,Bruñidores dentales,1,1,1,253040
+42151902,Equipos de profilaxis dental,1,1,1,199496
+41112207,Termógrafos,1,1,1,161550
+42294928,Sondas endoscópicas,1,1,1,1531100
+25111512,Barco de trabajo de gas o petróleo,1,1,1,2291651
+31211803,Diluyentes para pinturas y barnices,1,1,1,194700
+20122504,Conjuntos de manguera de tubería adujada,1,1,1,620170
+45101505,Impresoras de fotograbado,1,1,1,1390000
+43211606,Equipos multimedia,1,1,1,5068064
+80151503,Información comercial,1,1,1,1104
+82101903,Avisos en Internet,1,1,1,900000
+43233502,Software de video conferencia,1,1,1,77400000
+81112201,Tarificaciones de soporte y mantenimiento,1,1,1,100
+43232307,Software de extracción de datos,1,1,1,5360856
+45121506,Cámaras fotográficas de videoconferencia,1,1,1,28049271
+83112402,Servicios de redes digitales de servicios integrados (ISDN),1,1,1,840
+83112304,Servicios de transmisión óptica (Ocx),1,1,1,40588235
+27111503,Cuchillos de diversas aplicaciones,1,1,1,1075200
+53111501,Botas de hombre,1,1,1,883800
+83111603,Servicios de telefonía móvil,1,1,1,2288
+44101727,Soportes de impresora,1,1,1,17501008
+82121511,Impresión de manuales,1,1,1,485000
+81151804,Estudios hidrológicos,1,1,1,30000000
+81112005,Servicios de digitalización de documentos,1,1,1,36153930
+78102102,Transporte de agua,1,1,1,356000
+81111601,Programación en Visual Basic,1,1,1,60000000
+23171608,Herramientas de corte con láser,1,1,1,150000
+39101605,ampolletas fluorescentes,1,1,1,108000
+31191501,Papeles de lija,1,1,2,90000
+30181512,Asientos de inodoro,1,1,1,14990
+44122009,Ficheros giratorios o de tarjetas profesionales,1,1,1,74990
+41111920,Máquinas de medición por coordenadas (CMM),1,1,1,647500
+73121611,Servicios de hojalatería,1,1,1,60000
+30171611,Ventana de miradores,1,1,2,37500
+11121611,Tablero de partículas,1,1,1,598710
+39121001,Transformadores de potencia de distribución,1,1,1,11275522
+22101610,Distribuidoras de áridos,1,1,1,199154622
+25101602,Camiones de remolque,1,1,2,33000
+25101611,Camiones de transporte,1,1,7,233950
+25181709,Pala cargadora,1,1,2,41300
+82101801,Campañas publicitarias,1,1,1,4117648
+44122018,Lengüetas o encartes de archivos,1,1,2,73800
+20111610,Maquinaria de inspección de alcantarillado,1,1,1,1520000
+78180302,Estacionamientos,1,1,1,825000
+10151703,Semillas o almácigos de alfalfa,1,1,1,2016000
+24112409,Tapas para cajas,1,1,1,2150
+31161504,Tornillos para metales,1,1,1,2200
+39121543,Módulo de relés múltiples o de placa de relés,1,1,1,11094
+43223108,Componentes y equipo de red de acceso inalámbrico WLAN,1,1,1,192454
+80111618,Servicios temporales de construcción,1,1,1,79811200
+25101610,Camiones cisterna,1,1,4,21992608
+72102505,Trabajos o pinturas al frescos,1,1,1,1300000
+72102601,Carpintería rústica,1,1,1,1402412
+72131502,Construcción de casas,1,1,1,1150000
+78111601,Servicios de transporte de vehículos ligeros,1,1,2,70
+10191703,Interceptor de control para insectos volantes,1,1,1,120000
+46181811,Lente de protección,1,1,1,40000
+25191513,Kit de mantenimiento de vehículo de soporte en tie,1,1,3,1185065
+31162301,Perfiles de montaje,1,1,2,464990
+60124001,Planchas de corcho,1,1,2,336940
+31161512,Tornillos de rosca para laminados,1,1,2,26916
+30171507,Marcos de puertas,1,1,2,46320
+31161606,Cerrojos de puerta,1,1,2,33546
+30171504,Puertas de madera,1,1,3,133832
+26121610,Cable de bronce,1,1,3,60453
+27112103,Abrazaderas,1,1,1,1680
+39111806,Cajetas de iluminación,1,1,1,50488
+30171607,Ventanas con hoja de desplazamiento horizontal,1,1,1,96605
+27112714,Pistolas de calafateo mecánicas,1,1,1,1681
+39121510,Interruptores de combinadores,1,1,1,1941
+39121409,Conectores de cables eléctricos,1,1,1,1924
+39121205,Canaletas para cables,1,1,1,5292
+39121103,Paneles,1,1,1,5034
+30102216,Plancha de caucho,1,1,2,130894
+30222402,Guardería infantil,1,1,1,327731
+44102801,Plastificadoras,1,1,1,33916
+71101705,Bombeo o drenaje,1,1,1,5344538
+39101612,ampolletas incandescentes,1,1,2,47880
+51131501,Fumarato ferroso,1,1,1,134490
+51181504,Glimepirida,1,1,1,141915
+51121735,Candesartán cilexetilo,1,1,1,65178
+51141619,Clorhidrato de sertralina,1,1,1,4140
+51141707,Clorhidrato de buspirona,1,1,1,58092
+51142131,Celecoxib,1,1,1,28280
+51181730,Acetato de prednisolona,1,1,1,9900
+51131708,Cilostazol,1,1,1,78570
+51191502,Clortalidona,1,1,2,128292
+51142002,Ácido acetilsalicílico,1,1,1,137130
+51161616,Betahistina,1,1,1,158190
+83121703,Servicios relacionados con Internet,1,1,1,294118
+83111801,Servicios de televisión por cable,1,1,1,352941
+43221703,Antenas de televisión,1,1,1,675000
+70171708,Servicios de asesoría de riego,1,1,1,18965512
+82121702,Servicios de copias a color,1,1,1,48042
+39111603,Alumbrado público,1,1,1,20971664
+49101704,Galvanos,1,1,1,76000
+55121722,"Mástiles de bandera, piezas o accesorios",1,1,1,376800
+55121706,Banderas,1,1,2,711600
+11162113,Tejidos para tapicerías,1,1,1,198400
+46181531,Ropa reflectante o accesorios,1,1,1,1401940
+26112001,Placa de presión,1,1,1,29000
+41105803,Sistemas o kits de transcripción o traducción,1,1,1,621848
+42191801,Mesas de sobrecama o accesorios,1,1,1,1596639
+39121710,Receptáculo multiplicador eléctrico,1,1,1,1945554
+45121501,Cámaras fijas,1,1,1,19911551
+27113203,Kit de herramienta para computadores,1,1,1,660835
+49221501,Marcadores deportivos,1,1,1,385800
+72102405,Servicios de marcado de pavimentos,1,1,1,16802250
+43232408,Software de desarrollo de plataforma Web,1,1,1,106494118
+49121502,Colchones de espuma,1,1,1,974880
+42182013,Especulo del examen vaginal,1,1,3,195000
+42182201,Termómetros médicos electrónicos,1,1,1,17500
+47101505,Equipo para manipulación de cloro,1,1,1,124000
+30181504,Lavamanos,1,1,1,167646
+15111510,Gas de petróleo licuefactado,1,1,1,27731092
+22101516,Excavadoras para fosos,1,1,1,2720000
+22101509,Retroexcavadoras,1,1,1,2380000
+30222501,Casas residenciales,1,1,1,595000
+42211804,Peines y cepillos para personas con discapacidad física,1,1,1,19100
+42292103,Llaves o mangos quirúrgicos,1,1,1,34190
+42312108,Bolsitas para el drenaje de heridas,1,1,1,74340
+42294511,"Bisturíes, cuchillas o tijeras para cirugía oftalmológica, o accesorios",1,1,2,2795000
+42295111,Dispositivos para posicionar el paciente en la sala de operación o accesorios,1,1,1,660000
+42192001,Mesas de examen o de procedimiento clínico para uso general,1,1,1,5150
+42241804,Productos blandos ortopédicos para la clavícula,1,1,2,42400
+42251621,Botas de ejercicio para rehabilitación o terapia,1,1,4,1432000
+42241701,Productos blandos ortopédicos para el tobillo o el pie,1,1,7,790120
+42241809,Productos blandos ortopédicos para el hombro,1,1,4,239600
+42241807,Productos blandos ortopédicos para la mano o dedo,1,1,7,289600
+42241507,Sistemas de férulas ortopédicas,1,1,4,102400
+42191802,Incubadoras clínicas o calentadores de bebé,1,1,1,834904
+42191704,Sistemas de compresor de aire de gas médico,1,1,1,1327489
+42201712,Unidades de ecografía o eco pulso o doppler o ultr,1,1,1,4860000
+42294802,Endoscopios flexibles o accesorios o productos relacionados,1,1,1,1568429
+42294306,Agujas mamarias de localización,1,1,1,2720000
+42182005,Oftalmoscopios o otoscopios o juegos de scopios,1,1,1,164400
+43232311,Software de administración de bases de datos orientado a objetos,1,1,1,183121
+42272503,"Inhaladores de anestesia, unidades de inhalación o accesorios",1,1,1,474375
+41114705,Instrumentos para comprobación de tejidos,1,1,1,465000
+42242104,Suministros de tracción del pie,1,1,2,152640
+42221607,Filtros o pantallas arteriales o intravenosos para uso general,1,1,2,2110000
+42142107,Sistemas de terapia de ciro compresión terapéutica,1,1,2,2988700
+42231903,Kits sacaleches,1,1,3,131100
+51182001,Finasterida,1,1,1,105630
+51121701,Diazoxida,1,1,1,1032000
+51142919,Isoflurano,1,1,1,569730
+51121819,Ezetimiba,1,1,1,4383000
+51101565,Cefpodoxima proxetilo,1,1,1,327000
+80101504,Asesorías en planificación estratégica,1,1,1,32352941
+40101808,Estufas de la calefacción,1,1,1,56970
+41103901,Microcentrifugadoras,1,1,1,654000
+42171902,Cajas desfibriladoras para servicios médicos de urgencia,1,1,1,142849
+90101501,Restaurantes,1,1,2,60000
+90111801,Habitación sencilla,1,1,1,40000
+70151701,Transporte o tala de troncos,1,1,1,1040000
+39121506,Interruptores automáticos por caída de presión,1,1,1,5740
+39121719,Protectores,1,1,1,12510
+11111701,Arena silícea,1,1,2,352000
+23131514,Piedras montadas,1,1,1,176000
+60141019,Piñatas,1,1,1,3309
+60121112,Cartón piedra,1,1,1,52750
+44122107,Grapas,1,1,1,155640
+60121130,Cuadernos de papel al estilo del lienzo,1,1,3,333380
+60121236,Pinceles,1,1,1,60120
+60121501,Rotuladores de base acuosa,1,1,1,155040
+60121502,Rotuladores de base disolvente,1,1,1,25840
+27112904,Pistola de resina,1,1,2,104505
+44122022,Accesorios para carpetas con anillados,1,1,2,19190
+60103112,Modelos geométricos sólidos,1,1,1,11022
+53141502,Alfileres de gancho,1,1,1,4180
+23171523,Palos indicadores de temperatura,1,1,2,35940
+47131824,Productos de limpieza de ventanas,1,1,1,8200
+47121801,Plumeros,1,1,1,13775
+14121802,Papeles de polietileno,1,1,1,264000
+46182005,Máscaras o filtros de respirador o accesorios,1,1,1,22000
+46181501,Delantales protectores,1,1,1,18450
+46181517,Trajes aislados o para flotar en el agua,1,1,1,39600
+24112110,Contenedores intermedios a granel,1,1,1,179380
+11151703,Hilo de poliéster,1,1,1,2496
+25132002,Globos de aire caliente,1,1,3,26966
+11151510,Fibras vegetales,1,1,1,1252
+11151513,Fibras de cerámico,1,1,2,108438
+52141607,Suavizantes de ropa,1,1,2,264900
+41104011,Filtros y recambios para toma muestras,1,1,8,1888900
+41122002,Agujas de jeringa de cromatografía,1,1,2,546000
+85121601,Servicios ginecológicos y de obstetricia,1,1,1,2100000
+51131611,Dalteparina sódica,1,1,1,799000
+51142011,Salicilato de magnesio,1,1,1,8160
+41113118,Analizadores de varios gases,1,1,1,4313912
+51101522,Claritromicina,1,1,1,511200
+40101809,Calentadores de circulación,1,1,1,18225000
+41104924,Filtros microbiológicos,1,1,5,619630
+23121606,Máquinas plegadoras o recanilladoras,1,1,1,44990
+25181706,Remolques contenedor con temperatura controlada,1,1,1,7598693
+42151629,Organizadores dentales,1,1,2,123568
+42151637,Sarros dentales,1,1,1,56000
+53131616,Cremas o lociones homeopáticas o naturales,1,1,1,156000
+53141508,Bordes para ropa,1,1,1,1272000
+27111801,Cintas métricas,1,1,1,40000
+42251504,Tablas de actividad o tablas de clavetas terapéuticas,1,1,1,38700
+60141013,Partes y accesorios para muñecas u otros juguetes,1,1,1,525000
+60121605,Modelos anatómicos,1,1,1,525000
+42151628,Tablas de mezclar dentales,1,1,1,17880
+44122119,Fasteners o sujetadores autoadhesivos,1,1,1,174800
+50151604,Aceites comestibles de animal,1,1,1,40400
+56121302,Transportes de sillas o mesas,1,1,1,1500000
+10151526,Semillas o almácigos de repollo,1,1,1,265500
+41123101,Tuberías de diálisis,1,1,1,660000
+42151802,"Perforadoras odontológicas, puntas o accesorios",1,1,2,31200
+42152463,Disolventes de cera odontológica,1,1,1,16500
+42152412,Ceras de material plástico utilizado en odontología,1,1,1,11600
+42152203,Mecheros o antorchas de laboratorio dental,1,1,1,7600
+42152220,Piedras dentales,1,1,2,4000
+42152010,Película de radiología dental,1,1,2,271354
+41121706,Tubos de cultivo,1,1,1,523749
+31331201,Conjuntos estructurales de aluminio apernados,1,1,1,88500
+41116145,"Controles de calidad, calibradores o normativas vi",1,1,23,30162564
+60121109,Blocs de dibujo,1,1,1,34620
+60121222,Pintura de acuarela de tubo,1,1,1,53570
+52121701,Toallas de baño,1,1,1,80200
+41104010,Equipos de reactivos para usar con toma muestras d,1,1,6,15000000
+42152464,Kits para implantes odontológicos,1,1,2,613000
+85121602,Servicios de nefrología,1,1,1,274240
+42203503,Juegos o introductores de indicaciones de marcapasos cardíacos,1,1,1,656000
+41103406,Cajas de aislamiento con guantes,1,1,1,1380000
+72102004,Revestimientos impermeables,1,1,1,221760
+48102106,Neveras,1,1,1,69840
+42142531,"Contenedores, carros o accesorios para el desecho ",1,1,3,425805
+12141909,Fósforo P,1,1,1,13500
+13102030,Cloruro de polivinilo (PVC),1,1,1,50000
+42151621,Instrumentos dentales para empastar los contornos,1,1,2,1350000
+42151806,Tiras dentales de acabado o pulido,1,1,1,800000
+42312105,Barreras cutáneas para ostomía o kits de tratamien,1,1,2,285060
+23171902,Dispositivos de inspección o medición,1,1,1,1488000
+42151656,Separadores mandibulares,1,1,1,97820
+48101607,Licuadoras de uso comercial,1,1,1,126042
+44121711,Rotuladores,1,1,2,45380
+46181901,Protectores de oídos,1,1,2,165760
+41104424,Accesorios de incubadoras,1,1,3,5205185
+41114408,Aparatos de observación de superficie de temperatu,1,1,6,20345000
+51241226,Preparados tópicos de urea,1,1,1,67600
+42295114,Equipo de facoemulsificación o de extrusión o accesorios para cirugía oftálmica,1,1,1,1060278
+43231506,Software de cadena de suministro y logística de pl,1,1,1,14941178
+85121502,Consultas de médicos de atención primaria,1,1,1,23500000
+26131510,Central térmica,1,1,1,32773234
+43232502,Software de formación basada en computador,1,1,1,16604472
+31242003,Ventana visual de láser o lentes,1,1,1,29234250
+42142911,Injertadores o quitadores de lentes de contacto,1,1,1,3139200
+42183039,Soportes para lentes oftalmológicos,1,1,1,1235538
+42152003,Procesadores de película dentales,1,1,2,828000
+47121602,Aspiradoras,1,1,2,933904
+44111516,Agendas,1,1,1,504000
+42181711,Sistemas de transmisor o receptor telefónico de el,1,1,1,316250
+43191609,Auriculares telefónicos,1,1,1,50000
+41122410,Película selladora de laboratorio,1,1,1,37505
+42222305,Pinzas de tubos de transfusión y administración de sangre,1,1,2,57170
+42201906,Pinzas iluminadoras para película radiográfica médica,1,1,2,204730
+45141603,Pinzas de revelado,1,1,1,171450
+42312206,Agujas de sutura,1,1,5,940900
+42281519,Esterilizadores de agujas,1,1,1,180000
+42294720,Agujas de monitorización de la temperatura,1,1,1,196680
+41104906,Equipo de filtrado por ósmosis invertida,1,1,2,2885000
+50131803,Sucedáneo de Queso,1,1,1,141423
+45111616,Proyectores de video,1,1,1,138655
+53102307,"Bodies, fajas o corsés",1,1,1,476000
+41105326,Reactivos o soluciones tampón de hibridación,1,1,1,138600
+30172002,Puerta de doble barra,1,1,1,3211796
+25121706,Aparatos de tracción,1,1,1,1878464
+42151615,Unidades crioquirúrgicas dentales,1,1,1,1607400
+42141803,Cables o alambres de plomo para electroterapia,1,1,2,302000
+82101507,"Folletos y catálogos publicitarios, servicios de publicidad y distribución",1,1,2,12500
+51131910,Polividona o povidona,1,1,1,179496
+42231705,Filtros nasogástricos,1,1,1,1235000
+42142617,Jeringas de fuente,1,1,1,28512
+42294917,Agujas endoscópicos de insuflación,1,1,1,80000
+42142501,Agujas de amniocentesis,1,1,4,885544
+42142514,Bandejas o agujas espinales,1,1,1,1560000
+42141904,"Tubos, o casquillos o grapas de enema",1,1,2,240000
+42295503,Tomas de infusión implantables o accesorios,1,1,1,1064000
+42141809,Sets de electrodos de estimulación muscular,1,1,1,44200
+42294927,Paquetes o bandejas o equipos de instrumentos endoscópicos,1,1,1,103100
+42132101,Protege sábanas de hospital,1,1,1,135920
+60101610,Certificados específicos de asignatura,1,1,1,1700000
+41116137,"Reactivos, soluciones o tinturas de ionograma urinario",1,1,1,227040
+44122116,Pinzas para bolsas,1,1,1,26634
+41105319,Reactivos para la elaboración de gel de poliacrilamida,1,1,1,62080
+42295302,Cánulas quirúrgicas de perfusión,1,1,1,29970
+41116119,"Reactivos, soluciones o tinturas alimentarios",1,1,1,515900
+51102708,Antisépticos de formaldehido,1,1,1,793728
+42142517,Tubos de extensión,1,1,1,38000
+41102912,Cuchilladoras de cristal histológicas,1,1,1,1125000
+93141810,Servicios para el desarrollo profesional,1,1,1,1219799
+80111610,Especialistas temporales en redes computacionales,1,1,1,1270429
+51191801,Bicarbonato potásico,1,1,1,1558392
+41104117,Porta especímenes,1,1,1,119000
+42142007,Tijeras de grado bajo,1,1,1,49252
+42294907,Cepillos de microbiología o citología endoscópicos,1,1,1,190000
+40142606,Conexiones de tubo,1,1,1,63210
+13111042,Alcohol de polivinilo,1,1,1,600000
+53102509,Liga,1,1,1,50000
+45141502,Fijador,1,1,1,140400
+24112402,Armarios para materiales peligrosos,1,1,1,2499680
+10151608,Semillas de aceite de ricino,1,1,1,13500
+78102204,Servicio de courier internacional,1,1,1,1512605
+47131814,Limpiadores o pulidores de metal,1,1,1,163992
+42291612,Alicates quirúrgicos,1,1,7,252000
+24102105,Embandejadoras,1,1,2,75200
+11151509,Fibras de seda,1,1,1,140400
+51102718,Nitrato de plata,1,1,1,22500
+42312304,Productos médicos autolíticos de desbridamiento,1,1,1,35600
+42311514,Vendajes germicidas,1,1,1,182000
+30222701,Oficinas,1,1,1,81932563
+51171811,"Combinatoria de fructosa, dextrosa y ácido fosfórico",1,1,1,107850
+42152223,Unidades de procesado de resinas odontológicas o accesorios,1,1,1,189000
+40161513,Filtros de combustible,1,1,2,70589
+24102204,Dispensador de flejes,1,1,1,80000
+25172301,Parabrisas para automóviles,1,1,1,298319
+52151639,Batidor de huevos de uso doméstico,1,1,1,11600
+52151802,Sartenes domésticas,1,1,1,13800
+52151702,Cuchillos domésticos,1,1,1,39960
+52151704,Cucharas domésticas,1,1,1,50000
+52141539,Teteras de uso doméstico,1,1,1,15990
+52151806,Ollas domésticas para cocer al vapor,1,1,1,49400
+52151506,Contenedores de comida domésticos de usar y tirar,1,1,1,99800
+80141617,Capacitaciones directas en el concesionario,1,1,1,1000000
+42152008,Unidades de Rayos X dentales,1,1,1,3414796
+42142102,Unidades enfriadoras para el almacenaje en frío o accesorios,1,1,1,130000
+47121502,Accesorios para carros de limpieza,1,1,1,137096
+23171509,Soldadura,1,1,1,34950
+46151601,Manillas,1,1,2,257780
+32111503,Diodos emisores de luz (LED),1,1,1,193200
+71161505,Servicios de componente de válvula o válvula del l,1,1,1,631200
+46182007,Sistema de respirador purificador de aire forzado ,1,1,1,11500
+26111805,Tensores de correa,1,1,1,18990
+25171707,Freno de tambor,1,1,3,56970
+71121503,Servicios de medir con calibrador durante perforac,1,1,1,75960
+25172901,Iluminación exterior para automóviles,1,1,2,37980
+31162702,Ruedas,1,1,3,247000
+41101702,Martinetes o morteros,1,1,1,79200
+42172001,Equipos de primer auxilio de servicios médicos de urgencia,1,1,1,141000
+41122408,Tijeras de laboratorio,1,1,1,95000
+32141016,Tubos múltiples,1,1,2,65120
+42271703,Mezcladores de aire oxígeno,1,1,1,20600
+42295113,Equipo de irrigación o aspiración oftálmica o accesorios,1,1,1,497000
+42152706,Soportes ortodónticos,1,1,1,2572908
+44103112,Cinta de tinta para impresora,1,1,1,185700
+85101707,Servicios de evaluación de sistemas sanitarios y d,1,1,16,1515548
+15101508,Petróleo crudo,1,1,1,5188400
+41116107,"Controles de calidad, calibradores o normativas qu",1,1,1,1370662
+42142509,Accesorios o bandejas epidurales,1,1,2,540000
+42281601,Soluciones de descontaminación,1,1,1,250950
+42295112,Mesas de procedimiento de la sala de operación o a,1,1,1,42000000
+39111706,Luces de emergencia o estroboscópicas,1,1,1,1233000
+41105301,Cajas de gel,1,1,1,41400
+42251610,Pelotas o accesorios terapéuticos,1,1,1,19960
+60141001,Balones o pelotas de juguete,1,1,1,35960
+49221506,Colchonetas,1,1,1,80940
+43211502,Servidores de gama alta,1,1,1,49239276
+83101504,Distribución de agua,1,1,1,1007280
+46181605,Calzado protector contra materias peligrosas,1,1,1,186500
+30103604,Revestimiento o láminas de madera,1,1,1,861000
+43232407,Software de arquitectura del sistema y análisis de,1,1,1,49440
+42231506,Dispositivos para fijar tubo nasoentérico,1,1,1,90000
+42201717,Almohadillas ecográficas médicas de transmisión de ultrasonidos,1,1,1,155000
+42142505,Porta agujas para la recogida de sangre,1,1,1,49000
+42171608,Inmovilizadores de cabeza de servicios médicos de urgencia,1,1,1,119800
+43222609,Routers de red,1,1,1,299995
+76131602,Limpieza de vertidos o derramamientos de sustancia,1,1,2,854700
+60121519,Lápices de cera,1,1,1,42960
+60121509,Lápices de cera,1,1,1,64440
+11162123,Tejidos de cinta,1,1,1,31680
+27112809,Portaútiles,1,1,3,97604
+24121503,Cajas para empaquetado,1,1,1,77700
+42271706,Compresores para terapia respiratoria,1,1,1,271840
+42311513,Vendaje de gel,1,1,1,297000
+42312101,Adhesivos para aparatos de ostomía,1,1,1,1526850
+42311523,Vendajes de pasta,1,1,1,508950
+42295307,Separadores quirúrgicos para la arteria carótida o accesorios,1,1,1,700000
+42171702,Mantas de primeros auxilios,1,1,1,158400
+24141504,Sellos de seguridad o a prueba de entremetido,1,1,1,100000
+42221505,"Catéteres arteriales o intravenosos pediátricos, d",1,1,5,12163000
+42292902,Porta agujas de láser quirúrgicas específicas,1,1,1,5353800
+60105621,"Materiales educativos sobre el abuso de las drogas, el tabaco o el alcohol",1,1,4,1548900
+30102015,Lámina de plástico,1,1,1,136000
+41106214,Reactivos para la preparación de bacterias competentes,1,1,5,1572690
+30222102,Banco,1,1,1,3949580
+42203401,Espirales coronarias,1,1,2,14750000
+42272502,Unidades de absorción para aparatos de anestesia c,1,1,2,570000
+42201701,Ultrasonido cardiaco o doppler o unidades de eco o,1,1,1,2333333
+42295201,Dermátomo o equipos quirúrgicos o accesorios para ,1,1,1,2566416
+41121814,"Cubiertas, fundas y cubreobjetos de laboratorio",1,1,1,32000
+46151703,Tinta de huellas dactilares,1,1,1,9060
+41122808,Bandejas de uso general,1,1,2,156050
+60103502,Libros de recursos o actividades del gobierno,1,1,1,55850
+85122002,Servicios de higienistas dentales,1,1,2,200000
+42221705,Viales de infusión de analgésicos,1,1,3,3235295
+41111504,Balanzas de muelle por tracción,1,1,1,215000
+48101531,Escalfadores o hervidores de uso comercial para salmón,1,1,1,500000
+41112212,Termómetros de superficie,1,1,1,24900
+42121509,Termómetros clínicos veterinarios,1,1,1,1012000
+41104207,Sistemas de análisis de agua,1,1,1,1428000
+52141505,Lavavajillas domésticos,1,1,1,13430000
+43222802,Equipo de cuadro de conmutación de circuitos,1,1,1,2800000
+41102911,"Bisturíes, porta bisturíes o cuchillas histológicos",1,1,1,103200
+42261508,Agujas de autopsia,1,1,3,1149000
+42272212,Válvulas de presión espiratoria final positiva (PEEP),1,1,1,998000
+42271721,Filtros de concentrador de oxígeno,1,1,1,825000
+42221608,Cintas o etiquetas de identificación de tubos arteriales o intravenosos,1,1,1,1251840
+41103311,Manómetros,1,1,1,288000
+42192501,Tapas para equipo médico,1,1,1,75600
+42152012,Piezas o kits de aparatos para radiografías odonto,1,1,8,3983000
+44122117,Anillados,1,1,3,189800
+42192605,Kits de encapsulación de aneurismas,1,1,5,1554150
+42151617,Taladros o brocas dentales,1,1,1,21850
+41103808,Mezcladores de plaquetas,1,1,1,10590000
+42211805,Espejo de inspección para personas con discapacida,1,1,1,1325000
+27131502,Pistola de aire comprimido,1,1,1,895800
+41111912,Registradores fisiológicos,1,1,1,785714
+49201608,Tensor de mano,1,1,1,312900
+42151660,Aplicadores o absorbentes odontológicos,1,1,6,242640
+41122403,Espátulas de laboratorio,1,1,1,14000
+42312311,Kits desinfectantes,1,1,3,149500
+42152213,Modelos de laboratorio dental,1,1,1,22000
+42152519,Kits de accesorios de jeringas odontológicas,1,1,1,100000
+76111801,Limpieza de embarcaciones o vehículos,1,1,1,406000
+42152607,Anillas para instrumental odontológico,1,1,1,1513170
+42152217,Unidades de vacío de laboratorio dental o suministros,1,1,1,789076
+42311703,Cintas médicas o quirúrgicas para unión de la piel,1,1,1,60000
+76121903,"Desintoxicación, eliminación de la toxicidad, deto",1,1,1,3744920
+40151604,Compresores de gas,1,1,1,183216
+12161604,Catalizadores de descomposición térmica,1,1,2,53450
+31201521,Cinta metálica,1,1,1,69500
+31201501,Cinta de conductos,1,1,1,117000
+52152201,Láminas o papel para forrar estantes,1,1,1,65000
+15121508,Aceite para transmisiones,1,1,1,67500
+41103024,Condensadores de frío,1,1,1,9600
+47131832,Productos antipolvo,1,1,1,216280
+41121504,Pipetas de émbolo de un canal manuales de aspiraci,1,1,1,42000
+42182008,Mangos de scopios o cargadores de asas del examen ,1,1,1,29000
+40142607,Tapas de tubo,1,1,1,26000
+41121607,Puntas de pipeta universales,1,1,1,10000
+42241604,Yeso vacío,1,1,1,180912
+42201708,Gelatinas médicas de ultrasonido o doppler o eco,1,1,1,38525
+42143101,Catéteres o kits intrauterinos,1,1,1,148000
+78102205,Servicio de mensajería,1,1,1,161556
+42251601,"Vigas o tablas de balance, cojines anchos o balancines para rehabilitación o terapia",1,1,1,495000
+42142520,Punzones dispensadores,1,1,1,198000
+42171906,Cajas de intubación de servicios médicos de urgenc,1,1,4,782000
+42143513,Instrumentos otológicos o accesorios,1,1,1,190000
+41104803,Evaporadores de laboratorio,1,1,1,453782
+42281712,Equipo ultrasónico de limpieza,1,1,1,1484034
+41102909,Procesores de tejidos,1,1,1,1600000
+51142619,Alcohol aromático de amoniaco,1,1,1,705000
+42293508,Suministros y accesorios de irrigación o aspiración otorrinolaringológica,1,1,1,115320
+12142101,Gases compuestos de hidrógeno,1,1,1,10836000
+52152105,Mamaderas o accesorios,1,1,1,405000
+48101903,Vasos de servicio,1,1,3,214000
+42294934,Dispositivos endoscópicos de sutura,1,1,6,7958400
+42294218,Sets de instrumentos quirúrgicos de otorrinolaring,1,1,3,20300000
+42182205,Tapones de punta o sonda de termómetro médico,1,1,1,1100000
+41104206,Sistemas de agua ultra pura,1,1,1,1485000
+42301506,Estetoscopios de auriculares duales,1,1,1,95000
+85111604,Servicios de prevención o control de enfermedades ,1,1,1,52164000
+42181719,Transmisores o equipo de telemetría de electrocard,1,1,1,3888000
+85122102,Servicios de terapia ocupacional,1,1,1,115488000
+40102002,Caldera de tubo de agua,1,1,1,2678000
+60101101,Lectores de tarjetas electrónicas,1,1,2,44
+23151817,Medios de cromatografía,1,1,1,780000
+42281803,Equipos biológicos de esterilización,1,1,3,300000
+50192503,Rellenos de sándwich frescos,1,1,1,85840
+56121303,Borradores,1,1,1,27720
+91111903,Servicios de cuidado de ancianos,1,1,1,64289274
+23153008,Artículo de cámara,1,1,2,242550
+93141504,Servicios de acogida familiar u orfanatos,1,1,1,39515250
+11141602,Desechos y restos plásticos,1,1,1,880042
+85122103,Servicios de rehabilitación de drogas o abuso de s,1,1,1,40800000
+81112106,Proveedores de aplicaciones,1,1,1,907563
+42203202,Simuladores de radioterapia de tomografía informat,1,1,3,38600000
+42203605,Software de sistemas de archivado de película radi,1,1,1,21729600
+42292601,Dilatadores quirúrgicos o accesorios,1,1,2,672180
+24102102,Carrusel para almacenaje,1,1,1,318333
+42311704,Dispensadores de cinta médica o quirúrgica,1,1,1,4240919
+42242004,Kit de preparación para prótesis de pene,1,1,1,420000
+41116006,Reactivos de analizadores de secuencia de ácido de,1,1,1,15778226
+22101801,Elevador para una o varias personas,1,1,1,140000
+42294712,Monitores de saturación hematocrito o oxígeno de p,1,1,6,35307980
+94131603,Servicios de asistencia legal y judicial,1,1,1,4300000
+43231602,Software de planificación de recursos empresariale,1,1,1,2360000
+47111501,Lavadoras o secadoras para lavandería combinadas,1,1,1,293693
+42182602,Lámparas o luces instaladas de examen médico,1,1,1,379800
+24122001,Botellas para apretar,1,1,1,85000
+31161725,Tuercas abrazaderas,1,1,1,8956
+44121631,Distribuidores de pegamento o recambios,1,1,1,4860
+41101707,Prensas de laboratorio,1,1,9,2622527
+41121604,Puntas de pipeta de referencia,1,1,2,124750
+41115703,Cromatógrafos de gases,1,1,1,881701
+42192107,Sillas de examen clínico o accesorios,1,1,1,314678
+42271906,Equipos de reparar tubos endobronquiales o de traqueotomía,1,1,1,11222222
+42272206,Ventiladores de cuidado intensivo pediátricos,1,1,1,716915
+42161620,Bombas sanguíneas de la unidad de hemodiálisis,1,1,1,1400560
+42201815,Unidades radiográficas médicas para uso diagnóstico general,1,1,1,1781993
+41103201,Lavadoras para ingeniería química,1,1,1,608025
+41121707,Tubos de ensayo para separador,1,1,15,295600
+50192110,Nueces o frutos secos,1,1,1,19880
+12142202,Agua pesada,1,1,1,80000
+41103205,Estantes para lavadoras o accesorios,1,1,1,168000
+42142604,Jeringas médicas con casquillo de catéter,1,1,1,170000
+53131505,Chupete de niño,1,1,1,338000
+42221801,Cubierta de tabla de brazo intravenoso o arterial,1,1,1,2969600
+41122602,Cubreobjetos,1,1,1,30000
+48101801,Cubertería de uso comercial,1,1,1,43520
+12352501,Formaldehidos,1,1,1,86700
+41114802,Instrumentos para comprobación de vidrio,1,1,1,60820
+40161803,Papeles de filtro,1,1,1,105710
+41121601,Puntas de pipeta con filtro,1,1,1,231168
+41112601,Kits de ensayo de frotis manuales,1,1,1,2250000
+30101915,Carrete de plástico,1,1,3,323780
+42231504,Contenedores o bolsas de nutrición enteral,1,1,1,474400
+48101907,Jarras de servicio,1,1,1,2156000
+42272001,Laringoscopios o accesorios,1,1,2,1585080
+42143605,"Correas o hebillas de sujeción, o accesorios o sum",1,1,1,1560000
+26142101,Vasijas de irradiación de especímenes para reactor,1,1,1,335500
+42293501,Cánulas o piezas de mano o quistotomes o puntas de irrigación y succión quirúrgica o productos relacionados,1,1,1,675000
+41115605,Tiras para ensayos de pH,1,1,1,20800
+41105106,Bombas de cromatografía,1,1,1,44000
+51151504,Nitrato de pilocarpina,1,1,1,980000
+25101604,Camiones de reparto,1,1,1,180000
+42272207,Ventiladores de alta frecuencia,1,1,1,975000
+39112001,Torre ligera,1,1,1,195066
+31241607,Metal en barras redondo,1,1,1,990000
+56111903,Unidades de Almacenaje Industrial,1,1,1,1943673
+83101602,Suministro de petróleo,1,1,1,1772695
+53102305,Pañales para bebé,1,1,1,36308800
+42271603,Pantallas o monitores de la función pulmonar en la,1,1,1,1310978
+42203410,Fundas protectoras para catéteres cardiovasculares,1,1,1,10050000
+30201901,Unidades médicas,1,1,1,6000000
+42192002,Accesorios de mesas de examen o de procedimiento p,1,1,1,2300000
+42191803,Pesebres o cunas clínicas o camas pediátricas o ac,1,1,1,199335
+42201718,Ecógrafos oftalmológicos,1,1,1,1488921
+77121704,Servicios de tratamiento de aguas residuales,1,1,1,641700
+30201712,Cabina telefónica,1,1,1,790000
+42293139,Dispositivos de sujeción de retractores,1,1,1,650000
+32101608,Memoria de sólo lectura (ROM),1,1,1,390000
+73181003,Servicios de mecanizado electroquímico (ECM),1,1,1,112000
+42272301,Resucitadores manuales,1,1,1,250000
+42142706,Equipos o compresas o bandejas para el procedimiento urológico,1,1,1,672000
+43211720,Kits de verificación de tarjetas de crédito o débi,1,1,1,78412
+42183031,Sets de placas seudoisocromáticas o accesorios,1,1,2,379400
+41104914,Cuellos de botella o vasos de filtrado,1,1,1,2120000
+41116014,Reactivos de analizadores de ionograma urinario,1,1,1,345000
+42171802,Equipos de laringoscopio de servicios médicos de urgencia,1,1,1,608012
+30171508,Puertas correderas,1,1,1,2275000
+24131503,Cámaras frigoríficas,1,1,1,435000
+42241503,Protectores de yeso o tablilla,1,1,2,1320000
+41104119,Contenedores de recogida de tejido óseo,1,1,1,1720000
+40101833,Dispositivo de encendido de calentador o caldera,1,1,1,1720000
+55101509,Libros de texto educativos o vocacionales,1,1,16,319866
+60141101,Juegos educativos,1,1,1,25482
+60141114,Juegos de memoria,1,1,1,60186
+39121006,Adaptadores o inversores de potencia,1,1,1,244800
+32101602,Memoria RAM dinámica (DRAM),1,1,1,246400
+53102401,Medias,1,1,2,324000
+12141903,Nitrógeno N,1,1,3,2208761
+42131703,Packs quirúrgicos,1,1,4,25482343
+42191501,Sistema de tubo neumático clínico,1,1,1,2450980
+41112101,Cristales Piezoeléctricos,1,1,1,250000
+93161502,Patentes municipales,1,1,7,6654985
+42201804,Unidades médicas para radiografías de brazo en C,1,1,1,9453782
+42211614,Asientos de inodoros para personas con discapacidad física,1,1,3,853112
+46171505,Llaves,1,1,1,66890
+41116133,Kits de ensayo de biología molecular o suministros,1,1,2,745896
+41116148,Kits de ensayo de citometría de flujo o suministro,1,1,3,74563156
+25191502,Sistemas de ensayo o mantenimiento de apoyo terres,1,1,1,232522
+42182807,Básculas de plataforma de silla de ruedas,1,1,1,474500
+53102706,Uniformes de seguridad,1,1,1,33300
+39121309,Cajas eléctricas especiales,1,1,1,317000
+53131613,Productos para el cuidado de la piel,1,1,1,366000
+42201502,Unidades de tomografía informatizada (TAC o CT) mé,1,1,1,427648740
+24141510,Protectores de cables,1,1,5,321620
+43222627,Dispositivos de acceso de red digital de servicios integrados (RDSI),1,1,1,75750
+85111513,Servicios de desinsectación,1,1,3,120000
+42272505,"Tubos, conjuntos de tubos o acoplamientos para tubos de aparatos de anestesia con gas, o accesorios",1,1,1,1039800
+42221610,Protectores o tapas o puertos de entrada de clavo de tubería intravenosa,1,1,1,1624000
+42131611,Gorras de quirófano,1,1,1,1620000
+42281520,Packs de comprobación para esterilizadores de vapo,1,1,1,1690500
+42251802,Cajas para levantar o accesorios para rehabilitación o terapia,1,1,7,172840
+73151805,Servicios de Laminar,1,1,1,48276
+44111515,Organizadores o cajas de almacenamiento de archivos,1,1,2,226320
+54111601,Relojes de pared,1,1,1,35950
+27111704,Enchufes,1,1,1,44070
+42201719,Lociones para la exploración ecográfica médica,1,1,1,327000
+42221901,Reguladores de flujo intravenoso con control calibrado,1,1,1,1575000
+42181606,Mangas de inflación de presión sanguínea o mangas neumáticas o adaptadores,1,1,1,224000
+43201611,Soportes de computador,1,1,1,108000
+42131509,Batas de hospital,1,1,1,1392000
+44122002,Protectores de hojas,1,1,1,28000
+24141511,Amarres de carga,1,1,1,78000
+24111508,Saco de tienda,1,1,1,18750
+52152203,Escobilla con dispensador de jabón,1,1,1,5970
+56101602,Sillas de terraza,1,1,2,143820
+49121602,Mesas de camping,1,1,2,131780
+52141534,Sandwichera eléctrica de uso doméstico,1,1,1,29990
+51191515,Hidroclorotiazida,1,1,1,180000
+53112004,Horma de zapatos,1,1,1,195798
+24121502,Sacos para empaquetado,1,1,1,39600
+47131707,Secadores de mano de uso público,1,1,1,19580
+55101503,Catálogos,1,1,1,240000
+46182208,Plantillas de zapato,1,1,1,40337
+50192501,Sandwiches y canapés con relleno frescos,1,1,1,54000
+26121634,Cable de cobre,1,1,1,79960
+40142201,Reguladores de gas,1,1,1,29990
+52151617,Cucharas de madera de uso doméstico,1,1,1,1800
+52152006,Bandejas o fuentes domésticas,1,1,1,1990
+40151607,Compresores refrigerantes,1,1,1,236000
+51101525,Peróxido de benzoil,1,1,1,1320000
+51101811,Ketoconazol,1,1,1,2186500
+51161629,Clorhidrato de cetirizina,1,1,1,525500
+51161639,Clorhidrato de olopatadina,1,1,1,72120
+51212006,Valeriana,1,1,1,30600
+55101520,Hojas o Folletos de Instrucciones,1,1,1,240000
+52151614,Coolers,1,1,1,160000
+31211905,Mezcladores de pintura,1,1,1,2500
+44121632,Afilador de tijeras,1,1,1,7870
+44121624,Tijeras,1,1,1,12110
+60121204,Pintura de témpera lavable,1,1,5,355140
+60121226,Pinceles de acuarela,1,1,1,26780
+51151613,Bromhidrato de escopolamina,1,1,1,700000
+42131608,Uniformes para el personal sanitario,1,1,3,790943
+51121737,Clorhidrato de benazepril,1,1,1,7020000
+49201503,Bicicletas estáticas,1,1,1,173958
+30151901,Toldos,1,1,1,216000
+42295417,Asas de luces quirúrgicas o tapas,1,1,1,808800
+13111045,Acetato polivinilo,1,1,1,2300000
+42141605,Cuencos o tazones médicos para mezclar o para soluciones,1,1,1,73200
+42292903,Porta agujas de láser quirúrgicas de uso general,1,1,1,777330
+43221525,Sistemas de intercomunicadores,1,1,1,238170
+41121815,Adaptadores o conectores de laboratorio o accesorios,1,1,1,270000
+42291604,"Sierras de mano, seguetas o mangos de sierra quirú",1,1,2,15920000
+42181608,Accesorios de instrumental de medición de la tensión arterial,1,1,1,560000
+42295115,Taburetes rodantes de cirujano o accesorios,1,1,1,35200
+42182409,Analizadores de audífonos o de sistemas de prueba,1,1,1,54250000
+41116131,Discos o paneles de pruebas de identificación o sensibilidad microbiológicas o bacteriológicas,1,1,4,1681400
+50192111,Charqui u otras carnes secas o procesadas,1,1,1,5226
+41115808,Accesorios o suministros de analizadores químicos,1,1,1,798000
+42142529,Bandejas o soportes para agujas,1,1,1,3104400
+42294901,Posicionadores o sujetadores de instrumento o endoscopio,1,1,1,2700000
+41106302,Kits de reacción en cadena de la polimerasa (PCR) para genes específicos,1,1,1,372000
+42231601,Tubos de gastrostomía para uso general,1,1,1,94500
+42182001,Especulo de examen rectal o anal,1,1,1,2448000
+42161622,Desinfectantes o agentes de limpieza de la unidad ,1,1,1,2250000
+42294721,Punzones aórticos,1,1,1,224000
+23151806,Filtros o ultrafiltros farmacéuticos,1,1,1,175000
+42281706,Lubricantes de instrumentos,1,1,1,88000
+56111509,Paquetes de oficina técnica modulares,1,1,1,3450719
+26101723,Bote de vapor de combustible,1,1,2,2800000
+42293119,Retractores abdominales,1,1,1,440000
+42294915,Instrumento difusor endoscópico,1,1,1,390000
+42182310,Electromiógrafos,1,1,2,700000
+42221702,Bolsas de traslado o recipientes de infusión intravenosa o arterial,1,1,1,770000
+42231602,Tubos de gastrostomía endoscópicos percutáneos,1,1,1,624500
+42203408,Kits de recubrimiento cardiovascular,1,1,2,1006740
+72102801,"Renovación de edificios, casas, señales y monumentos",1,1,3,1585000
+43201616,Torres de disposición de discos duros,1,1,1,439920
+43222611,Unidades de servicio de datos o canales de red,1,1,1,2835750
+86131602,Escuela de baile o danza,1,1,1,864000
+46182001,Máscaras o accesorios,1,1,2,510956
+41112303,Comprobadores de humedad por temperatura,1,1,1,2550000
+56112101,"Sillas de uso especial, para auditorios o estadios",1,1,1,512400
+41104510,Armarios o estufas de secado,1,1,1,792800
+44111911,Pizarras blancas interactivas o accesorios,1,1,1,73000
+41104512,Accesorios para estufas de laboratorio,1,1,1,204810
+41103302,Hidrómetros para ácido de baterías,1,1,1,1304424
+41114201,Cintas de medir,1,1,1,3600000
+12161507,Reactivo Cupferrón,1,1,1,459000
+42281506,Dispositivos o accesorios con motor para la limpieza de instrumentos,1,1,1,854135
+42182014,Accesorios de otoscopia u oftalmoscopia,1,1,1,136000
+70111503,Servicios de poda de árboles,1,1,1,294118
+86111504,Programas o cursos no diplomados a distancia,1,1,1,1320000
+43231511,Software de sistema experto,1,1,1,784000
+42294916,Filtros endoscópicos de insuflación,1,1,1,525000
+42171502,Etiquetas triage de servicios médicos de urgencia,1,1,1,1510000
+42182702,Cintas métricas médicas,1,1,1,12375000
+42202005,Paquete de procedimiento de trazado linfático,1,1,1,398000
+31162104,Anclajes de tornillo,1,1,3,678812
+60104006,Materiales de pruebas de bacterias,1,1,5,1547000
+73101607,Servicios de producción de etileno o metanol o der,1,1,1,447048
+42271905,Tubos endobronquiales,1,1,1,31000
+42271902,Tubos esofágicos,1,1,1,32900
+42271912,Tubos nasofaríngeos,1,1,1,32900
+26101750,Válvula de estrangulación,1,1,1,210000
+30141511,Película de ventana,1,1,1,200000
+41112210,Termómetros de tele indicación,1,1,1,134850
+60121701,Timbres para estampar,1,1,1,34796
+10151904,Semillas de girasol,1,1,3,130000
+11141601,Desechos y restos textiles,1,1,1,693600
+50192801,"Empanadas, tartas y pies frescos",1,1,1,19160
+50101541,Champiñones,1,1,2,41256
+10151804,Semillas o almácigos de clavo de olor,1,1,1,2244
+10151505,Semillas o almácigos de zapallo italiano,1,1,1,30043
+47131602,Paños de limpieza absorbente,1,1,1,97920
+50192402,Pastas de untar,1,1,1,36000
+44101604,Cartones protectores,1,1,1,120000
+55121807,Fundas de productos de identificación o accesorios,1,1,1,53000
+56121703,Gabinetes,1,1,1,48900
+15101506,Gasolina,1,1,1,451886
+44103101,"Cintas de cartuchos para impresoras, fax o fotocopiadoras",1,1,4,770000
+47131815,Limpiador de desagüe,1,1,1,135840
+43202001,Discos compactos (CD),1,1,1,72000
+60121302,Cuchillo cartonero,1,1,1,23710
+42132104,Almohadas antimicrobianas de hospital,1,1,1,90000
+42132103,Protege sábanas impermeables para pacientes,1,1,1,200000
+30181506,Urinarios,1,1,1,76000
+41103206,Detergentes de laboratorio,1,1,1,530100
+41116001,Reactivos de analizadores de aminoácidos,1,1,18,9878034
+42181701,Unidades de electrocardiografía (ECG),1,1,1,40500
+52121509,Sábanas,1,1,1,483000
+81112006,Servicios de almacenamiento de datos,1,1,1,1220664
+13101708,Silicona VMQ y PMQ y PVMQ,1,1,1,16800
+13111002,Resina fenólica,1,1,1,211480
+42151807,Puntas de torno o pulidor dental,1,1,1,153000
+42151604,Útiles de colocación de compuestos,1,1,2,477600
+45111620,Proyectores multimedia,1,1,1,274490
+42295437,Sets o armarios de utensilios quirúrgicos o acceso,1,1,1,360000
+42182006,Especulo de examen orofaríngeo o laríngeo,1,1,3,155520
+42295463,Catéteres uretrales,1,1,3,2829380
+41103809,Mezcladores de hematología o química,1,1,1,674500
+52152016,Vajilla de uso doméstico,1,1,1,730000
+52151703,Tenedores domésticos,1,1,1,320000
+52151705,Portas cubiertos o cucharas,1,1,2,590000
+52152102,Vasos para beber domésticos,1,1,1,1020000
+48101813,Batidores de uso comercial,1,1,2,72700
+40142504,Colador de vapor,1,1,1,13780
+23101509,Lijadoras,1,1,1,33080
+52151606,Tabla para cortar o picar,1,1,2,83800
+52151622,Manga de decoración de repostería de uso doméstico,1,1,1,20890
+52151605,Abrelatas o sacacorchos,1,1,1,58600
+23153015,Artículo de alimentación,1,1,3,924960
+41104020,Bandeja de fluencia de elementos calcinados,1,1,1,91960
+42292403,Mango de trinquete quirúrgico,1,1,1,76000
+26121606,Cable coaxial,1,1,2,690000
+52101512,Alfombrilla de silla,1,1,2,5042017
+41122605,Aceite de inmersión para microscopio,1,1,1,24000
+42142521,Agujas para extracción de sangre,1,1,4,1005200
+42152503,Suministros de dique dental,1,1,1,67020
+53111602,Zapatos de mujer,1,1,1,344000
+42312005,Adhesivos o colas para el cierre de piel,1,1,1,283940
+11151702,Hilo de algodón,1,1,1,445000
+23171906,Herramientas de Montaje o Desmontaje,1,1,4,420500
+42312310,Frascos limpiadores,1,1,1,830500
+51171608,Glicerina,1,1,1,4030000
+31171526,Almohadillas de cojinete,1,1,2,1260000
+39101801,Filamento para ampolleta,1,1,1,178500
+43212107,Trazadoras de gráficos,1,1,1,231664
+43211509,Computadores portátiles tipo Tablet PC,1,1,1,61362
+44111521,Sujetapapeles,1,1,1,7200
+14111606,Papel artístico o papel Kraft,1,1,1,5000
+31201505,Cinta adhesiva de doble cara,1,1,1,45650
+42152403,"Aleaciones fundidas de cobalto, cromo, molibdeno p",1,1,7,4056000
+41113310,Analizadores de ácidos grasos,1,1,1,852000
+42152453,Compuestos de restauración dental,1,1,1,374155
+40151616,Kits de compresor,1,1,1,200000
+27112110,Pinzas de anillo de retención,1,1,2,976800
+50161510,Sacarina,1,1,1,1539390
+50101542,Harina vegetal,1,1,1,5093200
+42142512,Agujas de fístula,1,1,2,209900
+42295504,Implantes neuroquirúrgicos,1,1,1,280000
+42143106,Kits de drenaje ginecológico o accesorios,1,1,1,526500
+42143607,Sensores o alarmas de movimiento del paciente o accesorios,1,1,1,85690
+42251606,Tablas de talco para rehabilitación o terapia,1,1,1,264000
+27112011,Mangas de herramientas,1,1,1,1551000
+12164504,Edulcorantes,1,1,1,466800
+42181601,Unidades de presión sanguínea aneroide,1,1,1,3780000
+31191504,Telas abrasivas,1,1,1,1605000
+42312008,Quita grapas o quita grampas médicas,1,1,2,216000
+47131804,Productos de limpieza de amoniaco,1,1,1,442500
+42295308,Sets de perfusión coronaria,1,1,1,2180000
+12164502,Esencias o extractos,1,1,13,1220884
+41122106,Dispositivos de inoculación,1,1,1,11000
+42311901,Accesorios para el drenaje médico de incisión,1,1,1,1240000
+42221605,Válvulas de retención de tubería arterial o intravenosa,1,1,1,3150000
+42295405,"Introductores, pernos guía, alambres guía o alambres deslizantes para operaciones no endoscópicas o a corazón abierto",1,1,1,3252600
+85121607,Servicios psiquiátricos,1,1,3,48360000
+24111505,Contenedores a granel intermedios flexibles,1,1,1,722500
+11162101,Tela o tejido de estopilla,1,1,2,4512880
+83101506,Servicios de tratamiento de agua,1,1,1,41040000
+40102004,Calderas de gas natural,1,1,2,72268908
+85121603,Servicios de cardiología,1,1,8,423429924
+85122106,Kinesiología,1,1,1,6914400
+85121605,Servicios de gastroenterólogos,1,1,1,62500000
+42251619,Arcillas de cerámica terapéuticas o accesorios,1,1,1,6750
+42151630,Instrumentos de colocación dental,1,1,4,406000
+42152703,Pernos o puntales dentales o suministros relaciona,1,1,7,1024650
+42131603,Blusas o blusones para el personal sanitario,1,1,1,2080000
+31241806,Filtros de película de plástico,1,1,1,1200000
+42181501,Depresores de la lengua o palas o palos,1,1,1,1476000
+42295501,Implantes cardiovasculares,1,1,2,24924000
+42261512,Sierras de autopsia,1,1,1,1024400
+31242105,Identificadores de fibra óptica,1,1,1,1200000
+60104202,Kits de muestreo y testeo del agua,1,1,1,971480
+42295423,Contadores de esponjas o cortantes quirúrgicos,1,1,1,900000
+44121715,Conjunto de lápiz o bolígrafo,1,1,7,751600
+42241811,Fajas para hernia,1,1,1,179800
+12352104,Alcoholes o sus sustitutos,1,1,3,948000
+42161801,Unidades de hemodiálisis arteriovenosa continua (CAVHD) o productos relacionados,1,1,2,1207380
+42142610,Jeringas de medicación oral de liquido,1,1,3,141700
+20121301,Tapón obturador,1,1,1,280000
+42161505,Recipientes o sacos de drenaje de diálisis peritoneal,1,1,1,300000
+42312102,Aparatos de ostomía,1,1,1,541800
+12142004,Gas Argón Ar,1,1,1,3379176
+42312204,Dispositivos para capturar sutura,1,1,1,637500
+42161506,Anastomosis de diálisis peritoneal o catéteres o de acceso a aparatos interiores,1,1,1,1380000
+90121503,Servicio de fletes,1,1,1,1588235
+42293102,Ganchos quirúrgicos de retractación,1,1,3,276000
+93141507,Servicios de administración de trabajo social,1,1,1,1200840
+85121703,Servicios de podiatras,1,1,1,2940000
+10161503,Cacaos,1,1,1,6892
+41115809,Analizadores de coagulación,1,1,1,702000
+41103715,Accesorios o suministros para baños de laboratorio,1,1,1,9600
+41111711,Microscopios de electrones,1,1,5,149450
+52141510,Ventiladores,1,1,1,67220
+72102602,"Instalación de ventanas, puertas o accesorios",1,1,3,127500
+39121533,Piezas de interruptor y accesorios,1,1,2,108000
+41102401,Quemadores de gas,1,1,2,256000
+30181515,Estanque del WC,1,1,1,14700
+30111502,Hormigón conductor,1,1,1,21000
+39111518,Luz de mano o de extensión,1,1,1,27000
+31162808,Barras de emergencia,1,1,2,67000
+56101536,Trípodes de instrumentos,1,1,1,33000
+27112126,Alicates planos,1,1,1,79000
+30161602,Paneles para techos,1,1,1,465000
+60121150,Papel Crepé,1,1,2,98380
+46181809,Parches para el ojo,1,1,1,140000
+42312203,Botones o puentes de sutura o accesorios relacionados,1,1,2,53500
+82131604,Estudio fotográfico,1,1,1,206896
+42295121,"Microscopios, recodos o aumentadores quirúrgicos o accesorios",1,1,1,1424159
+41105509,Kits de cuantificación de ácidos nucleícos,1,1,1,11760000
+50112003,Carnes estables sin refrigerar procesadas y preparadas,1,1,1,66000
+42251608,"Bandas para ejercicios de resistencia, masilla o tubos para rehabilitación o terapia",1,1,3,798000
+41116201,Monitores o medidores de glucosa,1,1,1,6480000
+41116007,Reactivos de analizadores toxicológicos,1,1,3,1462500
+52161510,Equipo de música,1,1,1,200000
+60121411,Paneles acrílicos para marcos,1,1,1,280000
+41102406,Placas térmicas de laboratorio,1,1,1,879978
+41113601,Amperímetros,1,1,1,719490
+41115309,Luxómetros,1,1,1,234231
+41113638,Osciloscopios,1,1,1,2675515
+41113613,Registradores de valor eléctricos,1,1,1,11425521
+42202501,Unidades de tomografía informatizada por emisión de fotones simples (SPECT) médica,1,1,1,749000000
+46181706,Piezas de casco o accesorios,1,1,2,36980
+46181602,Calzado protector contra materias peligrosas,1,1,1,171520
+46181525,Ropa impermeable protectora o ropa para ambiente húmedo,1,1,1,46900
+42171917,Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios,1,1,1,24120
+51111904,Paclitaxel,1,1,1,5138640
+51141919,Alprazolam,1,1,1,27000
+51182102,Vasopresina,1,1,1,333000
+51111502,Busulfan,1,1,1,3600000
+51141512,Clobazam,1,1,1,240000
+51161504,Aminofilina,1,1,1,26200
+51131607,Enoxaparina sódica,1,1,1,376900
+51151914,Clorhidrato de ciclobenzaprina,1,1,1,73189
+51101572,Azitromicina,1,1,1,27720
+51101717,Ivermectina,1,1,1,42543
+51191517,Isosorbida,1,1,1,195000
+51211616,Antídotos,1,1,1,200000
+51142133,Bromfenaco sódico,1,1,1,605950
+31111508,Extrusiones de perfiles de magnesio,1,1,1,160000
+51111612,Tioguanina,1,1,1,661500
+51142219,Fentanilo,1,1,1,4840000
+51141803,Hidrato de cloral,1,1,1,165000
+51211606,Flumazenil,1,1,1,252000
+51181741,Etanonato de loteprednol,1,1,1,206700
+51181719,Acetonida de fluocinolona,1,1,1,4875000
+51151738,Fumarato de formoterol,1,1,1,260560
+51181601,Levotiroxina sódica,1,1,1,284000
+42201606,Inyectores de agentes de contraste de resonancia m,1,1,1,11150000
+51101526,Polimixina,1,1,2,788500
+51241114,Clorhidrato de pilocarpina,1,1,1,90810
+51141701,Fenotiacinas,1,1,1,95800
+51132001,Pentoxifilina,1,1,1,85743
+53131619,Cosméticas,1,1,2,345270
+51111513,Mesna,1,1,1,603680
+51142702,Ácido meclofenámico,1,1,1,156000
+51151734,Sulfato de albuterol,1,1,1,262500
+51182203,Oxitocina,1,1,1,26200
+51141606,Hidrocloruro de trazodona,1,1,1,4200000
+42271914,Calibradores de presión de vías aéreas,1,1,1,62500
+42295445,Soportes para aparatos quirúrgicos en la bandeja,1,1,1,27900
+12142201,Solventes deuteratados,1,1,1,54300
+41121605,Puntas de pipeta Ultramicro,1,1,1,99500
+41104110,Botellas de cultivo sanguíneo,1,1,1,582200
+42293005,Instrumentos quirúrgicos calibrados para válvulas,1,1,1,2273100
+42291602,Perno o cable o pasador quirúrgico o instrumentos corta alambres,1,1,1,1982000
+51101555,Aztreonam,1,1,1,1410000
+51122110,Nimodipina,1,1,1,459668
+51121502,Digoxina,1,1,1,2580
+51151901,Baclofeno,1,1,1,77000
+85111605,Servicios de prevención o control inmunológico,1,1,3,952941
+51141505,Fenobarbital,1,1,1,1260000
+51111901,Asparagina,1,1,1,7500000
+51151513,Bromuro de neostigmina,1,1,1,11000
+51121603,Nitroglicerina,1,1,1,20000
+51241220,Tretinoína,1,1,1,74640
+51102335,Aciclovir sódico,1,1,1,1375000
+51101624,Clorhidrato de metronidazol,1,1,1,394320
+51181818,Progesterona,1,1,1,478800
+51101708,Sulfanilamida,1,1,1,108000
+51121730,Ramipril,1,1,1,413700
+51101818,Hidrocloruro de terbinafina,1,1,1,226800
+51102307,Ganciclovir sódico,1,1,1,745000
+51201502,Ciclosporina,1,1,1,3600000
+51151710,Clorhidrato de fenilefrina,1,1,1,130000
+51171612,Metilcelulosa,1,1,1,287500
+51131516,Hierro sucrosa,1,1,1,13384080
+51141812,Clorhidrato de dexmedetomidina,1,1,1,9500000
+51161626,Bosentán,1,1,1,9504000
+51121504,Flecainida,1,1,1,1500000
+51111519,Temozolomida,1,1,3,12622600
+51181718,Deflazacort,1,1,1,347760
+51131613,Dicumarol,1,1,1,1571220
+51211612,Leucovorín,1,1,1,37000
+51182002,Testosterona,1,1,1,348480
+51101542,Ciprofloxacina,1,1,1,99696
+51102312,Ribavirina,1,1,1,900000
+51171814,Mesilato de dolasetrón,1,1,1,294000
+51142402,Succinato de sumatriptán,1,1,1,256000
+51212303,Fluoresceína sódica,1,1,1,1000000
+51141920,Diazepam,1,1,1,148000
+51102310,Lamivudina,1,1,1,330000
+51111505,Clorambucil,1,1,2,666825
+51131715,Clorhidrato de anagrelida,1,1,1,600000
+51211613,Sorbitol,1,1,1,1000000
+51241203,Subcarbonato de bismuto,1,1,1,57000
+41104115,Contenedores de recogida con filtro de suero,1,1,1,1504000
+51152003,Bromuro de rocuronio,1,1,1,660000
+51121904,Nifedipina,1,1,1,25000
+11101708,Bismuto,1,1,1,144000
+51182403,Gluconato de calcio,1,1,1,870000
+11101511,Calcio,1,1,1,1620000
+51131805,Etamsilato,1,1,1,1092500
+51201503,Mofetil micofenolato,1,1,1,294000
+51161630,Maleato de clorfeniramina,1,1,1,110375
+51142916,Hialuronidasa,1,1,1,1125000
+51181707,Metilprednisolona,1,1,1,1119900
+51191503,Metolazona,1,1,1,210600
+51151817,Clorhidrato de tamsulosina,1,1,1,108000
+51141808,Tartrato de zolpidem,1,1,1,39200
+51191904,Fosfolípidos,1,1,1,2355000
+51182304,Acetato de octreotido,1,1,1,19239780
+51142610,Cafeína,1,1,1,221000
+51101578,Cefazolina,1,1,1,475000
+51111601,Cladribina,1,1,1,1050000
+51171908,Misoprostol,1,1,1,425600
+51142109,Naproxeno,1,1,1,54000
+51131511,Polisacárido de hierro,1,1,1,1556500
+51131706,Argatroban,1,1,1,1848000
+51111606,Hidroxiurea,1,1,1,8000
+12352120,Peróxidos orgánicos,1,1,1,78800
+51181749,Furoato de mometasona,1,1,1,1500000
+51141604,Mirtazapina,1,1,1,462000
+51241110,Latanoprost,1,1,1,349000
+51101538,Levofloxacina,1,1,1,78000
+51141908,Tiaprida,1,1,1,1500000
+51111704,Mitomicina,1,1,1,1495800
+51111820,Letrozol,1,1,1,300000
+51201807,Inmunoglobulinas víricas,1,1,1,56400000
+51161705,Bromuro de ipratropio,1,1,1,295000
+51191906,Solución de rehidratación oral,1,1,1,26900
+51151703,Epinefrina,1,1,1,498000
+51142138,Ketorolaco trometamina,1,1,1,55360
+51171629,Sulfato sódico,1,1,1,263160
+51171622,Fosfato sódico,1,1,1,27305
+53121603,Mochilas,1,1,1,120000
+40161806,Malla de filtro,1,1,1,295300
+90141601,Eventos deportivos profesionales patrocinados por empresas,1,1,1,8403361
+30102520,Chapa de níquel,1,1,1,66880
+42151618,Elevadores dentales,1,1,2,1445328
+51141631,Clorhidrato de bupropión,1,1,1,522400
+51142012,Ácido mefenámico,1,1,1,350000
+42291709,Hojas de sierra quirúrgicas o accesorios,1,1,4,9576000
+56111907,Carros de herramientas industriales,1,1,1,130000
+11101502,Esmeril,1,1,2,155300
+27111507,Cortadores de metal,1,1,4,125596
+31191510,Piedras abrasivas,1,1,1,16200
+27111515,Taladro de mano o empuje,1,1,1,168000
+42312006,Aplicadores de grapas médicas para uso interno,1,1,1,2100000
+41116106,Tiras o papeles para ensayos químicos,1,1,1,98000
+31211903,Equipo para protección,1,1,1,110000
+60101906,Afiches del alfabeto,1,1,1,300000
+42151659,Kit de extracción de fragmentos dentales,1,1,1,876996
+42183009,Lentes de pruebas de visión oftalmológicas o accesorios,1,1,1,139200
+41121609,Puntas de pipeta de volumen variable,1,1,1,70000
+41122101,Placas o cajas Petri,1,1,1,50000
+42221508,Kits dermatológicos para catéteres intravenosos o arteriales,1,1,1,1619880
+43221521,Unidad de acceso remoto de telecomunicaciones,1,1,1,772000
+40161804,Coayudantes de filtración,1,1,1,1380000
+42294805,Laparoscopios o telescopios laparoscópicos,1,1,1,550000
+42171909,Packs de traumatismo de respuesta a larga distancia (LDR) para los servicios médicos de urgencias,1,1,1,901500
+40151610,Piezas de compresor o accesorios,1,1,1,1750000
+42181702,"Adaptadores, cables o electrodos de electrocardiografía (ECG)",1,1,1,234750
+40142108,Tubería de bronce,1,1,3,445364
+39121407,Regletas de conexiones,1,1,1,112292
+31231308,Tubería de bronce,1,1,1,180428
+82111902,Boletines informativos,1,1,1,25020000
+70111706,Servicios de cuidado de céspedes,1,1,1,130680000
+26112003,Placas de embrague,1,1,1,1155000
+81111807,Almacenamiento de datos,1,1,1,30252120
+39121701,Soportes eléctricos,1,1,1,140924
+52161512,Parlantes,1,1,1,273109
+42161635,Cartuchos para aparatos de hemodiálisis,1,1,1,1497792
+42181707,Electrodos neonatales de cinta o anillo de electrocardiografía (ECG),1,1,1,1613200
+41102917,Cuchillas de micrótomo,1,1,1,248000
+42181717,Electrodos de bombilla de electrocardiografía (ECG),1,1,1,150000
+42181716,Accesorios de electrocardiografía (ECG),1,1,1,100000
+14111613,Papel para pancartas,1,1,1,1942400
+41122102,Placas de múltiples receptáculos,1,1,1,418900
+42294914,Juegos de instrumentos endoscópicos,1,1,2,5540000
+30222061,Terreno de aparcamiento,1,1,1,810000
+45112002,Impresora de lector de microfichas,1,1,1,840000
+51161703,Budesonida,1,1,1,399200
+51142503,Levodopa,1,1,1,62300
+20122806,Desviadores de fluido,1,1,1,35000
+42281516,Filtros de esterilización,1,1,1,210000
+82111904,Distribución de prensa,1,1,1,1164375
+81112105,Web Hosting,1,1,1,136080
+43232303,Software de gestión de relaciones con el cliente (CRM),1,1,1,828
+51241211,Solución tópica de minoxidil,1,1,1,68280
+51111616,Capecitabina,1,1,1,4957200
+50101635,Fruta congelada,1,1,1,56560
+92101904,Servicios de salvavidas,1,1,1,950000
+40101825,Calentadores de agua de uso doméstico,1,1,1,177472
+24141607,Separadores de cartón,1,1,1,10584
+44103503,Resortes o lomos de encuadernación,1,1,1,17100
+41123302,Cajas o archivadores para portaobjetos,1,1,1,579900
+26101757,Accesorios de las bujías,1,1,1,60000
+40161519,Filtros de panel,1,1,1,25000
+44122010,Divisores,1,1,3,22130
+44121635,Portarrollos de cinta adhesiva,1,1,10,43094
+44121628,Dispensadores o receptáculo de grapas,1,1,17,65027
+11151709,Tejido sintético,1,1,2,18176
+44121902,Tinta china,1,1,1,14280
+25172604,Espejos de vehículo,1,1,1,280000
+56112005,Partes o accesorios para estación de trabajo o mueble de computación,1,1,1,628915
+71121022,Servicios de limpieza del pozo,1,1,1,220000
+85141603,Baños termales,1,1,1,1309000
+30151902,Materiales para guarniciones exteriores,1,1,1,289317
+26112004,Kits de reparación del embrague,1,1,1,4907563
+60104906,Kits de batería,1,1,2,570540
+55101523,Libros de ejercicios,1,1,10,1991661
+93151502,Sistemas de información y control de empresas públ,1,1,1,26928000
+81111506,Servicios de Programación,1,1,1,560625
+60104904,Kits de electricidad,1,1,1,1709512
+43232202,Programas de gestión de documentos,1,1,1,36089989
+55101524,Libros de referencias para bibliotecas,1,1,1,55485000
+51142147,Anakinra,1,1,1,14478054
+51171906,Lansoprazol,1,1,1,1400000
+51181508,Glucagon,1,1,1,165000
+11101518,Talco,1,1,1,45000
+51151514,Bromuro de piridostigmina,1,1,1,228000
+51141522,Oxcarbazepina,1,1,1,274800
+47132101,Kits de limpieza industrial,1,1,1,3600000
+51101720,Lindano,1,1,1,49480
+49221508,Aros de básquetbol,1,1,1,1148340
+60101701,Libros de evaluación,1,1,1,339794
+25201901,Sistemas de Control de incendio o sistemas de extinguir,1,1,1,1000000
+86121501,Servicios de párvulos,1,1,1,92065
+31211916,Forradores de bandeja de pintura,1,1,1,22600
+31201508,Cinta adhesiva de grafito,1,1,1,82170
+13111308,Espuma del poliestireno,1,1,1,71640
+31201606,Calafateos,1,1,1,39940
+39101610,ampolletas de filamento,1,1,1,49000
+47131829,Productos de limpieza del baño,1,1,2,45715
+47131802,Abrillantadores o acabados de suelos,1,1,1,58560
+93141802,Servicios de reclutamiento,1,1,1,8250000
+46161504,Señales de tránsito,1,1,6,1211040
+11121608,Bambú,1,1,1,1680
+26121607,Cable de fibra óptica,1,1,1,1447500
+82111903,Agencia de noticias,1,1,1,8400000
+43223112,Componentes y equipo de red de acceso inalámbrico OSS,1,1,1,50659699
+80141802,Administración de listados de direcciones,1,1,1,2299160
+43233203,Software de administración de red privada virtual (VPN) o de seguridad de red,1,1,1,54893
+41104904,Filtros de células sinterizadas,1,1,1,176032
+43222801,Equipo de interconexión digital (DCX) de banda est,1,1,1,539676
+42142401,Solidificantes médicos de fluidos,1,1,1,760000
+41115817,Analizadores histológicos,1,1,1,395360
+51101504,Clindamicina,1,1,1,45900
+70151508,Servicios de asistencia forestal,1,1,1,19418325
+45121504,Cámaras digitales,1,1,1,1500832
+50202309,Bebida energética o deportiva,1,1,1,480000
+50202302,Hielo,1,1,1,108000
+52121602,Servilletas,1,1,1,1800
+10101601,Pollos,1,1,1,19497
+84131508,Seguro de traslado de dinero,1,1,7,2637
+43221721,Equipo de comunicación de datos de radiofrecuencia,1,1,1,12375000
+51101552,Ceftazidima,1,1,1,10403840
+23101521,Máquina de descarga de electrodo de cátodo de alambre,1,1,1,900000
+51141501,Acetazolamida,1,1,1,327000
+42142404,Aparatos médicos de succión o vacío,1,1,1,1596000
+42211812,Ayuda para calcetines y media para personas con discapacidad física,1,1,1,1620000
+43231501,Software de centro de llamadas o soporte técnico (,1,1,1,6540000
+21101708,Piezas de segadora o accesorios,1,1,2,41840
+20122511,Carretes de bobinar la tubería adujada,1,1,1,360000
+41102603,Suministros para identificación animal,1,1,1,72000
+26101611,Motores monofásicos,1,1,1,239496
+80141511,Informes de investigación de mercado,1,1,1,19400000
+81101605,Servicios electromecánicos,1,1,1,2928232
+24101620,Grúas sobre camión,1,1,1,550000
+46181507,Chalecos de protección,1,1,2,55058
+31241702,Espejos metálicos,1,1,1,55276
+44101601,Máquinas para cortar papel o accesorios,1,1,1,1092966
+22101905,Distribuidoras de hormigón,1,1,1,1457848
+81112104,Proveedores de buscadores para Internet,1,1,1,349398
+80101505,Asesorías en gestión estratégica,1,1,1,22689076
+83111510,Servicio de contestadora automática interactiva,1,1,1,72381876
+55121727,Letreros,1,1,1,296000
+24101602,Montacargas,1,1,1,274
+73131505,Servicios de elaboración de bebidas de agua,1,1,1,420168
+31162804,Topes de puerta,1,1,1,3822280
+46171506,Cajas fuertes,1,1,1,399980
+60123201,Cintas de papel,1,1,2,91500
+30222606,Gimnasio,1,1,1,3540000
+52161604,Adaptador de plus,1,1,1,30000
+52161526,Antenas,1,1,2,1420900
+86131701,Escuelas de conductores,1,1,1,1927500
+55121618,Fundas de etiquetas,1,1,1,58084
+11151712,Tejido de papel,1,1,1,58534
+27111504,Cuchillos de bolsillo,1,1,1,33866
+14111504,Papel para alimentar el tractor,1,1,1,140300
+44121507,Sobres de catálogo,1,1,4,167025
+51121802,Lovastatina,1,1,1,167440
+51161701,Acetilcisteina,1,1,1,625100
+51181822,Valerato de estradiol,1,1,1,1777350
+51121704,Lisinoprilo,1,1,1,1503000
+51121520,Clorhidrato de propafenona,1,1,2,3643920
+51121763,Telmisartán,1,1,1,2718000
+41123001,Desecadores de vaso,1,1,2,26008
+41111919,Aparato de detección para objetos no metálicos,1,1,1,620000
+31162001,Puntas,1,1,1,37050
+13101501,Caucho de látex,1,1,1,54000
+60122004,Kits de manualidades de cuerda,1,1,1,57000
+53141626,Bastidores de bordado,1,1,2,206400
+60122003,Agujas de coser a mano,1,1,2,218600
+60122903,Cuentas de madera,1,1,1,240000
+60121511,Lápices especializados,1,1,1,66000
+60122005,Telares manuales,1,1,1,315000
+90101802,Reparto de comidas a domicilio,1,1,2,186000
+52131503,ropaje,1,1,1,520000
+42151602,Bandas para matriz dental,1,1,1,826600
+55121612,Etiquetas de impresora,1,1,1,8100
+30222607,Piscina de natación,1,1,1,23676250
+11111503,Tierra de hoja,1,1,1,32000
+56101606,Maceteros,1,1,2,83885
+10191509,Insecticidas,1,1,1,56768
+94121505,Canchas cubiertas o al aire libre,1,1,1,102000
+51211502,Colchicina,1,1,1,196750
+51121805,Gemfibrozilo,1,1,1,314340
+30221010,Zona de juegos infantiles,1,1,1,1500000
+40141901,Conductos flexibles,1,1,1,1154440
+26101604,Motores de corriente alterna (CA) o corriente cont,1,1,1,1433126
+82101601,Publicidad en radio,1,1,1,1050421
+40142323,Disco de ruptura,1,1,2,73930
+31161813,Golillas giratorias,1,1,1,42100
+15121802,Lubricantes anticorrosivos,1,1,1,135000
+15121511,Pasta para montaje,1,1,1,55800
+31211504,Pinturas de cobertura,1,1,1,158000
+32131009,Aisladores para disipadores de calor,1,1,1,117200
+23171504,Sopletes,1,1,1,143600
+10101704,Carpas,1,1,1,588060
+60141009,Juegos científicos para niños,1,1,1,620000
+70121901,Mejora de pastos,1,1,1,270000
+43191629,"Carcasas o máscaras para PDA, Smartphones  o notebook",1,1,1,743389
+50112002,Carnes congeladas procesadas y preparadas,1,1,3,1167300
+90141703,Deportes juveniles,1,1,1,108000
+86131501,Teatro,1,1,1,2250000
+30161702,Tarimas,1,1,1,1600000
+41121510,Pipetas volumétricas,1,1,3,519790
+72102204,Instalación de sistemas de seguridad,1,1,1,3000000
+60131401,Címbalos,1,1,1,145600
+60131406,Xilófonos,1,1,1,279440
+92111602,Desarme de armas convencionales,1,1,1,999600
+47131611,Palas para basura,1,1,1,4011
+41115823,Analizadores de proteínas,1,1,1,64000
+55111513,Textos vocacionales o educativos electrónicos,1,1,4,9358625
+44111907,Diario mural y accesorios,1,1,2,1210000
+44111904,Paneles de letras y accesorios,1,1,1,201000
+56101503,Percheros para abrigos,1,1,1,464685
+44102906,Kit de limpieza para el computador o el equipamiento de oficina,1,1,1,936880
+60121507,Marcadores de témpera o tiza de ventana,1,1,1,28340
+70111508,Servicios de fumigación de plantas o árboles ornam,1,1,1,140000
+11121610,Maderas duras,1,1,1,1990
+31162406,Argollas de zunchamiento o de cercado,1,1,1,5034
+41111739,Bombillas de recambio para microscopios de laborat,1,1,1,12500
+11121803,Lino,1,1,1,37600
+11151701,Hilo de lana,1,1,1,3580
+11151507,Fibras de algodón,1,1,1,19500
+39111704,Luces proyectantes,1,1,1,20000
+53131503,Cepillos de dientes,1,1,1,31200
+53131502,Pasta de dientes,1,1,1,43200
+41121703,Tubos centrífugos,1,1,1,33800
+42281604,Desinfectantes de la superficie médica,1,1,1,150000
+42232002,Dispensadores trituradores de pastillas o accesorios,1,1,1,15600
+41123401,Vasos de dosificación,1,1,1,172000
+53131615,Productos de higiene femenina,1,1,1,7800
+73101613,"Servicios de producción de disolventes, glicoles o",1,1,5,3717640
+30171609,Ventanas fijas,1,1,1,350000
+15101701,Gasoil para calefacción núm. 2,1,1,1,1215500
+53102702,Uniformes varios,1,1,6,1182655
+49221505,Redes o mallas deportivas,1,1,1,210000
+94121513,Servicios de organización y producción de eventos deportivos,1,1,1,10075630
+43191501,Teléfonos celulares,1,1,1,1465536
+44101602,Máquina encuadernadora,1,1,1,38197
+45101702,Guillotinas de imprenta,1,1,1,91270
+44101603,Máquinas destructoras de papel o accesorios,1,1,1,282052
+93101601,Servicios de asesores,1,1,1,840336
+80121504,Servicio de defensa penal pública,1,1,4,816000000
+92121701,Mantenimiento de alarmas,1,1,1,150000
+42211615,Alzadores de asientos de inodoros para personas co,1,1,1,125010
+56121701,Estantes,1,1,1,1840000
+93121613,"Servicios de firma de tratados, adhesiones o rectificaciones",1,1,1,22240
+72101605,Levantamiento o reparación de techos,1,1,1,22000000
+42281806,Tiras indicadoras de esterilización,1,1,1,183000
+77121501,Gestión de la calidad del aire,1,1,1,3500000
+42251701,Cinturones de caminar para rehabilitación o terapia,1,1,1,639600
+14111524,Papel ministro,1,1,1,210000
+51201501,Azatioprina,1,1,1,1512000
+42293509,Sets de irrigación quirúrgica o accesorios,1,1,1,415800
+42201840,Dispositivos de sellado vascular,1,1,1,1150000
+30191505,Taburete escalonado,1,1,1,59900
+31162309,Estantes de montaje,1,1,1,144732
+60121523,Bolígrafos permanentes,1,1,1,6264
+26101805,Kits de reparación del motor,1,1,2,7447242
+85101603,Servicios de cuidado personal en instituciones especializadas,1,1,1,7592706
+78180303,Servicios de estacionamiento de vehículos,1,1,1,450000
+85121613,Servicios pediátricos,1,1,1,22689
+52151648,Termómetros de preparación de alimentos de uso doméstico,1,1,1,132600
+40101706,Persianas de aire acondicionado,1,1,1,1250000
+31162306,Soportes colgantes de montaje,1,1,1,124070
+42143601,Chalecos y chaquetas de sujeción,1,1,2,721000
+53101504,Pantalones y short para mujer,1,1,1,63700
+80141611,Personalización de regalos o productos promocionales,1,1,1,539000
+53101804,Abrigos y chaquetas para mujer,1,1,1,84000
+51181701,Betametasona,1,1,1,47600
+51141525,Fenitoína sódica,1,1,1,27520
+51141702,Haloperidol,1,1,1,32600
+50121707,Invertebrados acuáticos estables sin refrigerar,1,1,1,25684
+41113037,Lectores de microplacas,1,1,1,91810
+47101605,Productos químicos para eliminación de bacterias,1,1,1,294000
+41102903,Cápsulas de incrustación,1,1,1,24000
+40142313,Tapón de tubería,1,1,1,10000
+41122501,Corchos de laboratorio,1,1,1,170000
+40161507,Membranas de filtro,1,1,4,445800
+40142007,Mangueras especiales,1,1,1,21000
+40151728,Kits de reparación de bombas,1,1,1,30000
+41104921,Filtros de membrana para laboratorio,1,1,1,263120
+42182603,Luces o lámparas de cabeza para examen médico o accesorios,1,1,1,640320
+45121516,Videocámaras digitales,1,1,1,452681
+60101724,Carpetas o formularios de profesor suplente,1,1,1,900000
+42272204,Ventiladores de transporte,1,1,1,52179173
+60121518,Lápices de grafito,1,1,1,22380
+20102305,Vehículos de servicio,1,1,1,48097500
+52121604,Mantel de mesa,1,1,1,58000
+14121809,Papel de enmascaramiento,1,1,1,148000
+42295206,Unidades quirúrgicas endoscópicas,1,1,1,595000
+86131504,Formación en comunicación audiovisual,1,1,1,252000
+49121508,Mosquiteros,1,1,1,76020
+24131501,Refrigerador y congelador combinado,1,1,1,2489000
+41104810,Aparatos de fraccionamiento,1,1,1,13750000
+51131903,Gelatina,1,1,1,275000
+51181832,Combinación de etonogestrel y etinilestradiol,1,1,1,5105720
+51142210,Clorhidrato de etilmorfina,1,1,1,367500
+51131709,Bisulfato de clopidogrel,1,1,1,192450
+51241201,Ácido salicílico,1,1,1,1627500
+81111808,Análisis de sistemas,1,1,1,213
+42241803,Soportes para el cuello o collares cervicales,1,1,2,141000
+51211610,Sulfonato de poliestireno sódico,1,1,1,1600000
+51241210,Salicilato de metilo,1,1,1,500000
+80101901,Otras evaluaciones (Gestión y diseño institucional),1,1,1,1800000
+43211714,Equipo de identificación biométrica,1,1,1,2480
+81111901,Extracción de información de bases de datos,1,1,1,43834
+70171707,Servicios de mantenimiento y administración de pozos de agua,1,1,1,319328
+41105601,Kits o enzimas de secuenciado,1,1,1,729600
+42312501,Sujeciones mamarias,1,1,1,356580
+42203409,Valvulótomos angioscópicos,1,1,1,3550000
+86101605,Formación profesional en medicina,1,1,1,3586275
+25172602,Parachoques para automóviles,1,1,1,2819616
+30152002,Cercos de madera,1,1,1,633840
+30111501,Hormigón aireado,1,1,1,895000
