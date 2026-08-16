@@ -54,6 +54,31 @@ evidencia** (ver `metodologia-y-limites.md` §3.3).
 - **Pendiente (Fase 4):** matching por descripción (fuzzy/embeddings) para el 83% restante, y traer
   el catálogo de Convenio Marco completo desde su fuente (el OC de CM no trae ni UNSPSC, D13).
 
+## ⭐ 5b. Fuentes y categorías traen IDENTIFICADORES distintos (clave para normalizar)
+
+Confirmado con data real: **qué identificadores trae cada fuente/categoría no es uniforme**, y
+eso decide qué tan fácil es comparar "el mismo producto".
+
+| Fuente / categoría | UNSPSC | ID catálogo | Unidad de medida |
+|---|:--:|:--:|:--:|
+| **API ticket** (OC detalle) | ✅ | ✅ (en texto) | ❌ |
+| **OCDS – Trato Directo** | ❌ | ❌ (2%) | ✅ (100%) |
+| **OCDS – Convenio Marco** | ¿? (por confirmar) | ¿? (por confirmar) | ✅ (esperado) |
+| **OCDS – Licitación** | ✅ (esperado) | — | ✅ (esperado) |
+
+- **Trato Directo (OCDS)** es el **más pobre** para normalizar: sin UNSPSC ni ID de catálogo,
+  solo texto libre y sucio ("WARFARINA CM 5 MG enero", "IG msp TD RESOL. 235…"). Requiere matching
+  por texto (Fase 4).
+- **La combinación ideal** = identidad de producto (UNSPSC o ID catálogo) **+** unidad de medida.
+  La API ticket da lo primero; OCDS da la unidad. → **Cruzar ambas por código de OC** (que las dos
+  comparten, ej. `1077392-3364-SE19`) daría el dato completo.
+- **Estrategia:** usar OCDS **Convenio Marco / Licitación** (traen identificador) para el comparador
+  con unidad; Trato Directo dejarlo para matching por texto. Confirmar identificadores de CM y
+  Licitación al parsear una muestra de cada uno.
+- **Roles de las fuentes** (ver también §3 del maestro): API ticket = operacional/tiempo real
+  (protegida con ticket + rate limit); OCDS = transparencia/masivo (abierta, estándar
+  internacional). Los límites reflejan el propósito, no un capricho técnico.
+
 ## 6. Convenio Marco como consolidación existente
 
 - Al medir fragmentación (H1) hay que **descontar lo que ya se consolida vía Convenio Marco** antes
