@@ -95,6 +95,30 @@ y unidad) — es el "problema difícil de normalización de productos" (§5 del 
 **Qué haremos:** el estimador queda como herramienta, pero el número agregado **no se publica** como
 "ahorro del Estado" hasta tener normalización fina. Sí se puede mostrar en productos curados.
 
+### 3.2 El desbloqueo — agrupar por ID de catálogo (producto IDÉNTICO)
+
+La especificación de muchos ítems trae un **ID de catálogo de Convenio Marco** entre paréntesis
+(ej. `(1573012) ARROZ TUCAPEL GRADO 1 BOLSA 1K`). **Mismo ID = producto y presentación idénticos.**
+Está en ~17% de los ítems, pero da **normalización real** donde el UNSPSC no alcanzaba. Implementado
+en `comparador_identicos.py` (extracción del ID en `parse_items.extraer_catalogo_id`).
+
+Agrupando por ID de catálogo, excluyendo grupos con dispersión implausible (> 3×, que son contratos
+marco variables como combustible/alimentación, no productos unitarios), el ahorro estimado cae a un
+nivel **creíble**:
+
+| Método de agrupación | Gasto comparado | Ahorro conservador | Veredicto |
+|---|--:|--:|:--|
+| UNSPSC (grueso) | $7.259 M | 51 % | ❌ artefacto de heterogeneidad |
+| **ID de catálogo (idéntico), disp. ≤ 3×** | $260 M | **3,1 %** (6 % aspiracional) | ✅ **defendible** |
+
+Ejemplos de la muestra (mismo ID, unidad clara, dispersión real y modesta): papa fresca, pechuga de
+pollo congelado, huevo primera, plátano/kilo, aceite 1 L, quesillo 300 g, zanahoria/kilo — con
+diferencias de precio de 1,1× a 2,2× entre organismos.
+
+**Lectura:** aun comprando el **mismo producto por el mismo catálogo**, hay una dispersión de precio
+real de ~3–6 %. Eso sí es un ahorro potencial creíble y publicable (con drill-down). Escala a medida
+que (a) baje más data y (b) extendamos la normalización más allá del ID de catálogo (Fase 4).
+
 ## 4. Límites de cobertura (recordatorio)
 
 - **Muestra parcial**, no todo el gasto del Estado; empresas públicas excluidas.

@@ -23,10 +23,21 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from pathlib import Path
 from typing import Any, Iterator
 
 from .config import REPO_ROOT
+
+# ID de catálogo (Convenio Marco) que suele venir entre paréntesis en la
+# especificación, p.ej. "(1573012) ARROZ TUCAPEL...". Mismo ID = producto y
+# presentación idénticos → clave de normalización confiable (ver §5 del maestro).
+_RX_CATALOGO = re.compile(r"\((\d{5,8})\)")
+
+
+def extraer_catalogo_id(especificacion: str | None) -> str:
+    m = _RX_CATALOGO.search(especificacion or "")
+    return m.group(1) if m else ""
 
 # Orden de columnas de salida (una fila por ítem).
 COLUMNS = [
@@ -50,6 +61,7 @@ COLUMNS = [
     "codigo_categoria",
     "categoria",
     "codigo_producto",
+    "catalogo_id",
     "producto",
     "especificacion_comprador",
     "cantidad",
@@ -114,6 +126,7 @@ def iter_items_from_oc(oc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "codigo_categoria": it.get("CodigoCategoria", ""),
                 "categoria": it.get("Categoria", ""),
                 "codigo_producto": it.get("CodigoProducto", ""),
+                "catalogo_id": extraer_catalogo_id(it.get("EspecificacionComprador")),
                 "producto": it.get("Producto", ""),
                 "especificacion_comprador": it.get("EspecificacionComprador", ""),
                 "cantidad": cantidad if cantidad is not None else "",

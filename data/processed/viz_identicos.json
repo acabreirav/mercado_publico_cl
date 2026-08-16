@@ -1,0 +1,5044 @@
+{
+ "generado": "2026-08-16T16:59:47+00:00",
+ "gasto_comparado": 260282805,
+ "ahorro_conservador": 8161108,
+ "ahorro_aspiracional": 15535315,
+ "productos": [
+  {
+   "catalogo_id": "1563916",
+   "descripcion": "(1563916) PAPA FRESCA - PATAGONIA INIA SEGUNDA KILO V REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 670.0,
+   "precio_mediana": 756.0,
+   "precio_max": 1449.0,
+   "ratio_max_min": 2.16,
+   "ahorro_conservador": 3104640,
+   "gasto": 9378620,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 670.0,
+     "cantidad": 850.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 670.0,
+     "cantidad": 2500.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 756.0,
+     "cantidad": 850.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1449.0,
+     "cantidad": 480.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1449.0,
+     "cantidad": 4000.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1471347",
+   "descripcion": "(1471347) PECHUGA DESHUESADA POLLO CONGELADO - MARINADO BOLSA 1K UNIDAD NACIONAL RM",
+   "n_organismos": 3,
+   "n_items": 6,
+   "precio_min": 4036.0,
+   "precio_mediana": 4477.0,
+   "precio_max": 6919.0,
+   "ratio_max_min": 1.71,
+   "ahorro_conservador": 2210010,
+   "gasto": 42732376,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4036.0,
+     "cantidad": 316.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057491-1137-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4036.0,
+     "cantidad": 240.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057491-1142-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4477.0,
+     "cantidad": 7200.0,
+     "fecha": "2024-01-02",
+     "codigo_oc": "1057489-9-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4477.0,
+     "cantidad": 260.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-284-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 4477.0,
+     "cantidad": 185.0,
+     "fecha": "2024-01-17",
+     "codigo_oc": "1057491-290-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 6919.0,
+     "cantidad": 905.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1510-CM24",
+     "proveedor": "ARIZTIA COMERCIAL LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1944438",
+   "descripcion": "(1944438) ESTACIÓN DE SERVICIO DIESEL REGIÓN METROPOLITANA DESCUENTO PESOS POR LITRO",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1000000.0,
+   "precio_mediana": 1465145.0,
+   "precio_max": 1950000.0,
+   "ratio_max_min": 1.95,
+   "ahorro_conservador": 950000,
+   "gasto": 5880290,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1000000.0,
+     "cantidad": 1.0,
+     "fecha": "2024-01-08",
+     "codigo_oc": "1057495-26-CM24",
+     "proveedor": "ESMAX DISTRIBUCION LIMITADA"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1000000.0,
+     "cantidad": 1.0,
+     "fecha": "2024-03-07",
+     "codigo_oc": "1057501-3229-CM24",
+     "proveedor": "ESMAX DISTRIBUCION LIMITADA"
+    },
+    {
+     "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
+     "comuna": "Maipú",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1930290.0,
+     "cantidad": 1.0,
+     "fecha": "2024-02-05",
+     "codigo_oc": "1057472-1165-CM24",
+     "proveedor": "ESMAX DISTRIBUCION LIMITADA"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1950000.0,
+     "cantidad": 1.0,
+     "fecha": "2024-03-05",
+     "codigo_oc": "1057501-3051-CM24",
+     "proveedor": "ESMAX DISTRIBUCION LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1467199",
+   "descripcion": "(1467199) HUEVO PRIMERA 54-61 GR  - BLANCO 180 UNIDADES  V REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 40300.0,
+   "precio_mediana": 40300.0,
+   "precio_max": 48552.0,
+   "ratio_max_min": 1.2,
+   "ahorro_conservador": 272316,
+   "gasto": 3979916,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 40300.0,
+     "cantidad": 15.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 40300.0,
+     "cantidad": 5.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "",
+     "region": "",
+     "precio": 40300.0,
+     "cantidad": 39.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-521-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 48552.0,
+     "cantidad": 5.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 48552.0,
+     "cantidad": 28.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1472172",
+   "descripcion": "(1472172) PLATANO - AMARILLO KILO APROX. RM",
+   "n_organismos": 7,
+   "n_items": 14,
+   "precio_min": 1215.0,
+   "precio_mediana": 1576.5,
+   "precio_max": 1649.0,
+   "ratio_max_min": 1.36,
+   "ahorro_conservador": 226925,
+   "gasto": 11451370,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1215.0,
+     "cantidad": 278.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1215.0,
+     "cantidad": 1780.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1219.0,
+     "cantidad": 170.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-430-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1478.0,
+     "cantidad": 370.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1478.0,
+     "cantidad": 180.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1478.0,
+     "cantidad": 500.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1504.0,
+     "cantidad": 1350.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-184-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 1800.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1649.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 600.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 230.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-279-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 160.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1649.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1473672",
+   "descripcion": "(1473672) SANDIA - SANDIA MEDIANA UNIDAD RM",
+   "n_organismos": 4,
+   "n_items": 4,
+   "precio_min": 3511.0,
+   "precio_mediana": 3511.0,
+   "precio_max": 4107.0,
+   "ratio_max_min": 1.17,
+   "ahorro_conservador": 214560,
+   "gasto": 6839817,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3511.0,
+     "cantidad": 1500.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3511.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3511.0,
+     "cantidad": 15.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-429-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4107.0,
+     "cantidad": 360.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1433182",
+   "descripcion": "(1433182) ACEITE VEGETAL BELMONT BOTELLA 1 L UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 3961.0,
+   "precio_mediana": 4144.0,
+   "precio_max": 4250.0,
+   "ratio_max_min": 1.07,
+   "ahorro_conservador": 179140,
+   "gasto": 10435208,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 3961.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 3961.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 4144.0,
+     "cantidad": 300.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 4144.0,
+     "cantidad": 7.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+     "comuna": "Talcahuano",
+     "region": "Región del Biobío",
+     "precio": 4250.0,
+     "cantidad": 1690.0,
+     "fecha": "2023-01-10",
+     "codigo_oc": "1057544-114-CM23",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1434502",
+   "descripcion": "(1434502) QUESILLO SOPROLE POTE 300 G UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 2096.0,
+   "precio_mediana": 2110.0,
+   "precio_max": 2282.0,
+   "ratio_max_min": 1.09,
+   "ahorro_conservador": 153200,
+   "gasto": 4365360,
+   "items": [
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+     "comuna": "Los Angeles",
+     "region": "Región del Biobío",
+     "precio": 2096.0,
+     "cantidad": 440.0,
+     "fecha": "2024-02-14",
+     "codigo_oc": "1057417-2110-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 2096.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+     "comuna": "Los Angeles",
+     "region": "Región del Biobío",
+     "precio": 2110.0,
+     "cantidad": 440.0,
+     "fecha": "2024-01-29",
+     "codigo_oc": "1057417-1332-CM24",
+     "proveedor": "JOSÉ VICENTE SUAZO BENÍTEZ"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 2235.0,
+     "cantidad": 400.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1057429-285-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 2282.0,
+     "cantidad": 600.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057430-19-CM24",
+     "proveedor": "Distribuidora Ecomark Coronel SpA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1454857",
+   "descripcion": "(1454857) ALMIDON DE MAIZ MAIZENA BOLSA 1K UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 4280.0,
+   "precio_mediana": 5340.0,
+   "precio_max": 7155.0,
+   "ratio_max_min": 1.67,
+   "ahorro_conservador": 139755,
+   "gasto": 6055315,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+     "comuna": "Talcahuano",
+     "region": "Región del Biobío",
+     "precio": 4280.0,
+     "cantidad": 1190.0,
+     "fecha": "2023-01-10",
+     "codigo_oc": "1057544-114-CM23",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 5340.0,
+     "cantidad": 27.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 5340.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 7155.0,
+     "cantidad": 27.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 7155.0,
+     "cantidad": 50.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475472",
+   "descripcion": "(1475472) ZANAHORIA FRESCA - GRANEL KILO APROX. RM",
+   "n_organismos": 5,
+   "n_items": 10,
+   "precio_min": 738.0,
+   "precio_mediana": 740.0,
+   "precio_max": 830.0,
+   "ratio_max_min": 1.12,
+   "ahorro_conservador": 120100,
+   "gasto": 3869900,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 738.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 740.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 740.0,
+     "cantidad": 700.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 740.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 740.0,
+     "cantidad": 160.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 740.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 745.0,
+     "cantidad": 400.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 745.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 745.0,
+     "cantidad": 1200.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 830.0,
+     "cantidad": 1240.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-184-CM24",
+     "proveedor": "vitalmento"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461402",
+   "descripcion": "(1461402) BETARRAGA FRESCA - PAQUETE APROX. 1 K UNIDAD RM",
+   "n_organismos": 6,
+   "n_items": 11,
+   "precio_min": 577.0,
+   "precio_mediana": 619.0,
+   "precio_max": 733.0,
+   "ratio_max_min": 1.27,
+   "ahorro_conservador": 73610,
+   "gasto": 1257055,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 577.0,
+     "cantidad": 350.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 595.0,
+     "cantidad": 150.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-170-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 595.0,
+     "cantidad": 350.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-184-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 619.0,
+     "cantidad": 240.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 619.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 619.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 711.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 733.0,
+     "cantidad": 15.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 733.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 733.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 733.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1474932",
+   "descripcion": "(1474932) UVA - BLANCA SIN PEPA KILO APROX. RM",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1350.0,
+   "precio_mediana": 1495.0,
+   "precio_max": 1531.0,
+   "ratio_max_min": 1.13,
+   "ahorro_conservador": 61200,
+   "gasto": 3063370,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1350.0,
+     "cantidad": 90.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1443.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-82-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1495.0,
+     "cantidad": 140.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1531.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1057489-123-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1531.0,
+     "cantidad": 700.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1465737",
+   "descripcion": "(1465737) DURAZNO - PLATANO MEDIANO KILO APROX. RM",
+   "n_organismos": 5,
+   "n_items": 8,
+   "precio_min": 1260.0,
+   "precio_mediana": 1286.0,
+   "precio_max": 1423.0,
+   "ratio_max_min": 1.13,
+   "ahorro_conservador": 54695,
+   "gasto": 11994925,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1260.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1286.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1286.0,
+     "cantidad": 6000.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1286.0,
+     "cantidad": 490.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1286.0,
+     "cantidad": 600.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-82-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1333.0,
+     "cantidad": 820.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1333.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1423.0,
+     "cantidad": 15.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-430-CM24",
+     "proveedor": "vitalmento"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1474962",
+   "descripcion": "(1474962) UVA - ROSADA SIN PEPA KILO APROX. RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1265.0,
+   "precio_mediana": 1266.0,
+   "precio_max": 1443.0,
+   "ratio_max_min": 1.14,
+   "ahorro_conservador": 53112,
+   "gasto": 617614,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1265.0,
+     "cantidad": 8.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1265.0,
+     "cantidad": 126.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1267.0,
+     "cantidad": 12.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-430-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1443.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1473867",
+   "descripcion": "(1473867) TOMATE FRESCO - LARGA VIDA GRANDE KILO APROX. RM",
+   "n_organismos": 7,
+   "n_items": 10,
+   "precio_min": 1100.0,
+   "precio_mediana": 1438.0,
+   "precio_max": 1592.0,
+   "ratio_max_min": 1.45,
+   "ahorro_conservador": 44660,
+   "gasto": 11536430,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1100.0,
+     "cantidad": 100.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-429-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 15.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 500.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1438.0,
+     "cantidad": 190.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 4500.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 480.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1438.0,
+     "cantidad": 1640.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1592.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1592.0,
+     "cantidad": 250.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1469157",
+   "descripcion": "(1469157) MELON - CALAMEÑO GRANDE UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1269.0,
+   "precio_mediana": 1292.0,
+   "precio_max": 1356.0,
+   "ratio_max_min": 1.07,
+   "ahorro_conservador": 36600,
+   "gasto": 971456,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1315.0,
+     "cantidad": 200.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1356.0,
+     "cantidad": 500.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1590448",
+   "descripcion": "(1590448) CREMA DE LECHE COLUN PARA BATIR CAJA 1 L UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 3776.0,
+   "precio_mediana": 3916.0,
+   "precio_max": 4283.0,
+   "ratio_max_min": 1.13,
+   "ahorro_conservador": 30420,
+   "gasto": 734452,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 3776.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 3776.0,
+     "cantidad": 2.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 4056.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+     "comuna": "Talcahuano",
+     "region": "Región del Biobío",
+     "precio": 4283.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1057544-178-CM24",
+     "proveedor": "Victor Rosales Comercializadora E.I.R.L"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1564610",
+   "descripcion": "(1564610) ARVEJA CONGELADA INTERAGRO BOLSA 1K RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 2591.0,
+   "precio_mediana": 2663.0,
+   "precio_max": 2828.0,
+   "ratio_max_min": 1.09,
+   "ahorro_conservador": 25560,
+   "gasto": 3369395,
+   "items": [
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 2591.0,
+     "cantidad": 35.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2591.0,
+     "cantidad": 1050.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2735.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 2828.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-160-CM24",
+     "proveedor": "FrutiVerde"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1433482",
+   "descripcion": "(1433482) JUGO DE LIMON TRAVERSO SUCEDANEO BOTELLA 1 L UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1805.0,
+   "precio_mediana": 1945.5,
+   "precio_max": 2042.0,
+   "ratio_max_min": 1.13,
+   "ahorro_conservador": 19400,
+   "gasto": 1092000,
+   "items": [
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "",
+     "region": "",
+     "precio": 1805.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-590-CM24",
+     "proveedor": "DISTRIBUIDORA Y COMERCIAL DIMAK LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1945.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-13",
+     "codigo_oc": "1057430-454-CM24",
+     "proveedor": "Victor Rosales Comercializadora E.I.R.L"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1946.0,
+     "cantidad": 200.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 2042.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1436167",
+   "descripcion": "(1436167) AZUCAR SACHET IANSA 5 G CAJA 800 UNIDADES VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 15873.0,
+   "precio_mediana": 18989.0,
+   "precio_max": 20729.0,
+   "ratio_max_min": 1.31,
+   "ahorro_conservador": 17400,
+   "gasto": 860027,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD BIO BIO HOSPITAL SANTA BARBARA",
+     "comuna": "Santa Bárbara",
+     "region": "Región del Biobío",
+     "precio": 15873.0,
+     "cantidad": 16.0,
+     "fecha": "2024-02-07",
+     "codigo_oc": "1057419-40-CM24",
+     "proveedor": "DIMERC S A"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 18989.0,
+     "cantidad": 10.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 18989.0,
+     "cantidad": 11.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 20729.0,
+     "cantidad": 10.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1465954",
+   "descripcion": "(1465954) ESPINACA FRESCA - PAQUETE APROX. 1 K UNIDAD V REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 965.0,
+   "precio_mediana": 965.0,
+   "precio_max": 994.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 14297,
+   "gasto": 933942,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 350.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 994.0,
+     "cantidad": 142.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 994.0,
+     "cantidad": 351.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1450732",
+   "descripcion": "(1450732) ARROZ TUCAPEL GRADO 1 BOLSA 1K UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1157.0,
+   "precio_mediana": 1334.0,
+   "precio_max": 1396.0,
+   "ratio_max_min": 1.21,
+   "ahorro_conservador": 12400,
+   "gasto": 7997588,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+     "comuna": "Talcahuano",
+     "region": "Región del Biobío",
+     "precio": 1157.0,
+     "cantidad": 6000.0,
+     "fecha": "2023-01-10",
+     "codigo_oc": "1057544-114-CM23",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1334.0,
+     "cantidad": 400.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1334.0,
+     "cantidad": 102.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD TALCAHUANO HOSPITAL DE",
+     "comuna": "",
+     "region": "",
+     "precio": 1334.0,
+     "cantidad": 80.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057543-370-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1396.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1473829",
+   "descripcion": "(1473829) TOMATE FRESCO - LARGA VIDA PEQUEÑO KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1387.0,
+   "precio_mediana": 1387.0,
+   "precio_max": 1445.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 11020,
+   "gasto": 1456274,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1387.0,
+     "cantidad": 502.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1387.0,
+     "cantidad": 130.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1387.0,
+     "cantidad": 190.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1387.0,
+     "cantidad": 30.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1445.0,
+     "cantidad": 190.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1460472",
+   "descripcion": "(1460472) ACEITUNA - AZAPA BOLSA 1K UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 3753.0,
+   "precio_mediana": 3825.5,
+   "precio_max": 4305.0,
+   "ratio_max_min": 1.15,
+   "ahorro_conservador": 10242,
+   "gasto": 188736,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3753.0,
+     "cantidad": 8.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3753.0,
+     "cantidad": 10.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3898.0,
+     "cantidad": 9.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4305.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1436062",
+   "descripcion": "(1436062) AZUCAR IANSA BLANCA GRANULADA BOLSA 1K  UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1265.0,
+   "precio_mediana": 1480.0,
+   "precio_max": 1615.0,
+   "ratio_max_min": 1.28,
+   "ahorro_conservador": 9045,
+   "gasto": 444485,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD BIO BIO HOSPITAL SANTA BARBARA",
+     "comuna": "Santa Bárbara",
+     "region": "Región del Biobío",
+     "precio": 1265.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-07",
+     "codigo_oc": "1057419-40-CM24",
+     "proveedor": "DIMERC S A"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1431.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-13",
+     "codigo_oc": "1057430-454-CM24",
+     "proveedor": "Victor Rosales Comercializadora E.I.R.L"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1480.0,
+     "cantidad": 67.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1480.0,
+     "cantidad": 10.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1615.0,
+     "cantidad": 67.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1460577",
+   "descripcion": "(1460577) ACELGA FRESCA - PAQUETE APROX. 1 K UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 668.0,
+   "precio_mediana": 777.0,
+   "precio_max": 800.0,
+   "ratio_max_min": 1.2,
+   "ahorro_conservador": 8970,
+   "gasto": 1121845,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 668.0,
+     "cantidad": 360.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 668.0,
+     "cantidad": 800.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 777.0,
+     "cantidad": 45.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-429-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 800.0,
+     "cantidad": 350.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 800.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1469367",
+   "descripcion": "(1469367) NARANJA - THOMSON GRANDE KILO APROX. RM",
+   "n_organismos": 8,
+   "n_items": 10,
+   "precio_min": 1413.0,
+   "precio_mediana": 1560.0,
+   "precio_max": 1579.0,
+   "ratio_max_min": 1.12,
+   "ahorro_conservador": 8632,
+   "gasto": 4951612,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1413.0,
+     "cantidad": 500.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1440.0,
+     "cantidad": 445.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1440.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1440.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1560.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1560.0,
+     "cantidad": 480.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1560.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+     "comuna": "Independencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1561.0,
+     "cantidad": 120.0,
+     "fecha": "2023-10-12",
+     "codigo_oc": "1549-4772-CM23",
+     "proveedor": "SERGIO AURELIO LETELIER ANGUITA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 1579.0,
+     "cantidad": 168.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1579.0,
+     "cantidad": 280.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-429-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1465557",
+   "descripcion": "(1465557) DIENTE DE DRAGON - BOLSA 500 GR UNIDAD RM",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 776.0,
+   "precio_mediana": 800.0,
+   "precio_max": 992.0,
+   "ratio_max_min": 1.28,
+   "ahorro_conservador": 7800,
+   "gasto": 239240,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 776.0,
+     "cantidad": 90.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 800.0,
+     "cantidad": 150.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 800.0,
+     "cantidad": 8.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-279-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 965.0,
+     "cantidad": 24.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-430-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 992.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461679",
+   "descripcion": "(1461679) CEBOLLA FRESCA - CHALOTA KILO APROX. V REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 833.0,
+   "precio_mediana": 965.0,
+   "precio_max": 1004.0,
+   "ratio_max_min": 1.21,
+   "ahorro_conservador": 7410,
+   "gasto": 324085,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 833.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 55.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1004.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1004.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1468864",
+   "descripcion": "(1468864) MANZANA - FUJI PEQUEÑO KILO APROX. V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1795.0,
+   "precio_mediana": 1803.0,
+   "precio_max": 1811.0,
+   "ratio_max_min": 1.01,
+   "ahorro_conservador": 7152,
+   "gasto": 2839634,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1795.0,
+     "cantidad": 80.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1795.0,
+     "cantidad": 600.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1811.0,
+     "cantidad": 94.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "",
+     "region": "",
+     "precio": 1811.0,
+     "cantidad": 800.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-521-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475652",
+   "descripcion": "(1475652) ZAPALLO FRESCO PROCESADO - CAMOTE CUBO BOLSA 1 K UNIDAD RM",
+   "n_organismos": 4,
+   "n_items": 4,
+   "precio_min": 1421.0,
+   "precio_mediana": 1421.0,
+   "precio_max": 1423.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 7000,
+   "gasto": 7572404,
+   "items": [
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1421.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-160-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1421.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-84-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1421.0,
+     "cantidad": 524.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1524-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+     "comuna": "Independencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1423.0,
+     "cantidad": 3500.0,
+     "fecha": "2024-02-19",
+     "codigo_oc": "1549-1034-CM24",
+     "proveedor": "FrutiVerde"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1433287",
+   "descripcion": "(1433287) AVENA SELECTA INSTANTANEA CAJA 500 G UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 1232.0,
+   "precio_mediana": 1232.0,
+   "precio_max": 1294.0,
+   "ratio_max_min": 1.05,
+   "ahorro_conservador": 6944,
+   "gasto": 265664,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1232.0,
+     "cantidad": 12.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1232.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1232.0,
+     "cantidad": 26.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1294.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1294.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1440682",
+   "descripcion": "(1440682) MERMELADA SIN AZUCAR REGIMEL DAMASCO BOLSA 200 G UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 1569.0,
+   "precio_mediana": 1569.0,
+   "precio_max": 1590.0,
+   "ratio_max_min": 1.01,
+   "ahorro_conservador": 6720,
+   "gasto": 1183470,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1569.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1569.0,
+     "cantidad": 70.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1569.0,
+     "cantidad": 240.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1590.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1590.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1430497",
+   "descripcion": "(1430497) CABELLO DE ANGEL PARMA CORTO BOLSA 400 G UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 930.0,
+   "precio_mediana": 942.5,
+   "precio_max": 990.0,
+   "ratio_max_min": 1.06,
+   "ahorro_conservador": 6475,
+   "gasto": 492700,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 930.0,
+     "cantidad": 110.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 930.0,
+     "cantidad": 200.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "",
+     "region": "",
+     "precio": 955.0,
+     "cantidad": 100.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-590-CM24",
+     "proveedor": "DISTRIBUIDORA Y COMERCIAL DIMAK LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 990.0,
+     "cantidad": 110.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461394",
+   "descripcion": "(1461394) BETARRAGA FRESCA - PAQUETE APROX. 1 K UNIDAD V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 665.0,
+   "precio_mediana": 675.5,
+   "precio_max": 686.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 5418,
+   "gasto": 443751,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 665.0,
+     "cantidad": 65.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 665.0,
+     "cantidad": 70.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 686.0,
+     "cantidad": 436.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 686.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1444672",
+   "descripcion": "(1444672) LENTEJA BANQUETE 6 MM BOLSA 1K UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 2299.0,
+   "precio_mediana": 2299.0,
+   "precio_max": 2378.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 5293,
+   "gasto": 488083,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 2299.0,
+     "cantidad": 67.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 2299.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 2299.0,
+     "cantidad": 16.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 2378.0,
+     "cantidad": 67.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1471969",
+   "descripcion": "(1471969) PIMENTON FRESCO - ROJO UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 648.0,
+   "precio_mediana": 648.0,
+   "precio_max": 690.0,
+   "ratio_max_min": 1.06,
+   "ahorro_conservador": 5040,
+   "gasto": 481968,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 648.0,
+     "cantidad": 272.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 648.0,
+     "cantidad": 64.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 648.0,
+     "cantidad": 130.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 648.0,
+     "cantidad": 150.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 690.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1449937",
+   "descripcion": "(1449937) SEMOLA CAROZZI BOLSA 500 G UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 1773.0,
+   "precio_mediana": 1968.0,
+   "precio_max": 2007.0,
+   "ratio_max_min": 1.13,
+   "ahorro_conservador": 4680,
+   "gasto": 746796,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1773.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1773.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1968.0,
+     "cantidad": 67.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1968.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 2007.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-13",
+     "codigo_oc": "1057430-454-CM24",
+     "proveedor": "Victor Rosales Comercializadora E.I.R.L"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1466457",
+   "descripcion": "(1466457) FRUTILLA  - BOLSA KILO APROX. RM",
+   "n_organismos": 3,
+   "n_items": 6,
+   "precio_min": 2875.0,
+   "precio_mediana": 2875.0,
+   "precio_max": 2979.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 4576,
+   "gasto": 729076,
+   "items": [
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2875.0,
+     "cantidad": 30.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 2875.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2875.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-279-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2875.0,
+     "cantidad": 48.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 2979.0,
+     "cantidad": 20.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2979.0,
+     "cantidad": 24.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1440667",
+   "descripcion": "(1440667) MERMELADA SIN AZUCAR REGIMEL DURAZNO BOLSA 200 G UNIDAD VIII REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 1185.0,
+   "precio_mediana": 1579.5,
+   "precio_max": 1590.0,
+   "ratio_max_min": 1.34,
+   "ahorro_conservador": 3948,
+   "gasto": 5822040,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
+     "comuna": "Talcahuano",
+     "region": "Región del Biobío",
+     "precio": 1185.0,
+     "cantidad": 4210.0,
+     "fecha": "2023-01-10",
+     "codigo_oc": "1057544-114-CM23",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1569.0,
+     "cantidad": 70.0,
+     "fecha": "2024-02-15",
+     "codigo_oc": "1057430-474-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 1569.0,
+     "cantidad": 80.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1590.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 1590.0,
+     "cantidad": 120.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 1590.0,
+     "cantidad": 136.0,
+     "fecha": "2024-01-10",
+     "codigo_oc": "1057430-98-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1460569",
+   "descripcion": "(1460569) ACELGA FRESCA - PAQUETE APROX. 1 K UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 610.0,
+   "precio_mediana": 610.0,
+   "precio_max": 658.0,
+   "ratio_max_min": 1.08,
+   "ahorro_conservador": 3840,
+   "gasto": 1072560,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 610.0,
+     "cantidad": 372.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 610.0,
+     "cantidad": 120.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 610.0,
+     "cantidad": 80.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 610.0,
+     "cantidad": 700.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 610.0,
+     "cantidad": 400.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 658.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475629",
+   "descripcion": "(1475629) ZAPALLO FRESCO - ITALIANO 100 UNIDADES V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 385.0,
+   "precio_mediana": 385.0,
+   "precio_max": 386.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 2800,
+   "gasto": 3495520,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 385.0,
+     "cantidad": 1492.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 385.0,
+     "cantidad": 480.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 385.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 385.0,
+     "cantidad": 4000.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 386.0,
+     "cantidad": 300.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 386.0,
+     "cantidad": 2500.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461514",
+   "descripcion": "(1461514) BROCOLI FRESCO - ENTERO APROX. 1 K UNIDAD V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 859.0,
+   "precio_mediana": 872.0,
+   "precio_max": 885.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 2444,
+   "gasto": 200740,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 859.0,
+     "cantidad": 20.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 859.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 885.0,
+     "cantidad": 156.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 885.0,
+     "cantidad": 32.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1474909",
+   "descripcion": "(1474909) UVA - BLANCA CON PEPA KILO APROX. V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1537.0,
+   "precio_mediana": 1537.0,
+   "precio_max": 1593.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 2240,
+   "gasto": 358824,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1537.0,
+     "cantidad": 32.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1537.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1537.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1593.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461019",
+   "descripcion": "(1461019) APIO FRESCO - PAQUETE UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 981.0,
+   "precio_mediana": 1008.0,
+   "precio_max": 1184.0,
+   "ratio_max_min": 1.21,
+   "ahorro_conservador": 1760,
+   "gasto": 358115,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 981.0,
+     "cantidad": 15.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 981.0,
+     "cantidad": 40.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1008.0,
+     "cantidad": 178.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1008.0,
+     "cantidad": 32.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1008.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1184.0,
+     "cantidad": 10.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1440952",
+   "descripcion": "(1440952) SAL LOBOS FINA BOLSA 1K UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 524.0,
+   "precio_mediana": 524.0,
+   "precio_max": 544.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 1340,
+   "gasto": 197840,
+   "items": [
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 524.0,
+     "cantidad": 67.0,
+     "fecha": "2024-02-06",
+     "codigo_oc": "1057429-402-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "Lota",
+     "region": "Región del Biobío",
+     "precio": 524.0,
+     "cantidad": 200.0,
+     "fecha": "2024-02-13",
+     "codigo_oc": "1057430-454-CM24",
+     "proveedor": "Victor Rosales Comercializadora E.I.R.L"
+    },
+    {
+     "organismo": "SERVICIO SALUD TALCAHUANO HOSPITAL PENCO-LIRQUEN",
+     "comuna": "Penco",
+     "region": "Región del Biobío",
+     "precio": 524.0,
+     "cantidad": 41.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057540-595-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 544.0,
+     "cantidad": 67.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1462774",
+   "descripcion": "(1462774) COLIFLOR FRESCA - ENTERA APROX. 1 K KILO APROX. V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 867.0,
+   "precio_mediana": 882.5,
+   "precio_max": 893.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 1281,
+   "gasto": 130671,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 867.0,
+     "cantidad": 15.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 872.0,
+     "cantidad": 10.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 893.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 893.0,
+     "cantidad": 32.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475622",
+   "descripcion": "(1475622) ZAPALLO FRESCO - ITALIANO UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 7,
+   "precio_min": 238.0,
+   "precio_mediana": 238.0,
+   "precio_max": 243.0,
+   "ratio_max_min": 1.02,
+   "ahorro_conservador": 1250,
+   "gasto": 1309774,
+   "items": [
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 238.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 238.0,
+     "cantidad": 2400.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 238.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 238.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 238.0,
+     "cantidad": 1018.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 238.0,
+     "cantidad": 1500.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-82-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Joaquín",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 243.0,
+     "cantidad": 250.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1411-430-CM24",
+     "proveedor": "vitalmento"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475599",
+   "descripcion": "(1475599) ZAPALLO FRESCO - CAMOTE 100 KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 965.0,
+   "precio_mediana": 965.0,
+   "precio_max": 966.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 1190,
+   "gasto": 3077610,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 268.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 180.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 965.0,
+     "cantidad": 1450.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 966.0,
+     "cantidad": 190.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 966.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1469329",
+   "descripcion": "(1469329) NARANJA - THOMSON PEQUEÑA KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1591.0,
+   "precio_mediana": 1591.0,
+   "precio_max": 1612.0,
+   "ratio_max_min": 1.01,
+   "ahorro_conservador": 1050,
+   "gasto": 1203846,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1591.0,
+     "cantidad": 400.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1591.0,
+     "cantidad": 86.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1591.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1591.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1612.0,
+     "cantidad": 50.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1460809",
+   "descripcion": "(1460809) AJO FRESCO - CHINO UNIDAD V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 185.0,
+   "precio_mediana": 187.5,
+   "precio_max": 190.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 752,
+   "gasto": 81240,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 185.0,
+     "cantidad": 65.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 185.0,
+     "cantidad": 65.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 190.0,
+     "cantidad": 237.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 190.0,
+     "cantidad": 64.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1462669",
+   "descripcion": "(1462669) CILANTRO FRESCO - PAQUETE APROX. 500 GR UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 690.0,
+   "precio_mediana": 700.5,
+   "precio_max": 711.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 735,
+   "gasto": 67020,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 690.0,
+     "cantidad": 6.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 690.0,
+     "cantidad": 4.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 690.0,
+     "cantidad": 15.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 711.0,
+     "cantidad": 42.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 711.0,
+     "cantidad": 18.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 711.0,
+     "cantidad": 10.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1483837",
+   "descripcion": "(1483837) SALCHICHA PF SUREÑAS DISPLAY 1K UNIDAD VIII REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 3763.0,
+   "precio_mediana": 4102.0,
+   "precio_max": 4103.0,
+   "ratio_max_min": 1.09,
+   "ahorro_conservador": 60,
+   "gasto": 490266,
+   "items": [
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
+     "comuna": "Los Angeles",
+     "region": "Región del Biobío",
+     "precio": 3763.0,
+     "cantidad": 6.0,
+     "fecha": "2024-02-14",
+     "codigo_oc": "1057417-2110-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 4102.0,
+     "cantidad": 24.0,
+     "fecha": "2024-01-11",
+     "codigo_oc": "1057429-147-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+     "comuna": "Coronel",
+     "region": "Región del Biobío",
+     "precio": 4102.0,
+     "cantidad": 30.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057429-215-CM24",
+     "proveedor": "SERVICIOS INTEGRADOS SIDAPT LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LOTA",
+     "comuna": "",
+     "region": "",
+     "precio": 4103.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1057430-30-CM24",
+     "proveedor": "RICARDO LIZANDRO FIERRO AYALA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1472164",
+   "descripcion": "(1472164) PLATANO - AMARILLO KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 1419.0,
+   "precio_mediana": 1478.0,
+   "precio_max": 1478.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 0,
+   "gasto": 1492828,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1419.0,
+     "cantidad": 100.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1419.0,
+     "cantidad": 300.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1478.0,
+     "cantidad": 250.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1478.0,
+     "cantidad": 86.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1478.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1478.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1465609",
+   "descripcion": "(1465609) DURAZNO - PELADO GRANDE KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1609.0,
+   "precio_mediana": 1667.0,
+   "precio_max": 1667.0,
+   "ratio_max_min": 1.04,
+   "ahorro_conservador": 0,
+   "gasto": 2617011,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1609.0,
+     "cantidad": 1092.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1609.0,
+     "cantidad": 32.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1667.0,
+     "cantidad": 95.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1667.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1667.0,
+     "cantidad": 300.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1469179",
+   "descripcion": "(1469179) MELON - TUNA MEDIANO UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1241.0,
+   "precio_mediana": 1241.0,
+   "precio_max": 1241.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 0,
+   "gasto": 533630,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1241.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1241.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1241.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1241.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 1241.0,
+     "cantidad": 70.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1471774",
+   "descripcion": "(1471774) PERA  - PAKAM GRANDE KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 1414.0,
+   "precio_mediana": 1442.0,
+   "precio_max": 1442.0,
+   "ratio_max_min": 1.02,
+   "ahorro_conservador": 0,
+   "gasto": 3555874,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1414.0,
+     "cantidad": 55.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1442.0,
+     "cantidad": 1258.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1442.0,
+     "cantidad": 94.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1442.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "",
+     "region": "",
+     "precio": 1442.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-521-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1475464",
+   "descripcion": "(1475464) ZANAHORIA FRESCA - GRANEL KILO APROX. V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 785.0,
+   "precio_mediana": 785.0,
+   "precio_max": 785.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 0,
+   "gasto": 3190240,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 664.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 140.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 130.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 1500.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 785.0,
+     "cantidad": 1550.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1471624",
+   "descripcion": "(1471624) PEPINO FRESCO - ENSALADA UNIDAD V REGION",
+   "n_organismos": 4,
+   "n_items": 6,
+   "precio_min": 337.0,
+   "precio_mediana": 337.0,
+   "precio_max": 337.0,
+   "ratio_max_min": 1.0,
+   "ahorro_conservador": 0,
+   "gasto": 213321,
+   "items": [
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 320.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 128.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 45.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 30.0,
+     "fecha": "2024-02-20",
+     "codigo_oc": "1057554-1177-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+     "comuna": "Valparaíso",
+     "region": "Región de Valparaíso",
+     "precio": 337.0,
+     "cantidad": 70.0,
+     "fecha": "2024-01-18",
+     "codigo_oc": "1057554-504-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1473529",
+   "descripcion": "(1473529) REPOLLO FRESCO - BLANCO UNIDAD V REGION",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1237.0,
+   "precio_mediana": 1320.0,
+   "precio_max": 1320.0,
+   "ratio_max_min": 1.07,
+   "ahorro_conservador": 0,
+   "gasto": 165324,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1237.0,
+     "cantidad": 12.0,
+     "fecha": "2024-02-27",
+     "codigo_oc": "1057379-121-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "HOSPITAL PSIQUIATRICO DR. PHILIPPE PINEL PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1320.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-23",
+     "codigo_oc": "1057370-49-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE LLAY LLAY",
+     "comuna": "Llay-Llay",
+     "region": "Región de Valparaíso",
+     "precio": 1320.0,
+     "cantidad": 16.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057374-57-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ACONCAGUA HOSPITAL DE PUTAENDO",
+     "comuna": "Putaendo",
+     "region": "Región de Valparaíso",
+     "precio": 1320.0,
+     "cantidad": 8.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057379-70-CM24",
+     "proveedor": "RODRIGO FRANCISCO FUENTES ESTAY"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461522",
+   "descripcion": "(1461522) BROCOLI FRESCO - ENTERO APROX. 1 K UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 870.0,
+   "precio_mediana": 1073.0,
+   "precio_max": 1073.0,
+   "ratio_max_min": 1.23,
+   "ahorro_conservador": 0,
+   "gasto": 2147334,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 870.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1073.0,
+     "cantidad": 8.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1073.0,
+     "cantidad": 50.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1073.0,
+     "cantidad": 1700.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461642",
+   "descripcion": "(1461642) CEBOLLA FRESCA - MORADA KILO APROX. RM",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 1194.0,
+   "precio_mediana": 1492.0,
+   "precio_max": 1492.0,
+   "ratio_max_min": 1.25,
+   "ahorro_conservador": 0,
+   "gasto": 1105580,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1194.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1492.0,
+     "cantidad": 30.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1492.0,
+     "cantidad": 400.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1492.0,
+     "cantidad": 150.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1492.0,
+     "cantidad": 145.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1469202",
+   "descripcion": "(1469202) MELON - TUNA GRANDE UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 1107.0,
+   "precio_mediana": 1269.0,
+   "precio_max": 1269.0,
+   "ratio_max_min": 1.15,
+   "ahorro_conservador": 0,
+   "gasto": 4409046,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1107.0,
+     "cantidad": 3600.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1057489-122-CM24",
+     "proveedor": "JOSÉ ANTONIO CAMPOS MERINO"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 10.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1269.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1563978",
+   "descripcion": "(1563978) PAPA FRESCA - PATAGONIA INIA PRIMERA KILO APROX RM",
+   "n_organismos": 4,
+   "n_items": 7,
+   "precio_min": 790.0,
+   "precio_mediana": 1230.0,
+   "precio_max": 1230.0,
+   "ratio_max_min": 1.56,
+   "ahorro_conservador": 0,
+   "gasto": 5716534,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 790.0,
+     "cantidad": 3000.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1214.0,
+     "cantidad": 431.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-170-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1215.0,
+     "cantidad": 1200.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-86-CM24",
+     "proveedor": "JAIME ALFONSO GONZÁLEZ PAREDES"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1230.0,
+     "cantidad": 140.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1230.0,
+     "cantidad": 450.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1230.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1230.0,
+     "cantidad": 220.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1471992",
+   "descripcion": "(1471992) PIMENTON FRESCO - VERDE UNIDAD RM",
+   "n_organismos": 6,
+   "n_items": 11,
+   "precio_min": 398.0,
+   "precio_mediana": 428.0,
+   "precio_max": 428.0,
+   "ratio_max_min": 1.08,
+   "ahorro_conservador": 0,
+   "gasto": 2955462,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 398.0,
+     "cantidad": 1000.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 399.0,
+     "cantidad": 150.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 400.0,
+     "cantidad": 33.0,
+     "fecha": "2024-02-22",
+     "codigo_oc": "1057491-1188-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 424.0,
+     "cantidad": 4125.0,
+     "fecha": "2024-01-25",
+     "codigo_oc": "1411-170-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 426.0,
+     "cantidad": 160.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 428.0,
+     "cantidad": 35.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 428.0,
+     "cantidad": 1200.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 428.0,
+     "cantidad": 140.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 428.0,
+     "cantidad": 34.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-279-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 428.0,
+     "cantidad": 90.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 428.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1473687",
+   "descripcion": "(1473687) SANDIA - SANDIA GRANDE UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 7,
+   "precio_min": 2900.0,
+   "precio_mediana": 3506.0,
+   "precio_max": 3506.0,
+   "ratio_max_min": 1.21,
+   "ahorro_conservador": 0,
+   "gasto": 1571896,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2900.0,
+     "cantidad": 160.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3506.0,
+     "cantidad": 4.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-154-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3506.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-161-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 3506.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3506.0,
+     "cantidad": 12.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3506.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3506.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-82-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1460607",
+   "descripcion": "(1460607) ACELGA FRESCA PROCESADA - PICADA CHIFFONADE BOLSA 1 K UNIDAD RM",
+   "n_organismos": 4,
+   "n_items": 4,
+   "precio_min": 1490.0,
+   "precio_mediana": 1534.0,
+   "precio_max": 1534.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 0,
+   "gasto": 7496300,
+   "items": [
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1490.0,
+     "cantidad": 810.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1524-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 1534.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-160-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1534.0,
+     "cantidad": 2000.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1057489-125-CM24",
+     "proveedor": "FrutiVerde"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+     "comuna": "Independencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1534.0,
+     "cantidad": 2000.0,
+     "fecha": "2024-01-04",
+     "codigo_oc": "1549-50-CM24",
+     "proveedor": "FrutiVerde"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1462332",
+   "descripcion": "(1462332) CHAMPIÑON FRESCO - ENTERO PARIS KILO APROX. RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 6456.0,
+   "precio_mediana": 6652.0,
+   "precio_max": 6652.0,
+   "ratio_max_min": 1.03,
+   "ahorro_conservador": 0,
+   "gasto": 1085820,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 6456.0,
+     "cantidad": 60.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 6652.0,
+     "cantidad": 20.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 6652.0,
+     "cantidad": 45.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 6652.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-82-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1466727",
+   "descripcion": "(1466727) HABA CONGELADA - BOLSA 1K UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 2357.0,
+   "precio_mediana": 2576.0,
+   "precio_max": 2576.0,
+   "ratio_max_min": 1.09,
+   "ahorro_conservador": 0,
+   "gasto": 1437920,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2357.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 2576.0,
+     "cantidad": 45.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2576.0,
+     "cantidad": 300.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2576.0,
+     "cantidad": 140.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1482912",
+   "descripcion": "(1482912) CHOCLO CONGELADO INTERAGRO BOLSA 1K UNIDAD RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 2155.0,
+   "precio_mediana": 2355.0,
+   "precio_max": 2355.0,
+   "ratio_max_min": 1.09,
+   "ahorro_conservador": 0,
+   "gasto": 6303400,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2155.0,
+     "cantidad": 40.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "",
+     "region": "",
+     "precio": 2355.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-26",
+     "codigo_oc": "1057476-162-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2355.0,
+     "cantidad": 2400.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057489-57-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 2355.0,
+     "cantidad": 180.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1474587",
+   "descripcion": "(1474587) TRUTRO CORTO POLLO CONGELADO - MARINADA BOLSA 1K UNIDAD NACIONAL RM",
+   "n_organismos": 3,
+   "n_items": 6,
+   "precio_min": 3607.0,
+   "precio_mediana": 4001.0,
+   "precio_max": 4001.0,
+   "ratio_max_min": 1.11,
+   "ahorro_conservador": 0,
+   "gasto": 17923590,
+   "items": [
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3607.0,
+     "cantidad": 150.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057491-1137-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 3607.0,
+     "cantidad": 360.0,
+     "fecha": "2024-02-21",
+     "codigo_oc": "1057491-1142-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "INSTITUTO PSIQUIATRICO DR JOSE HORWITZ BARAK",
+     "comuna": "Recoleta",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4001.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-03",
+     "codigo_oc": "1057476-3-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4001.0,
+     "cantidad": 3500.0,
+     "fecha": "2024-01-02",
+     "codigo_oc": "1057489-9-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "Providencia",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 4001.0,
+     "cantidad": 80.0,
+     "fecha": "2024-01-16",
+     "codigo_oc": "1057491-284-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+     "comuna": "",
+     "region": "",
+     "precio": 4001.0,
+     "cantidad": 240.0,
+     "fecha": "2024-01-17",
+     "codigo_oc": "1057491-290-CM24",
+     "proveedor": "COMERCIAL SAN PABLO LIMITADA"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1461657",
+   "descripcion": "(1461657) CEBOLLA FRESCA - BLANCA KILO APROX. RM",
+   "n_organismos": 4,
+   "n_items": 5,
+   "precio_min": 675.0,
+   "precio_mediana": 712.0,
+   "precio_max": 712.0,
+   "ratio_max_min": 1.05,
+   "ahorro_conservador": 0,
+   "gasto": 1179680,
+   "items": [
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 675.0,
+     "cantidad": 200.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 676.0,
+     "cantidad": 450.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1057494-427-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 712.0,
+     "cantidad": 410.0,
+     "fecha": "2024-01-31",
+     "codigo_oc": "1057494-522-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 712.0,
+     "cantidad": 560.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 712.0,
+     "cantidad": 70.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1848392",
+   "descripcion": "(1848392) CEBOLLIN  - ATADO 1 K RM",
+   "n_organismos": 3,
+   "n_items": 4,
+   "precio_min": 1390.0,
+   "precio_mediana": 1776.0,
+   "precio_max": 1776.0,
+   "ratio_max_min": 1.28,
+   "ahorro_conservador": 0,
+   "gasto": 452500,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1390.0,
+     "cantidad": 70.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "SERVICIO DE SALUD SUR HOSPITAL LUCIO CORDOVA",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1776.0,
+     "cantidad": 100.0,
+     "fecha": "2024-01-22",
+     "codigo_oc": "1057495-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1776.0,
+     "cantidad": 30.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 1776.0,
+     "cantidad": 70.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    }
+   ]
+  },
+  {
+   "catalogo_id": "1563194",
+   "descripcion": "(1563194) ZAPALLO FRESCO - CAMOTE PRIMERA DE GUARDA RM",
+   "n_organismos": 3,
+   "n_items": 5,
+   "precio_min": 740.0,
+   "precio_mediana": 910.0,
+   "precio_max": 910.0,
+   "ratio_max_min": 1.23,
+   "ahorro_conservador": 0,
+   "gasto": 3477200,
+   "items": [
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 740.0,
+     "cantidad": 800.0,
+     "fecha": "2024-02-28",
+     "codigo_oc": "1411-531-CM24",
+     "proveedor": "vitalmento"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 750.0,
+     "cantidad": 2124.0,
+     "fecha": "2024-02-23",
+     "codigo_oc": "1411-467-CM24",
+     "proveedor": "Comercial Pehuen Ltda."
+    },
+    {
+     "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+     "comuna": "Puente Alto",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 910.0,
+     "cantidad": 560.0,
+     "fecha": "2024-01-30",
+     "codigo_oc": "1057501-1494-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "INSTITUTO NACIONAL DE DEPORTES DE CHILE",
+     "comuna": "Ñuñoa",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 910.0,
+     "cantidad": 60.0,
+     "fecha": "2024-01-24",
+     "codigo_oc": "1193-16-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    },
+    {
+     "organismo": "DIRECCION GENERAL DE GENDARMERIA DE CHIL",
+     "comuna": "San Miguel",
+     "region": "Región Metropolitana de Santiago",
+     "precio": 910.0,
+     "cantidad": 800.0,
+     "fecha": "2024-01-19",
+     "codigo_oc": "1411-81-CM24",
+     "proveedor": "soc. comercial y distribuidora P y P ltda"
+    }
+   ]
+  }
+ ]
+}
