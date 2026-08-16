@@ -72,8 +72,9 @@ def iter_items(release: dict) -> Iterator[dict[str, Any]]:
 
     base = {c: "" for c in COLUMNS}
     ocid = release.get("ocid") or release.get("id") or ""
+    codigo = tender.get("id") or (ocid.split("-", 2)[-1] if isinstance(ocid, str) and "-" in ocid else ocid)
     base.update({
-        "codigo_oc": ocid.replace("ocds-", "") if isinstance(ocid, str) else ocid,
+        "codigo_oc": codigo,
         "nombre_oc": tender.get("title", ""),
         "fecha_creacion": release.get("date", ""),
         "tipo": tender.get("procurementMethodDetails") or tender.get("procurementMethod", ""),
@@ -84,6 +85,14 @@ def iter_items(release: dict) -> Iterator[dict[str, Any]]:
         "region": _region_de(buyer_party),
     })
 
+    # Proveedor de respaldo: el party con rol "supplier" (los awards de trato directo
+    # no siempre traen award.suppliers, pero sí está en parties).
+    party_supplier = next(
+        (p for p in (release.get("parties") or [])
+         if isinstance(p, dict) and "supplier" in (p.get("roles") or [])),
+        {},
+    )
+
     # Los ítems (y su adjudicación) viven en awards y/o contracts.
     for cont in ("awards", "contracts"):
         for a in (release.get(cont) or []):
@@ -91,7 +100,8 @@ def iter_items(release: dict) -> Iterator[dict[str, Any]]:
                 continue
             suppliers = a.get("suppliers") or []
             sup = suppliers[0] if suppliers else {}
-            sup_party = parties.get(sup.get("id")) or {}
+            sup_party = parties.get(sup.get("id")) or party_supplier
+            titulo = a.get("title", "")
             moneda_a = ((a.get("value") or {}).get("currency", ""))
             for it in (a.get("items") or []):
                 if not isinstance(it, dict):
@@ -99,21 +109,22 @@ def iter_items(release: dict) -> Iterator[dict[str, Any]]:
                 clf = it.get("classification") or {}
                 unit = it.get("unit") or {}
                 unit_val = unit.get("value") or {}
-                desc = it.get("description", "")
+                desc = it.get("description") or titulo
+                es_unspsc = str(clf.get("scheme", "")).upper().startswith("UNSPSC")
                 row = dict(base)
                 row.update({
                     "proveedor_nombre": sup.get("name") or sup_party.get("name", ""),
                     "proveedor_rut": (sup_party.get("identifier") or {}).get("id", ""),
                     "proveedor_comuna": (sup_party.get("address") or {}).get("locality", ""),
                     "proveedor_region": _region_de(sup_party),
-                    "codigo_categoria": clf.get("id", "") if clf.get("scheme", "").upper().startswith("UNSPSC") else "",
+                    "codigo_categoria": clf.get("id", "") if es_unspsc else "",
                     "categoria": clf.get("description", ""),
-                    "codigo_producto": clf.get("id", ""),
-                    "catalogo_id": extraer_catalogo_id(desc),
-                    "producto": clf.get("description") or desc,
+                    "codigo_producto": clf.get("id", "") if es_unspsc else "",
+                    "catalogo_id": extraer_catalogo_id(desc) or extraer_catalogo_id(titulo),
+                    "producto": (clf.get("description") if es_unspsc else "") or titulo or desc,
                     "especificacion_comprador": desc,
                     "cantidad": _num(it.get("quantity")),
-                    "unidad": unit.get("name", ""),  # <-- unidad de medida (clave)
+                    "unidad": unit.get("name", ""),  # <-- unidad de medida (clave, la API OC no la daba)
                     "moneda": unit_val.get("currency") or moneda_a,
                     "precio_neto_unitario": _num(unit_val.get("amount")),
                 })

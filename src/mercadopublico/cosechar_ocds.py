@@ -61,54 +61,87 @@ def _rango(k: int) -> tuple[int, int]:
     return ini, ini + LOTE - 1
 
 
-def cosechar_mes(tipo: str, anio: int, mes: str, pausa_inicial: float) -> int:
+def _codigo_de_ocid(ocid: str) -> str:
+    return ocid.split("-", 2)[-1] if isinstance(ocid, str) and "-" in ocid else str(ocid)
+
+
+def cosechar_indice(tipo: str, anio: int, mes: str, pausa_inicial: float) -> list[tuple[str, str]]:
+    """FASE 1: pagina el índice y devuelve [(codigo, urlAward)] de todo el mes."""
     endpoint = ENDPOINTS[tipo]
     carpeta = RAW_DIR / "ocds" / tipo / f"{anio}{mes}"
     carpeta.mkdir(parents=True, exist_ok=True)
-    print(f"\n== {tipo} {anio}-{mes} ==")
+    print(f"\n== índice {tipo} {anio}-{mes} ==")
 
+    entradas: list[tuple[str, str]] = []
     delay = pausa_inicial
     total = 0
     n429 = 0
     for k in range(MAX_PAGINAS):
         ini, fin = _rango(k)
         destino = carpeta / f"p{k:03d}_{ini}-{fin}.json"
-
         if destino.exists() and destino.stat().st_size > 0:
             data = json.loads(destino.read_text(encoding="utf-8"))
-            n = _n_registros(data)
-            total += n
-            tot = _total(data)
-            if n < LOTE or (tot and total >= tot):
-                print(f"  (cache) lote {k} [{ini}-{fin}]: {n} → última página (total {tot})")
+        else:
+            url = f"{BASE}/{endpoint}/{anio}/{mes}/{ini}/{fin}"
+            stats: dict[str, int] = {}
+            try:
+                data = fetch_url(url, stats=stats)
+            except Exception as err:  # noqa: BLE001
+                print(f"  error lote {k} [{ini}-{fin}]: {err}")
                 break
-            continue
+            destino.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            if stats.get("n429"):
+                n429 += stats["n429"]; delay = min(MAX_DELAY, delay * 1.6 + 0.4)
+            else:
+                delay = max(MIN_DELAY, delay * 0.92)
+            time.sleep(delay)
 
-        url = f"{BASE}/{endpoint}/{anio}/{mes}/{ini}/{fin}"
+        n = _n_registros(data)
+        total += n
+        tot = _total(data)
+        for e in (data.get("data") or []):
+            if e.get("urlAward"):
+                entradas.append((_codigo_de_ocid(e.get("ocid", "")), e["urlAward"]))
+        print(f"  lote {k} [{ini}-{fin}]: {n} (acum {total}/{tot or '?'})")
+        if n < LOTE or (tot and total >= tot):
+            break
+    print(f"  índice {tipo} {anio}-{mes}: {len(entradas)} urlAwards (429s={n429})")
+    return entradas
+
+
+def bajar_detalles(tipo: str, anio: int, mes: str, entradas: list[tuple[str, str]],
+                   pausa_inicial: float, limit: int | None) -> int:
+    """FASE 2: baja el detalle (award) de cada urlAward. http→https, idempotente, AIMD."""
+    awards_dir = RAW_DIR / "ocds" / tipo / f"{anio}{mes}" / "awards"
+    awards_dir.mkdir(parents=True, exist_ok=True)
+    pendientes = [(c, u) for c, u in entradas if not (awards_dir / f"{c}.json").exists()]
+    print(f"  detalles: {len(entradas)} totales, {len(pendientes)} pendientes"
+          + (f" (esta corrida hasta {limit})" if limit else ""))
+    if limit:
+        pendientes = pendientes[:limit]
+
+    delay = pausa_inicial
+    bajadas = errores = n429 = 0
+    for i, (codigo, url) in enumerate(pendientes, 1):
+        url = url.replace("http://", "https://", 1)  # el award solo responde por https
         stats: dict[str, int] = {}
         try:
             data = fetch_url(url, stats=stats)
+            (awards_dir / f"{codigo}.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            bajadas += 1
         except Exception as err:  # noqa: BLE001
-            print(f"  error lote {k} [{ini}-{fin}]: {err}")
-            break
-        n = _n_registros(data)
-        tot = _total(data)
-        destino.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-        total += n
-        print(f"  lote {k} [{ini}-{fin}]: {n} registros (acum {total}/{tot or '?'})")
-
-        # ritmo adaptativo simple
+            errores += 1
+            print(f"    [{i}/{len(pendientes)}] error {codigo}: {err}")
         if stats.get("n429"):
             n429 += stats["n429"]; delay = min(MAX_DELAY, delay * 1.6 + 0.4)
         else:
             delay = max(MIN_DELAY, delay * 0.92)
-
-        if n < LOTE or (tot and total >= tot):  # última página
-            break
-        time.sleep(delay)
-
-    print(f"  Total {tipo} {anio}-{mes}: {total} registros (429s={n429}) → {carpeta}")
-    return total
+        if i % 100 == 0 or i == len(pendientes):
+            print(f"    [{i}/{len(pendientes)}] bajadas={bajadas} errores={errores} pausa≈{delay:.1f}s 429s={n429}")
+        if i < len(pendientes):
+            time.sleep(delay)
+    print(f"  detalles {tipo} {anio}-{mes}: {bajadas} bajadas, {errores} errores → {awards_dir}")
+    return bajadas
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -116,18 +149,26 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--tipo", required=True, choices=list(ENDPOINTS) + ["todos"])
     ap.add_argument("--anio", required=True, type=int)
     ap.add_argument("--meses", required=True, help="Meses de 2 dígitos, coma-separados. Ej: 01,02,03")
-    ap.add_argument("--pausa", type=float, default=0.5, help="Pausa inicial entre lotes (s).")
+    ap.add_argument("--detalle", action="store_true",
+                    help="Además del índice, baja el detalle (award) de cada registro.")
+    ap.add_argument("--limit-detalle", type=int, default=None,
+                    help="Máx. de detalles a bajar por mes esta corrida (para probar de a poco).")
+    ap.add_argument("--pausa", type=float, default=0.5, help="Pausa inicial entre llamadas (s).")
     args = ap.parse_args(argv)
 
     tipos = list(ENDPOINTS) if args.tipo == "todos" else [args.tipo]
     meses = [m.strip().zfill(2) for m in args.meses.split(",") if m.strip()]
     inicio = dt.datetime.now()
-    gran_total = 0
     for tipo in tipos:
         for mes in meses:
-            gran_total += cosechar_mes(tipo, args.anio, mes, args.pausa)
-    print(f"\n=== Gran total: {gran_total} registros en {dt.datetime.now()-inicio} ===")
-    print("Siguiente: python -m mercadopublico.parse_ocds --entrada data/raw/ocds/<tipo>/<añomes>")
+            entradas = cosechar_indice(tipo, args.anio, mes, args.pausa)
+            if args.detalle:
+                bajar_detalles(tipo, args.anio, mes, entradas, args.pausa, args.limit_detalle)
+    print(f"\n=== Terminado en {dt.datetime.now()-inicio} ===")
+    if args.detalle:
+        print("Siguiente: python -m mercadopublico.parse_ocds --entrada data/raw/ocds/<tipo>/<añomes>/awards")
+    else:
+        print("Índice listo. Para bajar los detalles, agrega --detalle (y opcional --limit-detalle 500).")
     return 0
 
 
