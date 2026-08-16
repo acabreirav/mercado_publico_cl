@@ -119,6 +119,32 @@ diferencias de precio de 1,1× a 2,2× entre organismos.
 real de ~3–6 %. Eso sí es un ahorro potencial creíble y publicable (con drill-down). Escala a medida
 que (a) baje más data y (b) extendamos la normalización más allá del ID de catálogo (Fase 4).
 
+### 3.3 Homogeneizar tiempo y lugar (perecibles)
+
+Riesgo válido: frutas/verduras/frescos varían de precio **por temporada, por día y por región**
+(transporte). Comparar sin controlar eso confundiría variación legítima con sobreprecio.
+
+Qué encontramos y cómo lo tratamos (`comparador_identicos.py --control region,mes`):
+
+| Nivel de control | Grupos | Gasto comp. | Ahorro cons. | % |
+|---|--:|--:|--:|--:|
+| Mismo producto (ID catálogo) | 74 | $260 M | $8,2 M | 3,1 % |
+| + misma región | 63 | $216 M | $7,9 M | 3,7 % |
+| + mismo mes | 27 | $63 M | $0,3 M | 0,5 % |
+
+- **Región casi no mueve el número** porque el ID de catálogo de frutas/verduras **ya trae la
+  región** ("KILO APROX. RM", "XI REGIÓN") → la geografía ya está en gran parte controlada.
+- **El control por mes hace caer el número a 0,5%, pero es un ARTEFACTO de muestra corta** (4 días
+  no tienen meses distintos → quedan 27 grupos diminutos). **No es evidencia de que el ahorro
+  desaparezca al controlar temporada**; es evidencia de que **falta cobertura temporal**.
+
+**Decisiones metodológicas:**
+1. **Liderar la narrativa pública con productos ESTABLES** (útiles, aseo, aceite, IT, packaged),
+   donde tiempo/lugar no confunden. Es la señal más limpia de ineficiencia.
+2. **Perecibles: comparar dentro de producto + región + mes**, y solo con **data histórica**
+   (meses). Marcados con `perecible` en la salida (heurística por descripción — perfeccionable).
+3. **Esto es otro argumento fuerte para las descargas OCDS históricas** (cobertura temporal).
+
 ## 4. Límites de cobertura (recordatorio)
 
 - **Muestra parcial**, no todo el gasto del Estado; empresas públicas excluidas.

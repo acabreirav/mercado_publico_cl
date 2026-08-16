@@ -43,16 +43,38 @@ def _cat_id(r: dict[str, str]) -> str:
     return (r.get("catalogo_id") or "").strip() or extraer_catalogo_id(r.get("especificacion_comprador"))
 
 
-def construir(rows: list[dict[str, str]], *, min_org: int, min_items: int, ratio_cap: float):
-    grupos: dict[str, list[dict[str, str]]] = defaultdict(list)
+def es_perecible(descripcion: str | None) -> bool:
+    """Heurística: frutas/verduras frescas (precio variable por temporada/día)."""
+    d = (descripcion or "").lower()
+    return ("fresc" in d) or ("aprox" in d)
+
+
+def _clave_control(r: dict[str, str], control: tuple[str, ...]) -> tuple:
+    """Clave de comparación = ID de catálogo + dimensiones de control (región, mes).
+
+    Controlar por región y/o mes homogeniza variables legítimas (geografía,
+    estacionalidad) para que la dispersión restante sea comparación justa."""
+    partes = [_cat_id(r)]
+    for dim in control:
+        if dim == "region":
+            partes.append((r.get("region") or "").strip())
+        elif dim == "mes":
+            partes.append((r.get("fecha_creacion") or "")[:7])  # AAAA-MM
+    return tuple(partes)
+
+
+def construir(rows: list[dict[str, str]], *, min_org: int, min_items: int,
+              ratio_cap: float, control: tuple[str, ...] = ()):
+    grupos: dict[tuple, list[dict[str, str]]] = defaultdict(list)
     for r in rows:
         cid = _cat_id(r)
         if cid and _float(r.get("precio_neto_unitario", "")) is not None:
-            grupos[cid].append(r)
+            grupos[_clave_control(r, control)].append(r)
 
     out = []
     tot_gasto = tot_cons = tot_aspi = 0.0
-    for cid, its in grupos.items():
+    for clave, its in grupos.items():
+        cid = clave[0]
         precios = [p for p in (_float(r["precio_neto_unitario"]) for r in its) if p is not None]
         orgs = {r.get("organismo_nombre", "") for r in its}
         if len(orgs) < min_org or len(its) < min_items:
@@ -60,6 +82,7 @@ def construir(rows: list[dict[str, str]], *, min_org: int, min_items: int, ratio
         pmin, pmax = min(precios), max(precios)
         if pmin <= 0 or pmax / pmin > ratio_cap:  # heterogéneo (contrato marco variable) → fuera
             continue
+        descripcion = next((r.get("especificacion_comprador") for r in its if r.get("especificacion_comprador")), cid).strip()[:120]
         med = statistics.median(precios)
         q25 = _percentil(precios, 0.25)
         # ahorro potencial: alinear lo que está sobre el benchmark, ponderado por cantidad
@@ -80,7 +103,9 @@ def construir(rows: list[dict[str, str]], *, min_org: int, min_items: int, ratio
         detalle.sort(key=lambda d: d["precio"])
         out.append({
             "catalogo_id": cid,
-            "descripcion": next((r.get("especificacion_comprador") for r in its if r.get("especificacion_comprador")), cid).strip()[:120],
+            "descripcion": descripcion,
+            "perecible": es_perecible(descripcion),
+            "region": clave[1] if len(clave) > 1 else "",
             "n_organismos": len(orgs), "n_items": len(its),
             "precio_min": round(pmin, 2), "precio_mediana": round(med, 2), "precio_max": round(pmax, 2),
             "ratio_max_min": round(pmax / pmin, 2),
@@ -98,6 +123,10 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--min-items", type=int, default=4)
     ap.add_argument("--ratio-cap", type=float, default=3.0,
                     help="Excluye grupos con máx/mín mayor a esto (heterogéneos).")
+    ap.add_argument("--control", default="",
+                    help="Dimensiones a homogeneizar además del producto: 'region', 'mes' o 'region,mes'.")
+    ap.add_argument("--solo", choices=["perecible", "estable"], default=None,
+                    help="Filtrar a solo perecibles o solo estables.")
     ap.add_argument("--top", type=int, default=15)
     args = ap.parse_args(argv)
 
@@ -105,12 +134,30 @@ def main(argv: list[str] | None = None) -> int:
     if not entrada.exists():
         print(f"No existe {entrada}. Corre antes: python -m mercadopublico.parse_items")
         return 1
-
-    prods, gasto, cons, aspi = construir(
-        cargar(entrada), min_org=args.min_org, min_items=args.min_items, ratio_cap=args.ratio_cap)
+    rows = cargar(entrada)
+    control = tuple(c.strip() for c in args.control.split(",") if c.strip())
 
     def M(x): return f"${x/1e6:,.1f} M"
-    print("=== Productos IDÉNTICOS (por ID de catálogo) — ahorro potencial creíble ===")
+
+    # Transparencia: mostrar cómo cambia el ahorro al ir homogeneizando confusores.
+    print("=== Efecto de homogeneizar (mismo producto → + región → + mes) ===")
+    print(f"{'control':<16}{'grupos':>8}{'gasto comp.':>14}{'ahorro cons.':>15}{'%':>7}")
+    for ctrl in [(), ("region",), ("region", "mes")]:
+        ps, g, c, a = construir(rows, min_org=args.min_org, min_items=args.min_items,
+                                ratio_cap=args.ratio_cap, control=ctrl)
+        etq = "producto" + ("+" + "+".join(ctrl) if ctrl else "")
+        pct = f"{100*c/g:.1f}%" if g else "—"
+        print(f"{etq:<16}{len(ps):>8}{M(g):>14}{M(c):>15}{pct:>7}")
+    print("(a más control, comparación más justa pero menos grupos; con 4 días el mes casi no aporta)\n")
+
+    prods, gasto, cons, aspi = construir(
+        rows, min_org=args.min_org, min_items=args.min_items, ratio_cap=args.ratio_cap, control=control)
+    if args.solo:
+        want = (args.solo == "perecible")
+        prods = [p for p in prods if p["perecible"] == want]
+        gasto = sum(p["gasto"] for p in prods); cons = sum(p["ahorro_conservador"] for p in prods)
+
+    print(f"=== Productos IDÉNTICOS — control={control or 'ninguno'} solo={args.solo or 'todos'} ===")
     print(f"Grupos idénticos comparables: {len(prods)} (>= {args.min_org} organismos, dispersión <= {args.ratio_cap}×)")
     print(f"Gasto comparado:            {M(gasto)}")
     print(f"Ahorro CONSERVADOR (→mediana): {M(cons)}  ({100*cons/gasto:.1f}% del gasto comparado)" if gasto else "")
