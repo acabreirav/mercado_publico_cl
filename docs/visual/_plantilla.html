@@ -1,0 +1,326 @@
+<title>Mismo producto, distinto precio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* ---------- Tokens: light (bare :root) ---------- */
+  :root{
+    --bg:#eef1f5; --surface:#ffffff; --surface-2:#f5f7fa;
+    --ink:#171b24; --muted:#5a6474; --faint:#8a94a4;
+    --border:#e0e5ec; --border-strong:#c9d1dc;
+    --accent:#1f5f6b; --accent-ink:#123e47;
+    --cheap:#1f7a54; --cheap-bg:#e3f2e9;
+    --dear:#b23a2a; --dear-bg:#f7e5e1;
+    --strip:#9fb0bd; --strip-fill:#20616d;
+    --shadow:0 1px 2px rgba(20,30,45,.06),0 8px 24px rgba(20,30,45,.06);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0f131a; --surface:#171c25; --surface-2:#1e2530;
+      --ink:#e9edf3; --muted:#9aa5b4; --faint:#6c7686;
+      --border:#28303c; --border-strong:#3a4453;
+      --accent:#57b0be; --accent-ink:#8fd0da;
+      --cheap:#4bbd86; --cheap-bg:#16352a;
+      --dear:#e07a63; --dear-bg:#3a201b;
+      --strip:#4a5666; --strip-fill:#57b0be;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0f131a; --surface:#171c25; --surface-2:#1e2530;
+    --ink:#e9edf3; --muted:#9aa5b4; --faint:#6c7686;
+    --border:#28303c; --border-strong:#3a4453;
+    --accent:#57b0be; --accent-ink:#8fd0da;
+    --cheap:#4bbd86; --cheap-bg:#16352a;
+    --dear:#e07a63; --dear-bg:#3a201b;
+    --strip:#4a5666; --strip-fill:#57b0be;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5; font-size:15px;
+  }
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+  .wrap{max-width:1060px;margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,4vw,32px) 80px}
+
+  /* ---------- Header ---------- */
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:600;margin:0 0 10px}
+  h1{
+    font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
+    font-weight:700; font-size:clamp(30px,5.4vw,50px); line-height:1.04;
+    margin:0 0 14px; letter-spacing:-.01em; text-wrap:balance;
+  }
+  .lede{font-size:clamp(16px,2.2vw,18px);color:var(--muted);max-width:60ch;margin:0 0 26px}
+  .lede b{color:var(--ink);font-weight:600}
+
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);flex:1 1 auto;min-width:130px}
+  .stat .n{font-size:22px;font-weight:700;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:2px}
+
+  .note{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:13px 16px;font-size:13.5px;color:var(--muted);margin-bottom:26px}
+  .note b{color:var(--ink)}
+
+  /* ---------- Controls ---------- */
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;position:sticky;top:0;background:linear-gradient(var(--bg) 72%,transparent);padding:10px 0;z-index:5}
+  .controls input,.controls select{
+    font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--border-strong);
+    border-radius:9px;padding:9px 12px;
+  }
+  .controls input{flex:1 1 220px;min-width:0}
+  .controls input:focus,.controls select:focus{outline:2px solid var(--accent);outline-offset:1px}
+  .count{font-size:13px;color:var(--muted);margin-left:auto}
+
+  /* ---------- Product rows ---------- */
+  .list{display:flex;flex-direction:column;gap:10px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+  .row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(160px,1.4fr) auto;gap:18px;align-items:center;
+       width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:15px 18px}
+  .row:hover{background:var(--surface-2)}
+  .row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .pname{font-weight:600;font-size:15.5px;line-height:1.25;text-wrap:balance}
+  .pmeta{font-size:12px;color:var(--faint);margin-top:3px}
+  .pmeta .cat{color:var(--muted)}
+
+  .metrics{display:flex;gap:16px;justify-content:flex-end;text-align:right;white-space:nowrap}
+  .metric .v{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
+  .metric .k{font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;margin-top:1px}
+  .ratio .v{color:var(--dear)}
+  .chev{width:16px;color:var(--faint);transition:transform .18s ease;flex:none}
+  .card.open .chev{transform:rotate(90deg)}
+
+  /* strip chart (HTML/CSS, sin deformación) */
+  .stripwrap{position:relative;padding:0 4px}
+  .strip{position:relative;height:40px}
+  .strip-line{position:absolute;top:15px;left:0;right:0;height:1px;background:var(--border-strong)}
+  .strip .dot{position:absolute;top:15px;width:7px;height:7px;border-radius:50%;
+    background:var(--strip-fill);opacity:.45;transform:translate(-50%,-50%);
+    border:1px solid var(--surface);cursor:default}
+  .strip .med{position:absolute;top:6px;height:19px;width:2px;background:var(--accent);transform:translateX(-50%)}
+  .strip .lab{position:absolute;top:25px;font-size:10px;color:var(--faint);font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  .strip .lab.min{left:0}
+  .strip .lab.max{right:0}
+
+  /* ---------- Drill-down ---------- */
+  .detail{display:none;border-top:1px solid var(--border);background:var(--surface-2)}
+  .card.open .detail{display:block}
+  .detail-inner{padding:6px 6px 14px}
+  .dhead{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 14px 8px;font-size:12.5px;color:var(--muted)}
+  .dhead b{color:var(--ink)}
+  .tablescroll{overflow-x:auto;padding:0 6px}
+  table{border-collapse:collapse;width:100%;font-size:13px;min-width:640px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600;position:sticky;top:0}
+  td.num{text-align:right;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  tr.cheap td{background:var(--cheap-bg)}
+  tr.dear td{background:var(--dear-bg)}
+  .tag{display:inline-block;font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;vertical-align:middle;margin-left:6px}
+  .tag.cheap{background:var(--cheap);color:#fff}
+  .tag.dear{background:var(--dear);color:#fff}
+  .barcell{position:relative;min-width:90px}
+  .bar{height:7px;border-radius:4px;background:var(--strip-fill);opacity:.85}
+  .org{font-weight:500}
+  .sub{color:var(--faint);font-size:11.5px}
+
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--border);font-size:12.5px;color:var(--faint)}
+  footer a{color:var(--accent-ink)}
+
+  /* theme toggle */
+  .toggle{position:fixed;top:12px;right:12px;z-index:20;background:var(--surface);border:1px solid var(--border-strong);color:var(--muted);
+          border-radius:9px;width:36px;height:36px;cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
+  .toggle:focus-visible{outline:2px solid var(--accent)}
+
+  @media (max-width:720px){
+    .row{grid-template-columns:1fr auto;gap:10px}
+    .stripwrap{grid-column:1 / -1;order:3}
+    .metrics{gap:12px}
+  }
+
+  /* tooltip */
+  #tip{position:fixed;pointer-events:none;z-index:30;background:var(--ink);color:var(--surface);
+       padding:6px 9px;border-radius:7px;font-size:12px;opacity:0;transition:opacity .1s;max-width:240px;box-shadow:var(--shadow)}
+  #tip .mono{font-variant-numeric:tabular-nums}
+</style>
+
+<button class="toggle" id="themeBtn" title="Cambiar tema" aria-label="Cambiar tema">◐</button>
+
+<div class="wrap">
+  <p class="eyebrow">Mercado Público · Chile</p>
+  <h1>El mismo producto, a precios muy distintos</h1>
+  <p class="lede">Cada fila es un producto comprado por varios organismos del Estado. La franja
+    muestra cuánto varía el <b>precio unitario</b> pagado por cada uno. Haz clic para abrir el
+    detalle hasta la orden de compra concreta.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="note">
+    <b>Cómo leerlo.</b> Esto es una <b>señal para investigar, no una acusación</b>. La API de
+    órdenes de compra no informa la <b>unidad de medida</b>, así que dos compras del mismo código
+    pueden diferir por envase o cantidad, no solo por sobreprecio — por eso se excluyen los casos
+    con dispersión implausible. Universo: muestra de órdenes de compra (mayoría 2024), no todo el
+    gasto del Estado.
+  </div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Buscar producto…" aria-label="Buscar producto">
+    <select id="sort" aria-label="Ordenar">
+      <option value="org">Más organismos</option>
+      <option value="disp">Mayor dispersión</option>
+      <option value="max">Precio máximo</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<div id="tip"></div>
+
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const DATA = JSON.parse(document.getElementById('payload').textContent);
+  const CLP = n => n==null ? "—" : "$" + Math.round(n).toLocaleString('es-CL');
+  const NUM = n => n==null ? "—" : n.toLocaleString('es-CL');
+  const esc = s => (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  // ---- stats ----
+  const totComp = DATA.productos.reduce((a,p)=>a+p.n_items,0);
+  const orgs = new Set();
+  DATA.productos.forEach(p=>p.items.forEach(i=>orgs.add(i.organismo)));
+  const stats = [
+    [DATA.productos.length, "productos comparados"],
+    [orgs.size, "organismos"],
+    [totComp, "órdenes de compra"],
+    [DATA.n_items_total.toLocaleString('es-CL'), "ítems en la muestra"],
+  ];
+  document.getElementById('stats').innerHTML = stats.map(([n,l])=>
+    `<div class="stat"><div class="n">${typeof n==='number'?n.toLocaleString('es-CL'):n}</div><div class="l">${l}</div></div>`).join('');
+
+  // ---- strip chart (HTML/CSS) ----
+  function strip(p){
+    const min=p.precio_min, max=p.precio_max;
+    // Escala logarítmica: para precios, separa mejor un rango amplio y refleja
+    // proporciones (2x se ve igual de lejos abajo o arriba). min>0 garantizado.
+    const lmin=Math.log(min), lspan=(Math.log(max)-lmin)||1;
+    const pos = v => (2 + ((Math.log(v)-lmin)/lspan)*96).toFixed(2); // % con margen de 2%
+    const dots = p.items.map(i=>
+      `<span class="dot" style="left:${pos(i.precio)}%" data-o="${esc(i.organismo)}" data-p="${i.precio}"></span>`
+    ).join('');
+    return `<div class="strip" role="img" aria-label="Dispersión de precios de ${esc(p.producto)}: de ${CLP(min)} a ${CLP(max)}">
+      <div class="strip-line"></div>
+      ${dots}
+      <div class="med" style="left:${pos(p.precio_mediana)}%"></div>
+      <span class="lab min">${CLP(min)}</span>
+      <span class="lab max">${CLP(max)}</span>
+    </div>`;
+  }
+
+  // ---- drill-down table ----
+  function detail(p){
+    const rows = p.items.map((i,idx)=>{
+      const cls = i.precio===p.precio_min ? 'cheap' : (i.precio===p.precio_max?'dear':'');
+      const tag = i.precio===p.precio_min ? '<span class="tag cheap">más barato</span>'
+                : (i.precio===p.precio_max?'<span class="tag dear">más caro</span>':'');
+      const w = Math.max(4, Math.round(((i.precio-p.precio_min)/((p.precio_max-p.precio_min)||1))*100));
+      return `<tr class="${cls}">
+        <td><span class="org">${esc(i.organismo)}</span>${tag}<div class="sub">${esc(i.comuna)||''}${i.region?' · '+esc(i.region):''}</div></td>
+        <td class="num">${CLP(i.precio)}</td>
+        <td class="barcell"><div class="bar" style="width:${w}%"></div></td>
+        <td class="num">${i.cantidad!=null?NUM(i.cantidad):'—'}</td>
+        <td>${esc(i.tipo)}</td>
+        <td>${esc(i.fecha)}</td>
+        <td><span class="mono">${esc(i.codigo_oc)}</span><div class="sub">${esc(i.proveedor)}</div></td>
+      </tr>`;
+    }).join('');
+    return `<div class="detail"><div class="detail-inner">
+      <div class="dhead">
+        <span>Mediana <b>${CLP(p.precio_mediana)}</b></span>
+        <span>Rango <b>${CLP(p.precio_min)}</b> – <b>${CLP(p.precio_max)}</b></span>
+        <span>Dispersión p75/p25 <b>${p.ratio_p75_p25}×</b></span>
+        <span>UNSPSC <b class="mono">${esc(p.codigo_producto)}</b></span>
+      </div>
+      <div class="tablescroll"><table>
+        <thead><tr><th>Organismo</th><th class="num">Precio unit.</th><th></th><th class="num">Cant.</th><th>Tipo</th><th>Fecha</th><th>Orden de compra / proveedor</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+    </div></div>`;
+  }
+
+  // ---- render list ----
+  const listEl=document.getElementById('list');
+  function card(p,i){
+    return `<div class="card" data-i="${i}">
+      <button class="row" aria-expanded="false">
+        <div>
+          <div class="pname">${esc(p.producto)}</div>
+          <div class="pmeta"><span class="cat">${p.n_organismos} organismos · ${p.n_items} compras</span></div>
+        </div>
+        <div class="stripwrap">${strip(p)}</div>
+        <div class="metrics">
+          <div class="metric"><div class="v">${CLP(p.precio_mediana)}</div><div class="k">mediana</div></div>
+          <div class="metric ratio"><div class="v">${p.ratio_p75_p25}×</div><div class="k">dispersión</div></div>
+          <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </button>
+      ${detail(p)}
+    </div>`;
+  }
+
+  let view = DATA.productos.slice();
+  function apply(){
+    const q=document.getElementById('q').value.trim().toLowerCase();
+    const s=document.getElementById('sort').value;
+    view = DATA.productos.filter(p=>!q || p.producto.toLowerCase().includes(q));
+    view.sort((a,b)=>
+      s==='disp'? b.ratio_p75_p25-a.ratio_p75_p25
+      : s==='max'? b.precio_max-a.precio_max
+      : (b.n_organismos-a.n_organismos)||(b.ratio_p75_p25-a.ratio_p75_p25));
+    listEl.innerHTML = view.map((p)=>card(p, DATA.productos.indexOf(p))).join('');
+    document.getElementById('count').textContent = view.length+" productos";
+  }
+  apply();
+  document.getElementById('q').addEventListener('input',apply);
+  document.getElementById('sort').addEventListener('change',apply);
+
+  // expand / collapse
+  listEl.addEventListener('click',e=>{
+    const btn=e.target.closest('.row'); if(!btn)return;
+    const card=btn.closest('.card'); const open=card.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open?'true':'false');
+  });
+
+  // tooltip on dots
+  const tip=document.getElementById('tip');
+  listEl.addEventListener('mouseover',e=>{
+    const d=e.target.closest('.dot'); if(!d)return;
+    tip.innerHTML=`${esc(d.getAttribute('data-o'))}<br><span class="mono">${CLP(+d.getAttribute('data-p'))}</span>`;
+    tip.style.opacity=1;
+  });
+  listEl.addEventListener('mousemove',e=>{
+    if(tip.style.opacity!=='1')return;
+    const x=Math.min(e.clientX+12, innerWidth-tip.offsetWidth-8);
+    tip.style.left=x+'px'; tip.style.top=(e.clientY+14)+'px';
+  });
+  listEl.addEventListener('mouseout',e=>{ if(e.target.closest('.dot')) tip.style.opacity=0; });
+
+  // footer
+  document.getElementById('foot').innerHTML =
+    `Generado ${esc((DATA.generado||'').slice(0,10))} · Fuente: órdenes de compra de `+
+    `<a href="https://www.mercadopublico.cl" target="_blank" rel="noopener">Mercado Público (ChileCompra)</a>. `+
+    `Precio unitario = campo <span class="mono">PrecioNeto</span>. Agrupación por código de producto UNSPSC. `+
+    `Prototipo de análisis — verificar antes de concluir.`;
+
+  // theme toggle
+  const root=document.documentElement, tb=document.getElementById('themeBtn');
+  tb.addEventListener('click',()=>{
+    const cur=root.getAttribute('data-theme');
+    const next = cur==='dark'?'light':(cur==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark'));
+    root.setAttribute('data-theme',next);
+  });
+})();
+</script>

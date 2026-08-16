@@ -40,3 +40,6 @@ data/cache/
 # --- Logs ---
 *.log
 logs/
+
+# Node (solo para screenshots de dev)
+node_modules/

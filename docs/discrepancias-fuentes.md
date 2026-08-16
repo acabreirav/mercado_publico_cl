@@ -109,6 +109,29 @@
 - **Estado:** ✅ Resuelto en código. **Verificar:** ¿qué tipos de OC concentran el código 0?
   (posiblemente servicios/trato directo sin catálogo).
 
+## D13 — Convenio Marco NO trae `CodigoProducto` en la API de OC (98% en 0)
+- **HANDOFF (§5):** proponía empezar el comparador por **Convenio Marco** porque "trae ID de
+  catálogo estándar → comparación directa y confiable".
+- **REAL:** en ~3.159 ítems CM de la muestra, **el 98% trae `CodigoProducto` vacío/`0`**. El ID
+  del catálogo de Convenio Marco NO viaja en el campo `CodigoProducto` de la OC (vive en el
+  catálogo CM / otra fuente).
+- **Impacto:** vía la **API de OC**, CM es un **callejón sin salida** para agrupar por producto
+  (solo 2 productos CM comparables en toda la muestra). El camino que sí funciona es agrupar por
+  `CodigoProducto` UNSPSC del universo general (SE/AG traen código con más frecuencia).
+- **Qué usamos:** comparador general por UNSPSC. CM queda pendiente de otra fuente (catálogo CM
+  u OCDS) si se quiere su ID limpio.
+- **Estado:** ⬜ Estratégico. **Verificar:** ¿de dónde se obtiene el ID de producto de Convenio
+  Marco? (catálogo CM, descargas OCDS). Reevaluar la estrategia del §5 del maestro.
+
+## D14 — El listado "por día" incluye OC creadas en otras fechas (rango 2019–2024)
+- **REAL:** al bajar `fecha=04-08 marzo 2024`, los detalles traen `FechaCreacion` desde 2019 a
+  2024 (aunque el 88% es 2024). La `fecha` de consulta NO equivale a fecha de creación de la OC.
+- **Impacto:** comparar precios entre años mezcla **inflación**. Menor de lo temido (88% es 2024),
+  pero para rigor conviene filtrar por año o normalizar a UF/UTM.
+- **Qué usamos:** por ahora, sin filtro (dominado por 2024). Documentar el caveat en el dashboard.
+- **Estado:** ⬜ Pendiente. **Verificar:** qué significa exactamente el parámetro `fecha` en la
+  API de OC (¿fecha de envío? ¿de última modificación?).
+
 ---
 
 ### Resumen de verificaciones pendientes (checklist)
