@@ -51,6 +51,39 @@ def _espera(attempt: int, status: int | None, resp: requests.Response | None) ->
     return min(MAX_WAIT_S, 2**attempt)  # otros: 2, 4, 8, 16, 32, 64
 
 
+def fetch_url(url: str, stats: dict[str, int] | None = None) -> Any:
+    """GET de una URL COMPLETA (para la API OCDS paginada, otra base y sin ticket).
+
+    Mismos reintentos/backoff/429 que fetch_json. Devuelve el JSON parseado.
+    """
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    last_err: Exception | None = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        if stats is not None:
+            stats["intentos"] = stats.get("intentos", 0) + 1
+        status: int | None = None
+        resp: requests.Response | None = None
+        try:
+            resp = requests.get(url, headers=headers, timeout=TIMEOUT_S)
+            status = resp.status_code
+            if status == 429 and stats is not None:
+                stats["n429"] = stats.get("n429", 0) + 1
+            if status in RETRIABLE_STATUS:
+                raise requests.HTTPError(f"HTTP {status}", response=resp)
+            resp.raise_for_status()
+            return resp.json()
+        except (requests.RequestException, ValueError) as err:
+            last_err = err
+            if attempt == MAX_RETRIES:
+                break
+            wait = _espera(attempt, status, resp)
+            if status != 429 or attempt >= 2:
+                motivo = f"HTTP {status}" if status else type(err).__name__
+                print(f"  reintentando ({motivo}, intento {attempt}) en {wait:.0f}s...", file=sys.stderr)
+            time.sleep(wait)
+    raise RuntimeError(f"No se pudo obtener {url} tras {MAX_RETRIES} intentos: {last_err}")
+
+
 def fetch_json(
     endpoint: str,
     ticket: str,
