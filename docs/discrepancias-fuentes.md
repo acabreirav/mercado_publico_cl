@@ -95,10 +95,13 @@
 - **Impacto:** no se puede normalizar la **unidad de medida** desde este campo → un mismo
   `CodigoProducto` puede mezclar "unidad" vs "caja" vs "kg", inflando los ratios del comparador.
   Por eso el comparador marca `revisar=1` cuando el ratio es implausible.
-- **Qué usamos:** tratar la unidad como **desconocida**; apoyarse en `EspecificacionComprador`
-  (texto) y en el drill-down. Evaluar si la unidad viene en la API de Licitaciones (`UnidadMedida`,
-  campo 92) o en Compra Ágil (`unidad_medida`), que sí la documentan.
-- **Estado:** ⬜ Pendiente. **Verificar:** ¿`UnidadMedida` viene poblada en licitaciones/Compra Ágil?
+- **Qué usamos:** tratar la unidad como **desconocida** en la API de OC.
+- **✅ RESUELTO por la vía OCDS:** los awards OCDS (`api.mercadopublico.cl/APISOCDS/OCDS/award/…`)
+  **sí traen `item.unit.name`** (ej. "AMP" = ampolla) + `quantity` + `unit.value.amount`. Confirmado
+  con un award real (propofol). **Trade-off:** el award OCDS de trato directo **no trae UNSPSC**
+  (`classification: None`) — la identidad del producto viene del texto (`award.title`/`description`).
+  Ideal a futuro: cruzar OC-API (UNSPSC) + OCDS (unidad) por código de OC.
+- **Estado:** ✅ Unidad disponible vía OCDS. Pendiente: medir su cobertura al parsear un mes real.
 
 ## D12 — `CodigoProducto = 0` en ~12% de los ítems de OC
 - **REAL:** en el día 04-03-2024, **125/1.067 ítems (12%)** traen `CodigoProducto` vacío o `0`
