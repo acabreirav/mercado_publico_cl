@@ -43,3 +43,6 @@ logs/
 
 # Node (solo para screenshots de dev)
 node_modules/
+
+# Visual generado (se reconstruye con construir_visual.py; el deliverable es el artifact)
+docs/visual/comparador-precios.html
