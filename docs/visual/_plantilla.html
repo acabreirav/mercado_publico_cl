@@ -1,7 +1,6 @@
 <title>Mismo producto, distinto precio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  /* ---------- Tokens: light (bare :root) ---------- */
   :root{
     --bg:#eef1f5; --surface:#ffffff; --surface-2:#f5f7fa;
     --ink:#171b24; --muted:#5a6474; --faint:#8a94a4;
@@ -9,7 +8,8 @@
     --accent:#1f5f6b; --accent-ink:#123e47;
     --cheap:#1f7a54; --cheap-bg:#e3f2e9;
     --dear:#b23a2a; --dear-bg:#f7e5e1;
-    --strip:#9fb0bd; --strip-fill:#20616d;
+    --amber:#8a6d1f; --amber-bg:#f6efdb;
+    --strip-fill:#20616d;
     --shadow:0 1px 2px rgba(20,30,45,.06),0 8px 24px rgba(20,30,45,.06);
   }
   @media (prefers-color-scheme:dark){
@@ -20,7 +20,8 @@
       --accent:#57b0be; --accent-ink:#8fd0da;
       --cheap:#4bbd86; --cheap-bg:#16352a;
       --dear:#e07a63; --dear-bg:#3a201b;
-      --strip:#4a5666; --strip-fill:#57b0be;
+      --amber:#d9b24e; --amber-bg:#332b16;
+      --strip-fill:#57b0be;
       --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
     }
   }
@@ -31,79 +32,91 @@
     --accent:#57b0be; --accent-ink:#8fd0da;
     --cheap:#4bbd86; --cheap-bg:#16352a;
     --dear:#e07a63; --dear-bg:#3a201b;
-    --strip:#4a5666; --strip-fill:#57b0be;
+    --amber:#d9b24e; --amber-bg:#332b16;
+    --strip-fill:#57b0be;
     --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
   }
 
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-    line-height:1.5; font-size:15px;
-  }
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;font-size:15px}
   .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
-  .wrap{max-width:1060px;margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,4vw,32px) 80px}
+  .wrap{max-width:1080px;margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,4vw,32px) 80px}
 
-  /* ---------- Header ---------- */
   .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:600;margin:0 0 10px}
-  h1{
-    font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
-    font-weight:700; font-size:clamp(30px,5.4vw,50px); line-height:1.04;
-    margin:0 0 14px; letter-spacing:-.01em; text-wrap:balance;
-  }
-  .lede{font-size:clamp(16px,2.2vw,18px);color:var(--muted);max-width:60ch;margin:0 0 26px}
+  h1{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-weight:700;
+    font-size:clamp(30px,5.4vw,50px);line-height:1.04;margin:0 0 14px;letter-spacing:-.01em;text-wrap:balance}
+  .lede{font-size:clamp(16px,2.2vw,18px);color:var(--muted);max-width:62ch;margin:0 0 26px}
   .lede b{color:var(--ink);font-weight:600}
 
   .stats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
-  .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);flex:1 1 auto;min-width:130px}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);flex:1 1 auto;min-width:120px}
   .stat .n{font-size:22px;font-weight:700;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
   .stat .l{font-size:12px;color:var(--muted);margin-top:2px}
 
-  .note{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:13px 16px;font-size:13.5px;color:var(--muted);margin-bottom:26px}
+  /* Hallazgos destacados */
+  .findings{margin:6px 0 26px}
+  .findings h2{font-family:Georgia,serif;font-size:20px;margin:0 0 4px}
+  .findings .sub{font-size:13px;color:var(--muted);margin:0 0 14px}
+  .fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .finding{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--dear);
+    border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);cursor:pointer;text-align:left;color:inherit;font:inherit;width:100%}
+  .finding:hover{border-left-color:var(--accent)}
+  .finding:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .finding .fp{font-weight:600;font-size:15px;margin-bottom:4px;text-wrap:balance}
+  .finding .ff{font-size:13px;color:var(--muted);line-height:1.45}
+  .finding .ff b{color:var(--ink);font-weight:700}
+  .finding .fnum{margin-top:9px;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-size:12px;color:var(--faint)}
+
+  .note{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:13px 16px;font-size:13.5px;color:var(--muted);margin-bottom:22px}
   .note b{color:var(--ink)}
 
-  /* ---------- Controls ---------- */
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;position:sticky;top:0;background:linear-gradient(var(--bg) 72%,transparent);padding:10px 0;z-index:5}
-  .controls input,.controls select{
-    font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--border-strong);
-    border-radius:9px;padding:9px 12px;
-  }
-  .controls input{flex:1 1 220px;min-width:0}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px;position:sticky;top:0;
+    background:linear-gradient(var(--bg) 72%,transparent);padding:10px 0;z-index:5}
+  .controls input,.controls select{font:inherit;color:var(--ink);background:var(--surface);
+    border:1px solid var(--border-strong);border-radius:9px;padding:9px 12px}
+  .controls input[type=search]{flex:1 1 200px;min-width:0}
+  .controls label.chk{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer}
   .controls input:focus,.controls select:focus{outline:2px solid var(--accent);outline-offset:1px}
   .count{font-size:13px;color:var(--muted);margin-left:auto}
 
-  /* ---------- Product rows ---------- */
   .list{display:flex;flex-direction:column;gap:10px}
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
-  .row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(160px,1.4fr) auto;gap:18px;align-items:center;
-       width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:15px 18px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:70px}
+  .card.flash{animation:flash 1.4s ease}
+  @keyframes flash{0%,40%{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}100%{}}
+  .row{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(150px,1.3fr) auto;gap:18px;align-items:center;
+    width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:15px 18px}
   .row:hover{background:var(--surface-2)}
   .row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-  .pname{font-weight:600;font-size:15.5px;line-height:1.25;text-wrap:balance}
-  .pmeta{font-size:12px;color:var(--faint);margin-top:3px}
-  .pmeta .cat{color:var(--muted)}
+  .pname{font-weight:600;font-size:15.5px;line-height:1.25;text-wrap:balance;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .take{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.4}
+  .take b{color:var(--ink);font-weight:700}
+  .pmeta{font-size:11.5px;color:var(--faint);margin-top:4px}
 
-  .metrics{display:flex;gap:16px;justify-content:flex-end;text-align:right;white-space:nowrap}
+  .chip{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;
+    text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+  .chip.alta{background:var(--accent);color:#fff}
+  .chip.media{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber)}
+  .chip.baja{background:var(--surface-2);color:var(--faint);border:1px solid var(--border-strong)}
+
+  .metrics{display:flex;gap:16px;justify-content:flex-end;text-align:right;white-space:nowrap;align-items:center}
   .metric .v{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
   .metric .k{font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;margin-top:1px}
   .ratio .v{color:var(--dear)}
   .chev{width:16px;color:var(--faint);transition:transform .18s ease;flex:none}
   .card.open .chev{transform:rotate(90deg)}
 
-  /* strip chart (HTML/CSS, sin deformación) */
   .stripwrap{position:relative;padding:0 4px}
   .strip{position:relative;height:40px}
   .strip-line{position:absolute;top:15px;left:0;right:0;height:1px;background:var(--border-strong)}
-  .strip .dot{position:absolute;top:15px;width:7px;height:7px;border-radius:50%;
-    background:var(--strip-fill);opacity:.45;transform:translate(-50%,-50%);
-    border:1px solid var(--surface);cursor:default}
+  .strip .dot{position:absolute;top:15px;width:7px;height:7px;border-radius:50%;background:var(--strip-fill);opacity:.45;
+    transform:translate(-50%,-50%);border:1px solid var(--surface);cursor:default}
   .strip .med{position:absolute;top:6px;height:19px;width:2px;background:var(--accent);transform:translateX(-50%)}
   .strip .lab{position:absolute;top:25px;font-size:10px;color:var(--faint);font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
   .strip .lab.min{left:0}
   .strip .lab.max{right:0}
 
-  /* ---------- Drill-down ---------- */
   .detail{display:none;border-top:1px solid var(--border);background:var(--surface-2)}
   .card.open .detail{display:block}
   .detail-inner{padding:6px 6px 14px}
@@ -112,7 +125,7 @@
   .tablescroll{overflow-x:auto;padding:0 6px}
   table{border-collapse:collapse;width:100%;font-size:13px;min-width:640px}
   th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
-  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600;position:sticky;top:0}
+  th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600}
   td.num{text-align:right;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
   tr.cheap td{background:var(--cheap-bg)}
   tr.dear td{background:var(--dear-bg)}
@@ -127,21 +140,19 @@
   footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--border);font-size:12.5px;color:var(--faint)}
   footer a{color:var(--accent-ink)}
 
-  /* theme toggle */
   .toggle{position:fixed;top:12px;right:12px;z-index:20;background:var(--surface);border:1px solid var(--border-strong);color:var(--muted);
-          border-radius:9px;width:36px;height:36px;cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
+    border-radius:9px;width:36px;height:36px;cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
   .toggle:focus-visible{outline:2px solid var(--accent)}
 
+  @media (max-width:820px){.fgrid{grid-template-columns:1fr}}
   @media (max-width:720px){
     .row{grid-template-columns:1fr auto;gap:10px}
     .stripwrap{grid-column:1 / -1;order:3}
     .metrics{gap:12px}
   }
 
-  /* tooltip */
   #tip{position:fixed;pointer-events:none;z-index:30;background:var(--ink);color:var(--surface);
-       padding:6px 9px;border-radius:7px;font-size:12px;opacity:0;transition:opacity .1s;max-width:240px;box-shadow:var(--shadow)}
-  #tip .mono{font-variant-numeric:tabular-nums}
+    padding:6px 9px;border-radius:7px;font-size:12px;opacity:0;transition:opacity .1s;max-width:240px;box-shadow:var(--shadow)}
 </style>
 
 <button class="toggle" id="themeBtn" title="Cambiar tema" aria-label="Cambiar tema">◐</button>
@@ -150,26 +161,36 @@
   <p class="eyebrow">Mercado Público · Chile</p>
   <h1>El mismo producto, a precios muy distintos</h1>
   <p class="lede">Cada fila es un producto comprado por varios organismos del Estado. La franja
-    muestra cuánto varía el <b>precio unitario</b> pagado por cada uno. Haz clic para abrir el
-    detalle hasta la orden de compra concreta.</p>
+    muestra cuánto varía el <b>precio unitario</b> que pagó cada uno. Ordenado por lo que <b>más
+    vale investigar</b>: mucha diferencia de precio entre muchos compradores. Haz clic para abrir
+    el detalle hasta la orden de compra.</p>
 
   <div class="stats" id="stats"></div>
 
+  <section class="findings">
+    <h2>Lo que más llama la atención</h2>
+    <p class="sub">Productos de alta confiabilidad (muchos organismos) con la mayor brecha de precio. Clic para ver el detalle.</p>
+    <div class="fgrid" id="findings"></div>
+  </section>
+
   <div class="note">
-    <b>Cómo leerlo.</b> Esto es una <b>señal para investigar, no una acusación</b>. La API de
-    órdenes de compra no informa la <b>unidad de medida</b>, así que dos compras del mismo código
-    pueden diferir por envase o cantidad, no solo por sobreprecio — por eso se excluyen los casos
-    con dispersión implausible. Universo: muestra de órdenes de compra (mayoría 2024), no todo el
-    gasto del Estado.
+    <b>Cómo leerlo.</b> Es una <b>señal para investigar, no una acusación</b>. La API de órdenes
+    de compra no informa la <b>unidad de medida</b>, así que dos compras del mismo código pueden
+    diferir por envase o cantidad, no solo por sobreprecio — por eso se excluyen los casos con
+    dispersión implausible. La <b>confiabilidad</b> sube con el número de organismos y de compras.
+    Universo: muestra de órdenes de compra (mayoría 2024), no todo el gasto del Estado.
   </div>
 
   <div class="controls">
     <input id="q" type="search" placeholder="Buscar producto…" aria-label="Buscar producto">
     <select id="sort" aria-label="Ordenar">
-      <option value="org">Más organismos</option>
+      <option value="interes">Orden: más vale investigar</option>
       <option value="disp">Mayor dispersión</option>
+      <option value="conf">Mayor confiabilidad</option>
+      <option value="org">Más organismos</option>
       <option value="max">Precio máximo</option>
     </select>
+    <label class="chk"><input type="checkbox" id="soloConf"> Solo confiabilidad alta/media</label>
     <span class="count" id="count"></span>
   </div>
 
@@ -184,143 +205,143 @@
 <script>
 (function(){
   const DATA = JSON.parse(document.getElementById('payload').textContent);
+  const P = DATA.productos;
   const CLP = n => n==null ? "—" : "$" + Math.round(n).toLocaleString('es-CL');
   const NUM = n => n==null ? "—" : n.toLocaleString('es-CL');
+  const X = n => (n==null?"—":n.toLocaleString('es-CL',{minimumFractionDigits:0,maximumFractionDigits:1})+"×");
   const esc = s => (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const idx = p => P.indexOf(p);
 
   // ---- stats ----
-  const totComp = DATA.productos.reduce((a,p)=>a+p.n_items,0);
-  const orgs = new Set();
-  DATA.productos.forEach(p=>p.items.forEach(i=>orgs.add(i.organismo)));
-  const stats = [
-    [DATA.productos.length, "productos comparados"],
-    [orgs.size, "organismos"],
-    [totComp, "órdenes de compra"],
-    [DATA.n_items_total.toLocaleString('es-CL'), "ítems en la muestra"],
-  ];
+  const orgs = new Set(); let comp=0;
+  P.forEach(p=>{comp+=p.n_items; p.items.forEach(i=>orgs.add(i.organismo));});
+  const stats=[[P.length,"productos comparados"],[orgs.size,"organismos"],[comp,"órdenes de compra"],
+    [DATA.n_items_total,"ítems en la muestra"]];
   document.getElementById('stats').innerHTML = stats.map(([n,l])=>
-    `<div class="stat"><div class="n">${typeof n==='number'?n.toLocaleString('es-CL'):n}</div><div class="l">${l}</div></div>`).join('');
+    `<div class="stat"><div class="n">${NUM(n)}</div><div class="l">${l}</div></div>`).join('');
 
-  // ---- strip chart (HTML/CSS) ----
+  // ---- takeaway text (comparación ROBUSTA: la mitad central, p25-p75) ----
+  function takeaway(p){
+    return `${p.n_organismos} organismos lo compraron. La mitad pagó entre <b>${CLP(p.precio_p25)}</b> y `+
+      `<b>${CLP(p.precio_p75)}</b> — una brecha de <b>${X(p.ratio_p75_p25)}</b> por lo mismo.`;
+  }
+  function chip(p){return `<span class="chip ${p.confiabilidad}">conf. ${p.confiabilidad}</span>`;}
+
+  // ---- findings (top 3 alta confiabilidad) ----
+  const top = P.filter(p=>p.confiabilidad==='alta').slice(0,3);
+  document.getElementById('findings').innerHTML = top.map(p=>{
+    return `<button class="finding" data-goto="${idx(p)}">
+      <div class="fp">${esc(p.producto)}</div>
+      <div class="ff">Entre ${p.n_organismos} organismos, la mitad pagó entre <b>${CLP(p.precio_p25)}</b> y <b>${CLP(p.precio_p75)}</b> — <b>${X(p.ratio_p75_p25)}</b> de diferencia.</div>
+      <div class="fnum">rango completo ${CLP(p.precio_min)} → ${CLP(p.precio_max)} · mediana ${CLP(p.precio_mediana)}</div>
+    </button>`;
+  }).join('');
+
+  // ---- strip (log) ----
   function strip(p){
-    const min=p.precio_min, max=p.precio_max;
-    // Escala logarítmica: para precios, separa mejor un rango amplio y refleja
-    // proporciones (2x se ve igual de lejos abajo o arriba). min>0 garantizado.
-    const lmin=Math.log(min), lspan=(Math.log(max)-lmin)||1;
-    const pos = v => (2 + ((Math.log(v)-lmin)/lspan)*96).toFixed(2); // % con margen de 2%
-    const dots = p.items.map(i=>
-      `<span class="dot" style="left:${pos(i.precio)}%" data-o="${esc(i.organismo)}" data-p="${i.precio}"></span>`
-    ).join('');
-    return `<div class="strip" role="img" aria-label="Dispersión de precios de ${esc(p.producto)}: de ${CLP(min)} a ${CLP(max)}">
-      <div class="strip-line"></div>
-      ${dots}
+    const min=p.precio_min,max=p.precio_max,lmin=Math.log(min),lspan=(Math.log(max)-lmin)||1;
+    const pos=v=>(2+((Math.log(v)-lmin)/lspan)*96).toFixed(2);
+    const dots=p.items.map(i=>`<span class="dot" style="left:${pos(i.precio)}%" data-o="${esc(i.organismo)}" data-p="${i.precio}"></span>`).join('');
+    return `<div class="strip" role="img" aria-label="Precios de ${esc(p.producto)}: ${CLP(min)} a ${CLP(max)}">
+      <div class="strip-line"></div>${dots}
       <div class="med" style="left:${pos(p.precio_mediana)}%"></div>
-      <span class="lab min">${CLP(min)}</span>
-      <span class="lab max">${CLP(max)}</span>
-    </div>`;
+      <span class="lab min">${CLP(min)}</span><span class="lab max">${CLP(max)}</span></div>`;
   }
 
-  // ---- drill-down table ----
   function detail(p){
-    const rows = p.items.map((i,idx)=>{
-      const cls = i.precio===p.precio_min ? 'cheap' : (i.precio===p.precio_max?'dear':'');
-      const tag = i.precio===p.precio_min ? '<span class="tag cheap">más barato</span>'
-                : (i.precio===p.precio_max?'<span class="tag dear">más caro</span>':'');
-      const w = Math.max(4, Math.round(((i.precio-p.precio_min)/((p.precio_max-p.precio_min)||1))*100));
+    const rows=p.items.map(i=>{
+      const cls=i.precio===p.precio_min?'cheap':(i.precio===p.precio_max?'dear':'');
+      const tag=i.precio===p.precio_min?'<span class="tag cheap">más barato</span>':(i.precio===p.precio_max?'<span class="tag dear">más caro</span>':'');
+      const w=Math.max(4,Math.round(((i.precio-p.precio_min)/((p.precio_max-p.precio_min)||1))*100));
       return `<tr class="${cls}">
         <td><span class="org">${esc(i.organismo)}</span>${tag}<div class="sub">${esc(i.comuna)||''}${i.region?' · '+esc(i.region):''}</div></td>
         <td class="num">${CLP(i.precio)}</td>
         <td class="barcell"><div class="bar" style="width:${w}%"></div></td>
         <td class="num">${i.cantidad!=null?NUM(i.cantidad):'—'}</td>
-        <td>${esc(i.tipo)}</td>
-        <td>${esc(i.fecha)}</td>
-        <td><span class="mono">${esc(i.codigo_oc)}</span><div class="sub">${esc(i.proveedor)}</div></td>
-      </tr>`;
+        <td>${esc(i.tipo)}</td><td>${esc(i.fecha)}</td>
+        <td><span class="mono">${esc(i.codigo_oc)}</span><div class="sub">${esc(i.proveedor)}</div></td></tr>`;
     }).join('');
     return `<div class="detail"><div class="detail-inner">
       <div class="dhead">
         <span>Mediana <b>${CLP(p.precio_mediana)}</b></span>
         <span>Rango <b>${CLP(p.precio_min)}</b> – <b>${CLP(p.precio_max)}</b></span>
-        <span>Dispersión p75/p25 <b>${p.ratio_p75_p25}×</b></span>
+        <span>Dispersión robusta p75/p25 <b>${X(p.ratio_p75_p25)}</b></span>
+        <span>Confiabilidad <b>${p.confiabilidad}</b> (${p.n_organismos} organismos, ${p.n_items} compras)</span>
         <span>UNSPSC <b class="mono">${esc(p.codigo_producto)}</b></span>
       </div>
       <div class="tablescroll"><table>
         <thead><tr><th>Organismo</th><th class="num">Precio unit.</th><th></th><th class="num">Cant.</th><th>Tipo</th><th>Fecha</th><th>Orden de compra / proveedor</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table></div>
+        <tbody>${rows}</tbody></table></div>
     </div></div>`;
   }
 
-  // ---- render list ----
-  const listEl=document.getElementById('list');
-  function card(p,i){
-    return `<div class="card" data-i="${i}">
+  function card(p){
+    return `<div class="card" data-i="${idx(p)}" id="prod-${idx(p)}">
       <button class="row" aria-expanded="false">
         <div>
-          <div class="pname">${esc(p.producto)}</div>
-          <div class="pmeta"><span class="cat">${p.n_organismos} organismos · ${p.n_items} compras</span></div>
+          <div class="pname">${esc(p.producto)} ${chip(p)}</div>
+          <div class="take">${takeaway(p)}</div>
+          <div class="pmeta">${esc(p.categoria||'').split('/').slice(-1)[0].trim()}</div>
         </div>
         <div class="stripwrap">${strip(p)}</div>
         <div class="metrics">
           <div class="metric"><div class="v">${CLP(p.precio_mediana)}</div><div class="k">mediana</div></div>
-          <div class="metric ratio"><div class="v">${p.ratio_p75_p25}×</div><div class="k">dispersión</div></div>
+          <div class="metric ratio"><div class="v">${X(p.ratio_p75_p25)}</div><div class="k">dispersión</div></div>
           <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-      </button>
-      ${detail(p)}
-    </div>`;
+      </button>${detail(p)}</div>`;
   }
 
-  let view = DATA.productos.slice();
+  const listEl=document.getElementById('list');
   function apply(){
     const q=document.getElementById('q').value.trim().toLowerCase();
     const s=document.getElementById('sort').value;
-    view = DATA.productos.filter(p=>!q || p.producto.toLowerCase().includes(q));
-    view.sort((a,b)=>
-      s==='disp'? b.ratio_p75_p25-a.ratio_p75_p25
-      : s==='max'? b.precio_max-a.precio_max
-      : (b.n_organismos-a.n_organismos)||(b.ratio_p75_p25-a.ratio_p75_p25));
-    listEl.innerHTML = view.map((p)=>card(p, DATA.productos.indexOf(p))).join('');
-    document.getElementById('count').textContent = view.length+" productos";
+    const only=document.getElementById('soloConf').checked;
+    let view=P.filter(p=>(!q||p.producto.toLowerCase().includes(q)) && (!only||p.confiabilidad!=='baja'));
+    const key={interes:p=>p.interes,disp:p=>p.ratio_p75_p25,conf:p=>p.confiabilidad_score,org:p=>p.n_organismos,max:p=>p.precio_max}[s];
+    view.sort((a,b)=>key(b)-key(a) || b.interes-a.interes);
+    listEl.innerHTML=view.map(card).join('');
+    document.getElementById('count').textContent=view.length+" productos";
   }
   apply();
   document.getElementById('q').addEventListener('input',apply);
   document.getElementById('sort').addEventListener('change',apply);
+  document.getElementById('soloConf').addEventListener('change',apply);
 
-  // expand / collapse
+  function openCard(i){
+    const c=document.getElementById('prod-'+i);
+    if(!c)return;
+    if(!c.classList.contains('open')){c.classList.add('open');c.querySelector('.row').setAttribute('aria-expanded','true');}
+    c.scrollIntoView({behavior:'smooth',block:'start'});
+    c.classList.remove('flash');void c.offsetWidth;c.classList.add('flash');
+  }
   listEl.addEventListener('click',e=>{
     const btn=e.target.closest('.row'); if(!btn)return;
-    const card=btn.closest('.card'); const open=card.classList.toggle('open');
-    btn.setAttribute('aria-expanded', open?'true':'false');
+    const c=btn.closest('.card');const open=c.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+  });
+  document.getElementById('findings').addEventListener('click',e=>{
+    const b=e.target.closest('[data-goto]'); if(!b)return;
+    document.getElementById('sort').value='interes';document.getElementById('q').value='';
+    document.getElementById('soloConf').checked=false;apply();
+    openCard(+b.getAttribute('data-goto'));
   });
 
-  // tooltip on dots
   const tip=document.getElementById('tip');
-  listEl.addEventListener('mouseover',e=>{
-    const d=e.target.closest('.dot'); if(!d)return;
-    tip.innerHTML=`${esc(d.getAttribute('data-o'))}<br><span class="mono">${CLP(+d.getAttribute('data-p'))}</span>`;
-    tip.style.opacity=1;
-  });
-  listEl.addEventListener('mousemove',e=>{
-    if(tip.style.opacity!=='1')return;
-    const x=Math.min(e.clientX+12, innerWidth-tip.offsetWidth-8);
-    tip.style.left=x+'px'; tip.style.top=(e.clientY+14)+'px';
-  });
-  listEl.addEventListener('mouseout',e=>{ if(e.target.closest('.dot')) tip.style.opacity=0; });
+  listEl.addEventListener('mouseover',e=>{const d=e.target.closest('.dot');if(!d)return;
+    tip.innerHTML=`${esc(d.getAttribute('data-o'))}<br><span class="mono">${CLP(+d.getAttribute('data-p'))}</span>`;tip.style.opacity=1;});
+  listEl.addEventListener('mousemove',e=>{if(tip.style.opacity!=='1')return;
+    tip.style.left=Math.min(e.clientX+12,innerWidth-tip.offsetWidth-8)+'px';tip.style.top=(e.clientY+14)+'px';});
+  listEl.addEventListener('mouseout',e=>{if(e.target.closest('.dot'))tip.style.opacity=0;});
 
-  // footer
-  document.getElementById('foot').innerHTML =
+  document.getElementById('foot').innerHTML=
     `Generado ${esc((DATA.generado||'').slice(0,10))} · Fuente: órdenes de compra de `+
     `<a href="https://www.mercadopublico.cl" target="_blank" rel="noopener">Mercado Público (ChileCompra)</a>. `+
-    `Precio unitario = campo <span class="mono">PrecioNeto</span>. Agrupación por código de producto UNSPSC. `+
+    `Precio unitario = campo <span class="mono">PrecioNeto</span>; agrupación por código de producto UNSPSC. `+
     `Prototipo de análisis — verificar antes de concluir.`;
 
-  // theme toggle
-  const root=document.documentElement, tb=document.getElementById('themeBtn');
-  tb.addEventListener('click',()=>{
-    const cur=root.getAttribute('data-theme');
-    const next = cur==='dark'?'light':(cur==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark'));
-    root.setAttribute('data-theme',next);
-  });
+  const root=document.documentElement,tb=document.getElementById('themeBtn');
+  tb.addEventListener('click',()=>{const cur=root.getAttribute('data-theme');
+    root.setAttribute('data-theme', cur==='dark'?'light':(cur==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark')));});
 })();
 </script>

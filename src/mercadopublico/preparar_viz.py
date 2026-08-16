@@ -27,6 +27,7 @@ from typing import Any
 
 from .config import REPO_ROOT
 from .comparador import _percentil, _float
+from .scoring import confiabilidad, interes
 
 
 def preparar(
@@ -54,6 +55,10 @@ def preparar(
         ratio = round(p75 / p25, 2) if p25 > 0 else None
         if ratio is None or not (1.3 <= ratio <= ratio_max):
             continue
+        pmin, pmax = min(precios), max(precios)
+        n_org = len(organismos)
+        tier, conf = confiabilidad(n_org, len(its))
+        score = interes(ratio, n_org, len(its))
 
         # Ítems para drill-down (ordenados por precio unitario asc).
         detalle = sorted(
@@ -78,21 +83,26 @@ def preparar(
             {
                 "codigo_producto": cod,
                 "producto": next((r.get("producto") for r in its if r.get("producto")), cod),
+                "categoria": next((r.get("categoria") for r in its if r.get("categoria")), ""),
                 "moneda": moneda,
                 "n_items": len(its),
-                "n_organismos": len(organismos),
-                "precio_min": round(min(precios), 2),
+                "n_organismos": n_org,
+                "precio_min": round(pmin, 2),
                 "precio_p25": round(p25, 2),
                 "precio_mediana": round(p50, 2),
                 "precio_p75": round(p75, 2),
-                "precio_max": round(max(precios), 2),
+                "precio_max": round(pmax, 2),
                 "ratio_p75_p25": ratio,
+                "ratio_max_min": round(pmax / pmin, 2) if pmin > 0 else None,
+                "confiabilidad": tier,
+                "confiabilidad_score": conf,
+                "interes": score,
                 "items": detalle,
             }
         )
 
-    # Orden: más organismos primero, luego mayor dispersión.
-    productos.sort(key=lambda d: (d["n_organismos"], d["ratio_p75_p25"]), reverse=True)
+    # Orden por defecto: mayor INTERÉS (dispersión ponderada por amplitud/confiabilidad).
+    productos.sort(key=lambda d: d["interes"], reverse=True)
     productos = productos[:top]
 
     return {
