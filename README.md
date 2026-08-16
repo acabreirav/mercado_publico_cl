@@ -80,10 +80,12 @@ masivos OCDS. Flujo de tres pasos (consigue la URL del archivo en el portal
 <https://datos-abiertos.chilecompra.cl/descargas/procesos-ocds>):
 
 ```bash
-python bajar_ocds.py --url "<URL del archivo>"                       # 1) descargar
-python -m mercadopublico.inspeccionar_ocds --archivo data/raw/ocds/<archivo>   # 2) ver shape
-python -m mercadopublico.parse_ocds --entrada data/raw/ocds/<archivo_o_carpeta>  # 3) -> items_ocds.csv
+python cosechar_ocds.py --tipo tratodirecto --anio 2020 --meses 01   # 1) cosechar (API paginada)
+python inspeccionar_ocds.py --archivo data/raw/ocds/<archivo>        # 2) ver shape
+python parse_ocds.py --entrada data/raw/ocds/<carpeta>              # 3) -> items_ocds.csv
 ```
+(En Windows usa `py` en vez de `python`. Todos los pasos tienen atajo `.py` en la raíz para no
+configurar PYTHONPATH.)
 El parser OCDS produce la misma tabla de ítems (y **rescata la unidad de medida**, que la API de OC
 no informa), así que `comparador_identicos` / `estimar_ahorro` funcionan igual sobre esa data.
 

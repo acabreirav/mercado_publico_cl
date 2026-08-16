@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""Atajo para correr mercadopublico.comparador_identicos sin configurar PYTHONPATH.
+
+Uso:  python comparador_identicos.py [args...]
+Equivale a:  PYTHONPATH=src python -m mercadopublico.comparador_identicos
+"""
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+
+from mercadopublico.comparador_identicos import main  # noqa: E402
+
+if __name__ == "__main__":
+    raise SystemExit(main())
