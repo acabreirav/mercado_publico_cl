@@ -28,7 +28,19 @@ from pathlib import Path
 
 from .api_client import fetch_url
 from .config import RAW_DIR
-from .parse_ocds import _releases
+
+
+def _n_registros(data) -> int:
+    """Cuenta registros en una página del ÍNDICE OCDS ({pagination, data:[...]})."""
+    if isinstance(data, dict) and isinstance(data.get("data"), list):
+        return len(data["data"])
+    return 0
+
+
+def _total(data) -> int | None:
+    if isinstance(data, dict):
+        return (data.get("pagination") or {}).get("total")
+    return None
 
 BASE = "https://api.mercadopublico.cl/APISOCDS/OCDS"
 ENDPOINTS = {
@@ -64,10 +76,11 @@ def cosechar_mes(tipo: str, anio: int, mes: str, pausa_inicial: float) -> int:
 
         if destino.exists() and destino.stat().st_size > 0:
             data = json.loads(destino.read_text(encoding="utf-8"))
-            n = len(_releases(data))
+            n = _n_registros(data)
             total += n
-            if n < LOTE:
-                print(f"  (cache) lote {k} [{ini}-{fin}]: {n} → última página")
+            tot = _total(data)
+            if n < LOTE or (tot and total >= tot):
+                print(f"  (cache) lote {k} [{ini}-{fin}]: {n} → última página (total {tot})")
                 break
             continue
 
@@ -78,10 +91,11 @@ def cosechar_mes(tipo: str, anio: int, mes: str, pausa_inicial: float) -> int:
         except Exception as err:  # noqa: BLE001
             print(f"  error lote {k} [{ini}-{fin}]: {err}")
             break
-        n = len(_releases(data))
+        n = _n_registros(data)
+        tot = _total(data)
         destino.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
         total += n
-        print(f"  lote {k} [{ini}-{fin}]: {n} registros (acum {total})")
+        print(f"  lote {k} [{ini}-{fin}]: {n} registros (acum {total}/{tot or '?'})")
 
         # ritmo adaptativo simple
         if stats.get("n429"):
@@ -89,7 +103,7 @@ def cosechar_mes(tipo: str, anio: int, mes: str, pausa_inicial: float) -> int:
         else:
             delay = max(MIN_DELAY, delay * 0.92)
 
-        if n < LOTE:  # última página
+        if n < LOTE or (tot and total >= tot):  # última página
             break
         time.sleep(delay)
 

@@ -26,9 +26,47 @@ def _keys(obj: Any) -> Any:
     return type(obj).__name__
 
 
+def _inspeccionar_release(r: dict) -> None:
+    print(f"\n-- Claves de un release/award --\n{_keys(r)}")
+    for k in ("buyer", "parties", "tender", "awards", "contracts", "supplier", "items"):
+        if k in r:
+            print(f"  {k}: {_keys(r[k])}")
+    # ítems: dónde vienen y si traen unidad de medida (clave para D11)
+    candidatos = []
+    if isinstance(r.get("items"), list):
+        candidatos.append(("items", r["items"]))
+    for cont in ("awards", "contracts"):
+        for a in (r.get(cont) or []):
+            if isinstance(a, dict) and a.get("items"):
+                candidatos.append((f"{cont}[].items", a["items"])); break
+    for etq, arr in candidatos[:1]:
+        it = arr[0]
+        print(f"\n-- Primer ítem en {etq} --")
+        print(f"  claves: {_keys(it)}")
+        print(f"  classification: {it.get('classification')}")
+        print(f"  quantity: {it.get('quantity')}  unit: {it.get('unit')}  <-- ¿trae unidad de medida?")
+    print("\n-- Contenido completo (recorte 2800 chars) --")
+    print(json.dumps(r, ensure_ascii=False, indent=2)[:2800])
+
+
 def inspeccionar_json(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     print(f"Tipo de nivel superior: {_keys(data)}")
+
+    # Formato ÍNDICE paginado de ChileCompra: {pagination, data:[{ocid, urlAward}]}
+    if isinstance(data, dict) and "pagination" in data and "data" in data:
+        pg = data["pagination"]; d = data["data"]
+        print(f"Es un ÍNDICE paginado. total={pg.get('total')} offset={pg.get('offset')} limit={pg.get('limit')} | data={len(d)}")
+        if d:
+            print(f"Claves de cada entrada: {_keys(d[0])}")
+            print("Primeras entradas:")
+            for e in d[:3]:
+                print(f"  {e}")
+        print("\n>>> Es un índice (solo ocid + urlAward). Para ver el detalle real, baja un urlAward:")
+        if d and d[0].get("urlAward"):
+            print(f"    py bajar_ocds.py --url \"{d[0]['urlAward']}\" --nombre award-sample.json")
+            print("    py inspeccionar_ocds.py --archivo data/raw/ocds/award-sample.json")
+        return
 
     releases = None
     if isinstance(data, dict):
@@ -39,29 +77,15 @@ def inspeccionar_json(path: Path) -> None:
             if recs and isinstance(recs[0], dict):
                 comp = recs[0].get("compiledRelease") or (recs[0].get("releases") or [{}])[0]
                 releases = [comp] if comp else None
+        elif any(k in data for k in ("ocid", "awards", "tender", "buyer")):
+            _inspeccionar_release(data); return  # release "pelado" (no viene en package)
 
     if not releases:
         print("No encontré 'releases'/'records'. Muestra cruda (2000 chars):")
         print(json.dumps(data, ensure_ascii=False, indent=2)[:2000])
         return
 
-    r = releases[0]
-    print(f"\n-- Claves de un release --\n{_keys(r)}")
-    for k in ("buyer", "parties", "tender", "awards", "contracts"):
-        if k in r:
-            print(f"  {k}: {_keys(r[k])}")
-    # ítems: dónde vienen y si traen unidad de medida (clave para D11)
-    for cont in ("awards", "contracts"):
-        arr = r.get(cont) or []
-        if arr and isinstance(arr[0], dict) and arr[0].get("items"):
-            it = arr[0]["items"][0]
-            print(f"\n-- Primer ítem dentro de {cont}[0].items --")
-            print(f"  claves: {_keys(it)}")
-            print(f"  classification: {it.get('classification')}")
-            print(f"  quantity: {it.get('quantity')}  unit: {it.get('unit')}  <-- ¿trae unidad de medida?")
-            break
-    print("\n-- Release completo (recorte 2500 chars) --")
-    print(json.dumps(r, ensure_ascii=False, indent=2)[:2500])
+    _inspeccionar_release(releases[0])
 
 
 def inspeccionar_csv(path: Path) -> None:
