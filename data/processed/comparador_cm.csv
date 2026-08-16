@@ -1,0 +1,3 @@
+codigo_producto,producto,moneda,n_items,n_organismos,precio_min,precio_p25,precio_mediana,precio_p75,precio_max,ratio_p75_p25,ratio_max_min,revisar,codigos_oc
+80111703,Servicios de evaluación de currículum vitae,CLF,5,3,0.08,1.8,3.0,4.0,4.2,2.22,52.5,1,1002584-36-CM23;1098710-145-CM23;1126922-24-CM23
+81111812,Mantenimiento y soporte de hardware,USD,2,2,2772.0,6938.01,11104.02,15270.03,19436.04,2.2,7.01,0,1057428-179-CM21;1057511-244-CM21
