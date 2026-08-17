@@ -1,0 +1,249 @@
+<title>Cuánto puede ahorrar el Estado</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#eef1f5; --surface:#ffffff; --surface-2:#f5f7fa;
+    --ink:#171b24; --muted:#5a6474; --faint:#8a94a4;
+    --border:#e0e5ec; --border-strong:#c9d1dc;
+    --accent:#1f5f6b; --accent-ink:#123e47;
+    --save:#1f7a54; --save-bg:#e3f2e9;
+    --cheap:#1f7a54; --cheap-bg:#e3f2e9; --dear:#b23a2a; --dear-bg:#f7e5e1;
+    --amber:#8a6d1f; --amber-bg:#f6efdb; --strip-fill:#20616d;
+    --shadow:0 1px 2px rgba(20,30,45,.06),0 8px 24px rgba(20,30,45,.06);
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#0f131a; --surface:#171c25; --surface-2:#1e2530; --ink:#e9edf3; --muted:#9aa5b4; --faint:#6c7686;
+    --border:#28303c; --border-strong:#3a4453; --accent:#57b0be; --accent-ink:#8fd0da;
+    --save:#4bbd86; --save-bg:#16352a; --cheap:#4bbd86; --cheap-bg:#16352a; --dear:#e07a63; --dear-bg:#3a201b;
+    --amber:#d9b24e; --amber-bg:#332b16; --strip-fill:#57b0be;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);}}
+  :root[data-theme="dark"]{
+    --bg:#0f131a; --surface:#171c25; --surface-2:#1e2530; --ink:#e9edf3; --muted:#9aa5b4; --faint:#6c7686;
+    --border:#28303c; --border-strong:#3a4453; --accent:#57b0be; --accent-ink:#8fd0da;
+    --save:#4bbd86; --save-bg:#16352a; --cheap:#4bbd86; --cheap-bg:#16352a; --dear:#e07a63; --dear-bg:#3a201b;
+    --amber:#d9b24e; --amber-bg:#332b16; --strip-fill:#57b0be;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);}
+
+  *{box-sizing:border-box} html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;font-size:15px}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+  .wrap{max-width:1080px;margin:0 auto;padding:clamp(20px,4vw,44px) clamp(16px,4vw,32px) 80px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:600;margin:0 0 10px}
+  h1{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-weight:700;font-size:clamp(30px,5.4vw,50px);line-height:1.04;margin:0 0 14px;letter-spacing:-.01em;text-wrap:balance}
+  .lede{font-size:clamp(16px,2.2vw,18px);color:var(--muted);max-width:64ch;margin:0 0 26px}
+  .lede b{color:var(--ink);font-weight:600}
+
+  .hero{display:grid;grid-template-columns:1fr 1.1fr;gap:16px;margin-bottom:22px}
+  @media (max-width:760px){.hero{grid-template-columns:1fr}}
+  .bignum{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--save);border-radius:14px;padding:20px 22px;box-shadow:var(--shadow)}
+  .bignum .k{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .bignum .v{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:700;font-size:clamp(30px,6vw,44px);color:var(--save);letter-spacing:-.02em;line-height:1.1;margin:4px 0}
+  .bignum .s{font-size:13px;color:var(--muted)}
+  .levels{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
+  .levels h3{margin:0 0 4px;font-size:14px}
+  .levels .sub{font-size:12px;color:var(--muted);margin:0 0 10px}
+  table.lv{width:100%;border-collapse:collapse;font-size:13px}
+  table.lv th,table.lv td{text-align:left;padding:6px 6px;border-bottom:1px solid var(--border)}
+  table.lv th{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600}
+  table.lv td.num{text-align:right;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  table.lv tr:last-child td{border-bottom:0;font-weight:600}
+
+  .note{background:var(--surface-2);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:10px;padding:13px 16px;font-size:13.5px;color:var(--muted);margin-bottom:22px}
+  .note b{color:var(--ink)}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 14px;box-shadow:var(--shadow);flex:1 1 auto;min-width:120px}
+  .stat .n{font-size:18px;font-weight:700;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:11.5px;color:var(--muted);margin-top:2px}
+
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px;position:sticky;top:0;background:linear-gradient(var(--bg) 72%,transparent);padding:10px 0;z-index:5}
+  .controls input,.controls select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--border-strong);border-radius:9px;padding:9px 12px}
+  .controls input[type=search]{flex:1 1 200px;min-width:0}
+  .controls label.chk{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer}
+  .count{font-size:13px;color:var(--muted);margin-left:auto}
+
+  .list{display:flex;flex-direction:column;gap:10px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+  .row{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(140px,1.1fr) auto;gap:18px;align-items:center;width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:14px 18px}
+  .row:hover{background:var(--surface-2)}
+  .row:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .pname{font-weight:600;font-size:15px;line-height:1.25;text-wrap:balance}
+  .take{font-size:12.5px;color:var(--muted);margin-top:4px}
+  .pmeta{font-size:11.5px;color:var(--faint);margin-top:3px}
+  .metrics{display:flex;gap:16px;justify-content:flex-end;text-align:right;white-space:nowrap;align-items:center}
+  .metric .v{font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
+  .metric.save .v{color:var(--save)} .metric.disp .v{color:var(--dear)}
+  .metric .k{font-size:10px;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;margin-top:1px}
+  .chev{width:16px;color:var(--faint);transition:transform .18s;flex:none}
+  .card.open .chev{transform:rotate(90deg)}
+  .chip{display:inline-block;font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;margin-left:6px;vertical-align:middle}
+  .chip.per{background:var(--amber-bg);color:var(--amber);border:1px solid var(--amber)}
+
+  .stripwrap{position:relative;padding:0 4px}
+  .strip{position:relative;height:38px}
+  .strip-line{position:absolute;top:14px;left:0;right:0;height:1px;background:var(--border-strong)}
+  .strip .dot{position:absolute;top:14px;width:7px;height:7px;border-radius:50%;background:var(--strip-fill);opacity:.5;transform:translate(-50%,-50%);border:1px solid var(--surface)}
+  .strip .med{position:absolute;top:5px;height:18px;width:2px;background:var(--accent);transform:translateX(-50%)}
+  .strip .lab{position:absolute;top:23px;font-size:10px;color:var(--faint);font-family:ui-monospace,monospace}
+  .strip .lab.min{left:0}.strip .lab.max{right:0}
+
+  .detail{display:none;border-top:1px solid var(--border);background:var(--surface-2)}
+  .card.open .detail{display:block}
+  .detail-inner{padding:6px 6px 14px}
+  .dhead{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 14px 8px;font-size:12.5px;color:var(--muted)}
+  .dhead b{color:var(--ink)}
+  .tablescroll{overflow-x:auto;padding:0 6px}
+  table.dt{border-collapse:collapse;width:100%;font-size:13px;min-width:620px}
+  table.dt th,table.dt td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
+  table.dt th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600}
+  table.dt td.num{text-align:right;font-family:ui-monospace,monospace;font-variant-numeric:tabular-nums}
+  tr.cheap td{background:var(--cheap-bg)} tr.dear td{background:var(--dear-bg)}
+  .tag{display:inline-block;font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;margin-left:6px}
+  .tag.cheap{background:var(--cheap);color:#fff} .tag.dear{background:var(--dear);color:#fff}
+  .barcell{min-width:80px}.bar{height:7px;border-radius:4px;background:var(--strip-fill);opacity:.85}
+  .sub{color:var(--faint);font-size:11.5px}
+  footer{margin-top:38px;padding-top:18px;border-top:1px solid var(--border);font-size:12.5px;color:var(--faint)}
+  footer a{color:var(--accent-ink)}
+  .toggle{position:fixed;top:12px;right:12px;z-index:20;background:var(--surface);border:1px solid var(--border-strong);color:var(--muted);border-radius:9px;width:36px;height:36px;cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
+  @media (max-width:720px){.row{grid-template-columns:1fr auto;gap:10px}.stripwrap{grid-column:1/-1;order:3}}
+  #tip{position:fixed;pointer-events:none;z-index:30;background:var(--ink);color:var(--surface);padding:6px 9px;border-radius:7px;font-size:12px;opacity:0;transition:opacity .1s;box-shadow:var(--shadow)}
+</style>
+
+<button class="toggle" id="themeBtn" title="Cambiar tema" aria-label="Cambiar tema">◐</button>
+
+<div class="wrap">
+  <p class="eyebrow">Mercado Público · Convenio Marco · Chile</p>
+  <h1>Comprar lo mismo, pagar distinto: ¿cuánto se podría ahorrar?</h1>
+  <p class="lede">Sobre productos <b>idénticos</b> (mismo ítem del catálogo de Convenio Marco,
+    misma presentación), distintos organismos pagan precios distintos. Si los que pagan de más se
+    alinearan al precio <b>mediano</b>, esto es lo que se ahorraría. Es una estimación
+    <b>conservadora y potencial</b>, no garantizada — cada peso es rastreable hasta la orden de compra.</p>
+
+  <div class="hero">
+    <div class="bignum">
+      <div class="k">Ahorro potencial (conservador → aspiracional)</div>
+      <div class="v" id="heroRange">—</div>
+      <div class="s" id="heroSub">alineando al precio mediano · al percentil 25</div>
+    </div>
+    <div class="levels">
+      <h3>El número aguanta el control de variables</h3>
+      <p class="sub">A más control (misma región, mismo mes), comparación más justa. Aun así, queda ahorro real.</p>
+      <table class="lv" id="lvTable"><thead><tr><th>Comparando</th><th class="num">Productos</th><th class="num">Ahorro cons.</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="note">
+    <b>Cómo leerlo.</b> Cada producto es un <b>ítem idéntico de catálogo</b> (mismo ID = misma
+    presentación), comprado por 3+ organismos. Excluimos casos con dispersión implausible (>3×).
+    El ahorro es <b>potencial y estimado</b>: no considera costos de coordinación ni logística, y
+    puede haber diferencias de calidad/urgencia. Es una <b>señal para gestionar</b>, no una acusación.
+    Universo: muestra OCDS de Convenio Marco (no todo el gasto del Estado).
+  </div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Buscar producto…" aria-label="Buscar producto">
+    <select id="sort" aria-label="Ordenar">
+      <option value="ahorro">Mayor ahorro potencial</option>
+      <option value="disp">Mayor dispersión</option>
+      <option value="org">Más organismos</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="ocultaPer"> Ocultar perecibles</label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="list" id="list"></div>
+  <footer id="foot"></footer>
+</div>
+<div id="tip"></div>
+
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const D=JSON.parse(document.getElementById('payload').textContent);
+  const P=D.productos;
+  const CLP=n=>n==null?"—":"$"+Math.round(n).toLocaleString('es-CL');
+  const M=n=>"$"+(n/1e6).toLocaleString('es-CL',{minimumFractionDigits:1,maximumFractionDigits:1})+" M";
+  const NUM=n=>n==null?"—":n.toLocaleString('es-CL');
+  const X=n=>n==null?"—":n.toLocaleString('es-CL',{minimumFractionDigits:0,maximumFractionDigits:1})+"×";
+  const esc=s=>(s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const idx=p=>P.indexOf(p);
+  const nombre=p=>{ // limpia la descripción (saca "(1849200)" y colas)
+    let s=(p.descripcion||p.catalogo_id).replace(/\(\d{5,8}\)/g,'').replace(/\s+/g,' ').trim();
+    return s.length>72?s.slice(0,72)+"…":s;
+  };
+
+  // hero
+  const prod=D.niveles[0], full=D.niveles[D.niveles.length-1];
+  document.getElementById('heroRange').textContent = M(prod.ahorro_conservador)+" – "+M(prod.ahorro_aspiracional);
+  document.getElementById('heroSub').textContent = `sobre ${M(prod.gasto)} comparados · ${prod.pct_cons}%–${prod.pct_aspi}% (con control total: ${full.pct_cons}%)`;
+  document.querySelector('#lvTable tbody').innerHTML = D.niveles.map(nv=>
+    `<tr><td>${esc(nv.control.replace('producto','mismo producto').replace(/\+/g,' + '))}</td><td class="num">${nv.grupos}</td><td class="num">${M(nv.ahorro_conservador)} (${nv.pct_cons}%)</td></tr>`).join('');
+
+  document.getElementById('stats').innerHTML = [
+    [P.length,"productos con ahorro"],[D.n_organismos_muestra,"organismos"],
+    [D.n_items_muestra,"compras en la muestra"],[(D.meses||[]).length+" meses","periodo "+(D.meses||[]).join(", ")]
+  ].map(([n,l])=>`<div class="stat"><div class="n">${typeof n==='number'?NUM(n):n}</div><div class="l">${esc(l)}</div></div>`).join('');
+
+  function strip(p){
+    const min=p.precio_min,max=p.precio_max,lmin=Math.log(min),lspan=(Math.log(max)-lmin)||1;
+    const pos=v=>(2+((Math.log(v)-lmin)/lspan)*96).toFixed(2);
+    const dots=p.items.map(i=>`<span class="dot" style="left:${pos(i.precio)}%" data-o="${esc(i.organismo)}" data-p="${i.precio}"></span>`).join('');
+    return `<div class="strip"><div class="strip-line"></div>${dots}<div class="med" style="left:${pos(p.precio_mediana)}%"></div><span class="lab min">${CLP(min)}</span><span class="lab max">${CLP(max)}</span></div>`;
+  }
+  function detail(p){
+    const rows=p.items.map(i=>{
+      const cls=i.precio===p.precio_min?'cheap':(i.precio===p.precio_max?'dear':'');
+      const tag=i.precio===p.precio_min?'<span class="tag cheap">más barato</span>':(i.precio===p.precio_max?'<span class="tag dear">más caro</span>':'');
+      const w=Math.max(4,Math.round(((i.precio-p.precio_min)/((p.precio_max-p.precio_min)||1))*100));
+      return `<tr class="${cls}"><td>${esc(i.organismo)}${tag}<div class="sub">${esc(i.comuna)||''}${i.region?' · '+esc(i.region):''}</div></td>
+        <td class="num">${CLP(i.precio)}</td><td class="barcell"><div class="bar" style="width:${w}%"></div></td>
+        <td class="num">${i.cantidad!=null?NUM(i.cantidad):'—'}</td><td>${esc((i.fecha||'').slice(0,7))}</td>
+        <td><span class="mono">${esc(i.codigo_oc)}</span><div class="sub">${esc(i.proveedor)}</div></td></tr>`;
+    }).join('');
+    return `<div class="detail"><div class="detail-inner"><div class="dhead">
+      <span>Ahorro potencial <b>${CLP(p.ahorro_conservador)}</b></span>
+      <span>Mediana <b>${CLP(p.precio_mediana)}</b></span>
+      <span>Rango <b>${CLP(p.precio_min)}</b>–<b>${CLP(p.precio_max)}</b></span>
+      <span>Catálogo <b class="mono">${esc(p.catalogo_id)}</b></span></div>
+      <div class="tablescroll"><table class="dt"><thead><tr><th>Organismo</th><th class="num">Precio unit.</th><th></th><th class="num">Cant.</th><th>Mes</th><th>Orden de compra / proveedor</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div></div>`;
+  }
+  function card(p){
+    return `<div class="card" data-i="${idx(p)}"><button class="row" aria-expanded="false">
+      <div><div class="pname">${esc(nombre(p))}${p.perecible?'<span class="chip per">perecible</span>':''}</div>
+        <div class="take">${p.n_organismos} organismos lo compraron; el más caro pagó <b>${X(p.ratio_max_min)}</b> lo que el más barato.</div>
+        <div class="pmeta">${esc(p.region||'')}</div></div>
+      <div class="stripwrap">${strip(p)}</div>
+      <div class="metrics">
+        <div class="metric save"><div class="v">${M(p.ahorro_conservador)}</div><div class="k">ahorro pot.</div></div>
+        <div class="metric disp"><div class="v">${X(p.ratio_max_min)}</div><div class="k">dispersión</div></div>
+        <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div></button>${detail(p)}</div>`;
+  }
+
+  const listEl=document.getElementById('list');
+  function apply(){
+    const q=document.getElementById('q').value.trim().toLowerCase();
+    const s=document.getElementById('sort').value;
+    const noPer=document.getElementById('ocultaPer').checked;
+    let v=P.filter(p=>(!q||(p.descripcion||'').toLowerCase().includes(q))&&(!noPer||!p.perecible));
+    const key={ahorro:p=>p.ahorro_conservador,disp:p=>p.ratio_max_min,org:p=>p.n_organismos}[s];
+    v.sort((a,b)=>key(b)-key(a));
+    listEl.innerHTML=v.map(card).join('');
+    document.getElementById('count').textContent=v.length+" productos";
+  }
+  apply();
+  document.getElementById('q').addEventListener('input',apply);
+  document.getElementById('sort').addEventListener('change',apply);
+  document.getElementById('ocultaPer').addEventListener('change',apply);
+  listEl.addEventListener('click',e=>{const b=e.target.closest('.row');if(!b)return;const c=b.closest('.card');const o=c.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
+  const tip=document.getElementById('tip');
+  listEl.addEventListener('mouseover',e=>{const d=e.target.closest('.dot');if(!d)return;tip.innerHTML=`${esc(d.getAttribute('data-o'))}<br><span class="mono">${CLP(+d.getAttribute('data-p'))}</span>`;tip.style.opacity=1;});
+  listEl.addEventListener('mousemove',e=>{if(tip.style.opacity!=='1')return;tip.style.left=Math.min(e.clientX+12,innerWidth-tip.offsetWidth-8)+'px';tip.style.top=(e.clientY+14)+'px';});
+  listEl.addEventListener('mouseout',e=>{if(e.target.closest('.dot'))tip.style.opacity=0;});
+  document.getElementById('foot').innerHTML=`Generado ${esc((D.generado||'').slice(0,10))} · Fuente: ${esc(D.fuente)} (OCDS, <a href="https://datos-abiertos.chilecompra.cl" target="_blank" rel="noopener">datos abiertos ChileCompra</a>). Ahorro potencial estimado alineando al precio mediano de cada producto idéntico. Prototipo — verificar antes de concluir.`;
+  const root=document.documentElement,tb=document.getElementById('themeBtn');
+  tb.addEventListener('click',()=>{const c=root.getAttribute('data-theme');root.setAttribute('data-theme',c==='dark'?'light':(c==='light'?'dark':(matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark')));});
+})();
+</script>
