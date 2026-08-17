@@ -63,8 +63,14 @@ eso decide qué tan fácil es comparar "el mismo producto".
 |---|:--:|:--:|:--:|
 | **API ticket** (OC detalle) | ✅ | ✅ (en texto) | ❌ |
 | **OCDS – Trato Directo** | ❌ | ❌ (2%) | ✅ (100%) |
-| **OCDS – Convenio Marco** | ¿? (por confirmar) | ¿? (por confirmar) | ✅ (esperado) |
+| **OCDS – Convenio Marco** | ❌ | ✅ (100%) | ❌ (0%, pero el catálogo la fija) |
 | **OCDS – Licitación** | ✅ (esperado) | — | ✅ (esperado) |
+
+**Convenio Marco OCDS es la MEJOR fuente para el comparador de idénticos:** `catalogo_id` al 100%
+(vs ~17% en la API ticket), y como mismo ID = misma presentación, no hace falta el campo unidad.
+En una muestra (CM 2024-01, 3.415 ítems) dio 23 grupos idénticos comparables con dispersiones
+creíbles (gas licuado 1,08×, tomate 1,25×) y ~9% de ahorro conservador. Trato Directo aporta la
+unidad pero no la identidad → sirve para el matching por texto (Fase 4).
 
 - **Trato Directo (OCDS)** es el **más pobre** para normalizar: sin UNSPSC ni ID de catálogo,
   solo texto libre y sucio ("WARFARINA CM 5 MG enero", "IG msp TD RESOL. 235…"). Requiere matching
